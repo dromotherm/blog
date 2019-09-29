@@ -16,12 +16,21 @@
 title: DROMOTHERM
 email: contact@dromotherm.fr
 layout: post
+show_excerpts: true
+comments: true
 description: >- # this means to ignore newlines until "baseurl:"
   On the way to a new energetic paradigm...  .
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://dromotherm.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
+
+disqus:
+    # Leave shortname blank to disable comments site-wide.
+    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+    shortname: dromotherm
+
+google_analytics: UA-148961563-1
 
 # Build settings
 markdown: kramdown
