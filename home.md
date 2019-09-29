@@ -4,7 +4,7 @@ title: le projet Dromotherm
 permalink: /home/
 ---
 
-![smart grid thermique - l'énergie distribuée](/assets/smartgrid.png){:class="img-responsive"}
+![smart grid thermique - l'énergie distribuée]({{ site.baseurl }}/assets/smartgrid.png){:class="img-responsive"}
 Le projet Dromotherm, financé par le dispositif Pack Ambition Recherche de la région Auvergne-Rhône-Alpes sur la période 2020 – 2025, combine des recherches en matière d’énergie, 
 de bâtiment, de route et d’objets connectés, proposant une articulation opérationnelle fondée sur les réseaux d’énergie intelligents. 
 Il vise à développer un smart grid lo-fi permettant de pourvoir aux besoins de chauffage des bâtiments, au moyen d’une route "solaire thermique", 
@@ -22,7 +22,7 @@ en la stockant dans le sol à la base des bâtiments, et en subvenant aux besoin
 Cette innovation contribuera par ailleurs à réduire l’intensité des îlots de chaleurs urbains lors des épisodes de canicule, 
 et pourrait également être utilisée à des fins de sécurité routière en chauffant occasionnellement les routes en cas de risque de verglas.
 
-![schéma de principe](/assets/principe.png){:class="img-responsive"}
+![schéma de principe]({{ site.baseurl }}/assets/principe.png){:class="img-responsive"}
 
 Le défi à relever consiste à concevoir une nouvelle génération de smart grid route-bâtiment, utilisant en milieu urbain les principes de la géothermie de subsurface. 
 Cette dernière, qui consiste à valoriser la chaleur captée par le sol pour répondre aux besoins du bâtiment, pourrait ainsi être déclinée dans les villes, alors 
@@ -57,5 +57,5 @@ Dromotherm est un projet de recherche du pôle de compétitivité Tenerrdis, men
 (Laboratoire Optimisation de la Conception et Ingénierie de l'Environnement) de l’Université de Savoie, l’institut Pascal de l’université Clermont Auvergne et les 
 entreprises de travaux publics Eiffage et Ryb/groupe Elydan.
 
-![logos](/assets/logo_partenaires.png){:class="img-responsive"}
+![logos]({{ site.baseurl }}/assets/logo_partenaires.png){:class="img-responsive"}
 
