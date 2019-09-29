@@ -16,6 +16,7 @@
 title: DROMOTHERM
 email: contact@dromotherm.fr
 layout: post
+show_excerpts: true
 comments: true
 description: >- # this means to ignore newlines until "baseurl:"
   On the way to a new energetic paradigm...  .
