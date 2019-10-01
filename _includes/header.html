@@ -22,7 +22,7 @@
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
               {%- if path == "home.md" -%} {%- assign icon = "assets/project.svg" -%}
-              {%- elsif path == "about.md" -%} {%- assign icon = "assets/team.svg" -%}
+              <!-- {%- elsif path == "about.md" -%} {%- assign icon = "assets/team.svg" -%} -->
               {%- else -%} {%- assign icon = "" -%}
               {%- endif -%}
               {%- if icon != "" -%}
