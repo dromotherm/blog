@@ -53,6 +53,8 @@ For example /path/to/image can be `/assets/smartgrid.png`
 
 ## generate pdf
 
+https://wkhtmltopdf.org/usage/wkhtmltopdf.txt
+
 ```
 wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --footer-html https://dromotherm.gith
 ub.io/blog/footer/ https://dromotherm.github.io/blog/homePrintEn/ dromothermEn.pdf
