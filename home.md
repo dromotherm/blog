@@ -4,7 +4,7 @@ title: le projet Dromotherm
 permalink: /home/
 ---
 
-{% include_relative homePrint.md %}
+{% include_relative homeRaw.md %}
 
 ![smart grid thermique - l'énergie distribuée]({{ site.baseurl }}/assets/smartgrid.png){:class="img-responsive"}
 Le projet Dromotherm, financé par le dispositif Pack Ambition Recherche de la région Auvergne-Rhône-Alpes sur la période 2020 – 2025, combine des recherches en matière d’énergie, 
