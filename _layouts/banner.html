@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 <script>
+  //needed for printing pdf with wkhtmltopdf
   function subst() {
       var vars = {};
       var query_strings_from_url = document.location.search.substring(1).split('&');
@@ -24,8 +25,7 @@
 
 {%- include head.html -%}
 <body onload="subst()">
-    {%- include headerPrint.html -%} <span class="page"></span> / <span class="topage"></span>
-  
+    {%- include headerPrint.html -%}
 </body>
 
 </html>
