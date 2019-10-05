@@ -3,5 +3,8 @@
 {%- include head.html -%}
 <body onload="subst()">
    {%- include footer.html -%}
+   {%- if site.url -%}
+            <li><a class="u-email" href="{{ site.baseurlemail }}">{{ site.baseurl}}</a></li>
+{%- endif -%}
 </body>
 </html>
