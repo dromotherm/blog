@@ -6,7 +6,7 @@ http://dromotherm.github.io/blog
 
 ## Reminder - how to write posts
 
-### place to deposit 
+### deposit place
 Posts are stored in the [_posts directory](/_posts)
 
 ### name and metadatas
