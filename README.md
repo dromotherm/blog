@@ -52,7 +52,7 @@ To insert a new image in a post, in a responsive manner (ie for mobile and deskt
 For example /path/to/image can be `/assets/smartgrid.png`
 
 
-## generate pdf
+## Generate pdf
 
 https://wkhtmltopdf.org/usage/wkhtmltopdf.txt
 
