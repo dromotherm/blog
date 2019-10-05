@@ -4,6 +4,6 @@ title: le projet Dromotherm
 permalink: /homePrintEn/
 ---
 
-{% page_url %}
+{% page.url %}
 
 {% include_relative homeRawEn.md %}
