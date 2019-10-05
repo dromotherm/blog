@@ -3,7 +3,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <table>
+    <table border=0>
       <tr><td>
         <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img src="{{ site.baseurl }}/assets/dromotherm6.svg" width=100 height=50> {{ site.title | escape }}</a>
       </td><td align=right>
