@@ -2,8 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {%- include head.html -%}
 <body>
+<hr>
 <div class="footer-col-wrapper">
-   <li><a href="{{ absolute_url }}">{{ absolute_url }}</a></li>
+   <li><a href="{{ site.url }}{{ site.baseurl }}">{{ site_url }}{{ site.baseurl }}</a></li>
    <li><a href=http://www.cerema.fr>http://www.cerema.fr</a></li>
 </div>
 </body>
