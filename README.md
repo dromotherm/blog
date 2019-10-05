@@ -6,7 +6,7 @@ http://dromotherm.github.io/blog
 
 ## Reminder - how to write posts
 
-### place to deposit 
+### deposit place
 Posts are stored in the [_posts directory](/_posts)
 
 ### name and metadatas
@@ -41,8 +41,8 @@ The post has to be written in the markdown syntax
 Images are to be stored in the [assets directory](/assets)
 
 To upload a new image with the github web UI
-![upload new image via UI 1](/assets/doc/upload_illustration_1.png){:class="img-responsive"} 
-![upload new image via UI 2](/assets/doc/upload_illustration_2.png){:class="img-responsive"} 
+![upload new image via UI 1](/assets/doc/upload_illustration_1.png)
+![upload new image via UI 2](/assets/doc/upload_illustration_2.png)
 
 To insert a new image in a post, in a responsive manner (ie for mobile and desktop client)
 ```

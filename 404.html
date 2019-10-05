@@ -14,11 +14,22 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+  /* Centered text */
+ .centered {
+    position: absolute;
+    background-color: grey;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 </style>
 
 <div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <img src="{{site.baseurl}}/assets/smartgrid.png">
+  <div class="centered">
+    <h1>404</h1>
+  </div>
+   <p><strong>Requested page not found :(</strong></p>
 </div>
+
+  

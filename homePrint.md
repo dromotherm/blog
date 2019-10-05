@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: print
 title: le projet Dromotherm
-permalink: /home/
+permalink: /homePrint/
 ---
 
 {% include_relative homeRaw.md %}
