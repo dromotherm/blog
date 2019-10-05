@@ -3,9 +3,7 @@
 {%- include head.html -%}
 <body>
 <div class="footer-col-wrapper">
-   {%- if site.url -%}
-      <li><a href="{{ relative_url }}">{{ relative_url }}</a></li>
-   {%- endif -%}
+   <li><a href="{{ absolute_url }}">{{ absolute_url }}</a></li>
    <li><a href=http://www.cerema.fr>http://www.cerema.fr</a></li>
 </div>
 </body>
