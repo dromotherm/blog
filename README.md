@@ -23,9 +23,10 @@ categories: [project management, other category]
 ```
 Date and categories are optional
 
+### structure
+
 The post has to be written in the markdown syntax
 
-### structure
 ```
 # title
 ## subtitle
