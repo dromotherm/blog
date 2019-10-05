@@ -60,6 +60,6 @@ ub.io/blog/footer/ https://dromotherm.github.io/blog/homePrintEn/ dromothermEn.p
 
 ```
 wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --footer-html https://dromotherm.gith
-ub.io/blog/footer/ https://dromotherm.github.io/blog/homePrintEn/ dromotherm.pdf
+ub.io/blog/footer/ https://dromotherm.github.io/blog/homePrint/ dromotherm.pdf
 
 ```
