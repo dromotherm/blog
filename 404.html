@@ -14,6 +14,13 @@ layout: default
     line-height: 1;
     letter-spacing: -1px;
   }
+  /* Centered text */
+ .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 </style>
 
 <div class="container">
@@ -21,4 +28,8 @@ layout: default
   <p><strong>Page not found :(</strong></p>
   <p>The requested page could not be found.</p>
 </div>
-<img src="{{site.baseurl}}/assets/smartgrid.png">{:class="img-responsive"}
+<div class="container">
+  <img src="{{site.baseurl}}/assets/smartgrid.png">
+  <div class="centered"><h1>404</h1>
+</div>
+  
