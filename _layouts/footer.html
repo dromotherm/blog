@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {%- include head.html -%}
-<body onload="subst()">
-   {%- include footer.html -%}
+<body>
+<div class="footer-col-wrapper">
    {%- if site.url -%}
             <li><a class="u-email" href="{{ site.baseurlemail }}">{{ site.baseurl}}</a></li>
-{%- endif -%}
+   {%- endif -%}
+</div>
 </body>
 </html>
