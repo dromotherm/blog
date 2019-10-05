@@ -49,3 +49,17 @@ To insert a new image in a post, in a responsive manner (ie for mobile and deskt
 ![image description]({{ site.baseurl }}/path/to/image){:class="img-responsive"} 
 ```
 For example /path/to/image can be `/assets/smartgrid.png`
+
+
+## generate pdf
+
+```
+wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --footer-html https://dromotherm.gith
+ub.io/blog/footer/ https://dromotherm.github.io/blog/homePrintEn/ dromothermEn.pdf
+```
+
+```
+wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --footer-html https://dromotherm.gith
+ub.io/blog/footer/ https://dromotherm.github.io/blog/homePrintEn/ dromotherm.pdf
+
+```
