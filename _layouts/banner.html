@@ -22,11 +22,22 @@
       }
   }
 </script>
+<style type="text/css" media="screen">
+  .site-header-print {
+    border-top: 5px solid #ff6600ff;
+    border-bottom: 1px solid $grey-color-light;
+    min-height: $spacing-unit * 1.865;
+    line-height: $base-line-height * $base-font-size * 2.25;
+    
+    // Positioning context for the mobile navigation icon
+    position: relative;
+  }
+</style>
 
 {%- include head.html -%}
   
 <body onload="subst()">
-<header class="site-header">
+<header class="site-header-print">
   <div class="wrapper">
     <img src="{{ site.baseurl }}/assets/dromotherm6.svg" width=150 height=75> {{ site.title | escape }}
     <nav class="site-nav">
