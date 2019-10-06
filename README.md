@@ -72,7 +72,7 @@ wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ 
 
 for more information on wkhtmltopdf :
 
-https://wkhtmltopdf.org/usage/wkhtmltopdf.txt
+https://wkhtmltopdf.org/usage/wkhtmltopdf.txt (not very uptodate)
 
 https://github.com/wkhtmltopdf/wkhtmltopdf/issues/2940
 
@@ -84,4 +84,4 @@ https://github.com/Kozea/WeasyPrint
 
 ## Multilingual adaptation
 
-https://www.sylvaindurand.org/making-jekyll-multilingual/
+TODO : cf https://www.sylvaindurand.org/making-jekyll-multilingual/
