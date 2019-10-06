@@ -16,7 +16,7 @@ en la stockant dans le sol à la base des bâtiments, et en subvenant aux besoin
 Cette innovation contribuera par ailleurs à réduire l’intensité des îlots de chaleurs urbains lors des épisodes de canicule, 
 et pourrait également être utilisée à des fins de sécurité routière en chauffant occasionnellement les routes en cas de risque de verglas.
 
-![schéma de principe]({{ site.baseurl }}/assets/principe.png){:class="img-responsive"}
+![schéma de principe]({{ site.baseurl }}/assets/principe_retailed.png){:class="img-responsive"}
 
 Le défi à relever consiste à concevoir une nouvelle génération de smart grid route-bâtiment, utilisant en milieu urbain les principes de la géothermie de subsurface. 
 Cette dernière, qui consiste à valoriser la chaleur captée par le sol pour répondre aux besoins du bâtiment, pourrait ainsi être déclinée dans les villes, alors 
