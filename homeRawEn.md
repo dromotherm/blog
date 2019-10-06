@@ -21,7 +21,9 @@ could also be used for road safety purposes by occasionally heating roads in win
 
 It is very challenging to design a brand new generation of smart grid connecting roads and buildings, replicating the principles of subsurface geothermal networks in urban areas. The latter, using the heat captured by the ground to meet the needs of the building, could thus be applied in cities, whereas it has so far been reserved for the single-family home.
 
-Thanks to the Internet of Things (IoT), the system provides real-time information on the powers required by the building and the road, and controls energy production and consumption. We are not very far from the philosophy of distributed energy, popularized by Jeremy RIFKIN's "Third Industrial Revolution". Would an energy internet be possible ?
+Thanks to the Internet of Things (IoT), the system provides real-time information on powers required by the building and the road, and controls overall energy production and consumption. We are not very far from the philosophy of distributed energy, popularized by Jeremy RIFKIN's "Third Industrial Revolution". 
+
+Would an energy internet be possible ?
 
 ## Scale one demonstrators...
 
