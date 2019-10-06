@@ -2,12 +2,9 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 {%- include head.html -%}
 <body>
-<hr>
-<br>
-<div id="wrapper">
   <center>
-   <a href="{{ site.url }}{{ site.baseurl }}">{{ site.url }}{{ site.baseurl }}</a> | <a href=http://www.cerema.fr>http://www.cerema.fr</a>
+    <img src="{{ site.baseurl }}/assets/footer.svg">
+    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.url }}{{ site.baseurl }}</a> | <a href=http://www.cerema.fr>http://www.cerema.fr</a> | {{ site.time | truncate: 10, "" }}
   </center>
-</div>
 </body>
 </html>
