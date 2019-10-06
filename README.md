@@ -80,3 +80,8 @@ for other tools, investigate https://weasyprint.org/
 
 cf https://blog.rebased.pl/2018/07/12/wkhtmltopdf-considered-harmful.html
 
+https://github.com/Kozea/WeasyPrint
+
+## Multilingual adaptation
+
+https://www.sylvaindurand.org/making-jekyll-multilingual/
