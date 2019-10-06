@@ -4,7 +4,7 @@ combines research on energy, buildings, roads and connected objects, proposing a
 energy networks. It aims to develop a lo-fi smart grid to meet the heating needs of buildings, using a "solar thermic" road, 
 requiring only proven and controlled implementation techniques.
 
-The Dromotherm project focuses on the issue of passive buildings and positive energy islands, powered by low-temperature 
+The Dromotherm project focuses on passive buildings and positive energy islands, powered by low-temperature 
 heating networks.
 
 ## The fatal heat of the roads to power a building ?
