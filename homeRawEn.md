@@ -16,7 +16,7 @@ and providing for their heating needs during winter periods.
 This innovation will also help to reduce the intensity of urban heat islands during heat waves, and 
 could also be used for road safety purposes by occasionally heating roads in winter, during severe cold periods.
 
-![schéma de principe]({{ site.baseurl }}/assets/principe.png){:class="img-responsive"}
+![schéma de principe]({{ site.baseurl }}/assets/principe_retailed.png){:class="img-responsive"}
 
 The challenge is to design a new generation of smart grid connecting roads and buildings, using the principles of subsurface geothermal energy in urban areas. The latter, which consists in using the heat captured by the ground to meet the needs of the building, could thus be applied in cities, whereas it has so far been reserved for the single-family home.
 
