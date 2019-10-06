@@ -25,7 +25,7 @@ Thanks to the Internet of Things (IoT), the system provides real-time informatio
 
 ## Scale one demonstrators...
 
-Cerema and the Ecole d'application aux métiers des travaux publics (EATP) have developed on the EATP campus in Egletons (Corrèze), a heating pavement demonstrator and solar energy recovery system. Thanks to the circulation of a heat transfer fluid, this road stores heat in the ground during the summer and releases it during the winter via geothermal heat pumps. Geo-bore surveys were conducted to assess the ability of the rocky ground to recharge itself with heat in summer in order to provide the pavement with the energy it needs in winter to be protected from freezing.
+Cerema and the Ecole d'application aux métiers des travaux publics (EATP) have developed on the EATP campus in Egletons (Corrèze), a heating pavement demonstrator with a solar energy recovery system. Thanks to the circulation of a heat carrier fluid, this road stores energy in the ground during the summer and releases it during the winter via geothermal heat pumps. Geo-bore surveys were conducted to assess the ability of the rocky ground to recharge itself with heat in summer in order to provide the pavement with the energy it needs in winter to be protected from freezing.
 
 Operational since mid-2015, the demonstrator has been equipped with sensors to characterize meteorology in real time and instrumented geothermal probes.
 
