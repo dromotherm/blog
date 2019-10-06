@@ -66,3 +66,6 @@ wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ 
 --footer-html https://dromotherm.github.io/blog/footer/ --margin-bottom "25mm" https://dromotherm.github.io/blog/homePr
 int/ dromotherm.pdf
 ```
+
+investigate https://weasyprint.org/
+cf https://blog.rebased.pl/2018/07/12/wkhtmltopdf-considered-harmful.html
