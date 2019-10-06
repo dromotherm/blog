@@ -4,7 +4,7 @@
 <body>
   <center>
     <img src="{{ site.baseurl }}/assets/footer.svg">
-    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.url }}{{ site.baseurl }}</a> | <a href=http://www.cerema.fr>http://www.cerema.fr</a>
+    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.url }}{{ site.baseurl }}</a> | <a href=http://www.cerema.fr>http://www.cerema.fr</a> | {{ site.time | truncate: 10, "" }}
   </center>
 </body>
 </html>
