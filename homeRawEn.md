@@ -23,4 +23,18 @@ The challenge is to design a new generation of smart grid connecting roads and b
 
 Thanks to the Internet of Things (IoT), the system provides real-time information on production, the energy consumption and needs of the building or road. We are moving closer to the philosophy of distributed energy, popularized by Jeremy RIFKIN's "Third Industrial Revolution".
 
+## Scale one demonstrators...
 
+Cerema and the Ecole d'application aux métiers des travaux publics (EATP) have developed on the EATP campus in Egletons (Corrèze), a heating pavement demonstrator and solar energy recovery system. Thanks to the circulation of a heat transfer fluid, this road stores heat in the ground during the summer and releases it during the winter via geothermal heat pumps. Geo-bore surveys were conducted to assess the ability of the rocky ground to recharge itself with heat in summer in order to provide the pavement with the energy it needs in winter to be protected from freezing.
+
+Operational since mid-2015, the demonstrator has been equipped with sensors to characterize meteorology in real time and instrumented geothermal probes.
+
+As part of the Dromotherm project, a second demonstrator will be built on a car park at the University of Savoie Mont Blanc, including a 30 m² dromotherm, a 45 m³ underground thermal storage facility made of saturated gravel and equipped with geothermal baskets, and a 20 m² wooden building positioned on the thermal storage facility.
+
+At the end of the project, the consortium will have sizing tools at its disposal with regard to previously identified use cases (heat supply of a small collective, connection of the dromotherm to a low-temperature heating network, winter viability, etc.) and a technical and economic study will make it possible to position the Dromotherm technology on the various markets related to local energy supply.
+
+Presented at various events on building or energy themes, such as the PEXE Ecotech Days (national network to support business developement in environmental and energy management) or the Drim'In Saclay hackaton, organized by the Essonne Chamber of Commerce and Industry under the sponsorship of Cédric Villani, the Dromotherm technology has aroused the interest of infrastructure and development professionals. The work to come funded by the Ambition Research Pack for the Auvergne-Rhône-Alpes region will help to perfect it.
+
+Dromotherm is a research project of the Tenerrdis competitiveness cluster, led by Cerema in partnership with the Locie laboratory (Laboratory for the Optimisation of Environmental Design and Engineering) of the University of Savoie, the Pascal Institute of the University of Clermont Auvergne and the public works companies Eiffage and Ryb/group Elydan.
+
+![logos]({{ site.baseurl }}/assets/logo_partenaires.png){:class="img-responsive"}
