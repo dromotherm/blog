@@ -62,16 +62,12 @@ On windows, do not forget to include in your path something like `C:\Program Fil
 
 Then use the following commands to produce pdf docs, with dedicated banner and footer included on the blog main page :
 
-```
-wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --footer-html https://dromotherm.gith
-ub.io/blog/footer/ https://dromotherm.github.io/blog/homePrintEn/ dromothermEn.pdf
-```
 
-```
-wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --margin-top "25mm" --no-header-line
---footer-html https://dromotherm.github.io/blog/footer/ --margin-bottom "25mm" https://dromotherm.github.io/blog/homePr
-int/ dromotherm.pdf
-```
+wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --margin-top "25mm" --no-header-line --footer-html https://dromotherm.github.io/blog/footer/ --margin-bottom "25mm" https://dromotherm.github.io/blog/homePrintEn/ dromothermEn.pdf
+
+
+wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --margin-top "25mm" --no-header-line --footer-html https://dromotherm.github.io/blog/footer/ --margin-bottom "25mm" https://dromotherm.github.io/blog/homePrint/ dromotherm.pdf
+
 
 for more information on wkhtmltopdf :
 
