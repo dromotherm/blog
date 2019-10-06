@@ -60,7 +60,7 @@ Just install a binary from https://wkhtmltopdf.org/downloads.html
 
 On windows, do not forget to include in your path something like `C:\Program Files\wkhtmltopdf\bin`
 
-Then use the following commands to produce pdf docs, with dedicated banner and footer included on the blog main page :
+Use the following commands to produce pdf docs, with dedicated banner and footer included on the blog main page :
 
 ```
 wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --margin-top "25mm" --no-header-line --footer-html https://dromotherm.github.io/blog/footer/ --margin-bottom "25mm" https://dromotherm.github.io/blog/homePrintEn/ dromothermEn.pdf
