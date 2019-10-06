@@ -1,3 +1,4 @@
+<br>
 ![smart grid thermique - l'énergie distribuée]({{ site.baseurl }}/assets/smartgrid.png){:class="img-responsive"} 
 The Dromotherm project, financed by the Pack Ambition Recherche fund of the Auvergne-Rhône-Alpes region over the period 2020 - 2025,
 combines research on energy, buildings, roads and connected objects, proposing an operational articulation based on intelligent
