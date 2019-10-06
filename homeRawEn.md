@@ -33,7 +33,7 @@ Operational since mid-2015, the demonstrator has been equipped with sensors to c
 
 As part of the Dromotherm project, a second demonstrator will be built on a car park at the University of Savoie Mont Blanc, including a 30 m² dromotherm, a 45 m³ underground thermal storage facility made of saturated gravel and equipped with geothermal baskets, and a 20 m² wooden building positioned on the thermal storage facility.
 
-At the end of the project, the consortium will have sizing tools at its disposal with regard to previously identified use cases (heat supply of a small collective, connection of the dromotherm to a low-temperature heating network, winter viability, etc.) and a technical and economic study will make it possible to position the Dromotherm technology on the various markets related to local energy supply.
+At the end of the project, the consortium will have sizing tools at its disposal with regard to previously identified use cases (heat supply of a small collective, connection of the dromotherm to a low-temperature heating network, winter viability, etc.). A technical and economic study will position the Dromotherm technology on the various markets related to local energy supply.
 
 Presented at various events on building or energy themes, such as the PEXE Ecotech Days (national network to support business developement in environmental and energy management) or the Drim'In Saclay hackaton, organized by the Essonne Chamber of Commerce and Industry under the sponsorship of Cédric Villani, the Dromotherm technology has aroused the interest of infrastructure and development professionals. The work to come funded by the Ambition Research Pack for the Auvergne-Rhône-Alpes region will help to perfect it.
 
