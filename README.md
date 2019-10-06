@@ -54,7 +54,13 @@ For example /path/to/image can be `/assets/smartgrid.png`
 
 ## Generate pdf
 
-https://wkhtmltopdf.org/usage/wkhtmltopdf.txt
+To generate pdf from the blog is possible, using wkhtmltopdf.
+
+Just install a binary from https://wkhtmltopdf.org/downloads.html
+
+On windows, do not forget to include in your path something like `C:\Program Files\wkhtmltopdf\bin`
+
+Then use the following commands to produce pdf docs, with dedicated banner and footer included on the blog main page :
 
 ```
 wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --footer-html https://dromotherm.gith
@@ -67,5 +73,13 @@ wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ 
 int/ dromotherm.pdf
 ```
 
-investigate https://weasyprint.org/
+for more information on wkhtmltopdf :
+
+https://wkhtmltopdf.org/usage/wkhtmltopdf.txt
+
+https://github.com/wkhtmltopdf/wkhtmltopdf/issues/2940
+
+for other tools, investigate https://weasyprint.org/
+
 cf https://blog.rebased.pl/2018/07/12/wkhtmltopdf-considered-harmful.html
+
