@@ -65,5 +65,4 @@ ub.io/blog/footer/ https://dromotherm.github.io/blog/homePrintEn/ dromothermEn.p
 wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --margin-top "25mm" --no-header-line
 --footer-html https://dromotherm.github.io/blog/footer/ --margin-bottom "25mm" https://dromotherm.github.io/blog/homePr
 int/ dromotherm.pdf
-
 ```
