@@ -40,6 +40,16 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  
+defaults:
+  - scope:
+      path: "assets/downloads/en"
+    values:
+      lang: en
+  - scope:
+      path: "assets/downloads/fr"
+    values:
+      lang: fr
 
 font-awesome:
   assets: true

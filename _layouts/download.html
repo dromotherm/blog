@@ -1,0 +1,10 @@
+---
+layout: default
+---
+
+<h2>{{ page.title }}</h2>
+
+{% assign file = site.static_files | where: "lang", page.lang %}
+{% for myfile in file %}
+  <li><a href="{{ site.baseurl }}{{ myfile.path }}">{{ myfile.basename }}</a></li>
+{% endfor %}

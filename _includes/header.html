@@ -27,6 +27,7 @@
             {%- assign my_page = site.pages | where: "path", path | where: "lang", page.lang | first -%}
             {%- if my_page.title -%}
               {%- if my_page.ref == "home" -%} {%- assign icon = "assets/project.svg" -%}
+              {%- elsif my_page.ref == "download" -%} {%- assign icon = "assets/download.svg" -%}
               {%- elsif my_page.ref == "about" -%} {%- assign icon = "" -%}
               <!--should restore assets/team.svg-->
               {%- else -%} {%- assign icon = "" -%}
