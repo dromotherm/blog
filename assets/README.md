@@ -1,4 +1,4 @@
-# Font-awesome installation
+# Assets customization
 
 ## hosting font awesome
 
@@ -32,3 +32,7 @@ Then modify the `<head></head>` section of _includes/head.html so that it contai
 ```
 <link rel="stylesheet" href="{{ "/assets/css/all.css" | relative_url }}">
 ```
+
+other option is to use scss :
+
+https://fontawesome.com/how-to-use/on-the-web/using-with/sass
