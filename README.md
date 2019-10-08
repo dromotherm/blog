@@ -1,6 +1,6 @@
 # Dromotherm
 
-site for dromotherm.fr
+site for dromotherm.com
 
 http://dromotherm.github.io/blog
 
@@ -17,11 +17,21 @@ The file must start with a metadatas header
 ---
 layout: post
 title:  "Welcome !"
+lang: "en"
+ref: something
 date: AAAA-MM-DD
 categories: [project management, other category]
 ---
 ```
-Date and categories are optional
+lang can be "fr", "en" or even something else. Make sure that the whole text of the post is in a single language
+
+For a single post available in french and english, you will have to create two files 
+- AAAA-MM-DD-name.markdown
+- AAAA-MM-DD-nameEn.markdown
+ 
+It is essential that both files have the same ref in the metadatas section 
+
+date and categories are optional
 
 ### structure
 
@@ -70,6 +80,11 @@ wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ 
 wkhtmltopdf -L 15 -R 15 --header-html https://dromotherm.github.io/blog/banner/ --margin-top "25mm" --no-header-line --footer-html https://dromotherm.github.io/blog/footer/ --margin-bottom "25mm" https://dromotherm.github.io/blog/homePrint/ dromotherm.pdf
 ```
 
+When producing pdf on posts, do not use banner and footer :
+```
+wkhtmltopdf -L 15 -R 15 https://dromotherm.github.io/blog/project%20management/2019/09/29/project_kickoff.html post.pdf
+```
+
 for more information on wkhtmltopdf :
 
 https://wkhtmltopdf.org/usage/wkhtmltopdf.txt (not very uptodate)
@@ -84,4 +99,16 @@ https://github.com/Kozea/WeasyPrint
 
 ## Multilingual adaptation
 
-TODO : cf https://www.sylvaindurand.org/making-jekyll-multilingual/
+Multilingual adaptation was realized with the help of the following article which describes a simple an elegant solution :
+
+https://www.sylvaindurand.org/making-jekyll-multilingual/
+
+## Downloadable content
+
+downloadable files are dynamically managed
+
+Just drop them in :
+
+[/assets/downloads/en](/assets/downloads/en) for documents written in english
+
+[/assets/downloads/fr](/assets/downloads/fr) for documents written in french
