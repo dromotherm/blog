@@ -48,9 +48,17 @@
 {% if page.ref %}
 <div class="wrapper" style="text-align: right; line-height: 2em">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
+  {% for post in posts %} 
+    <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">
+      {%- if post.lang == page.lang -%} <b><u>{{ post.lang }}</u></b> {%- else -%} {{ post.lang }} {%- endif -%}
+    </a> 
+  {% endfor %}
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  {% for mypage in pages %} 
+    <a href="{{ mypage.url | prepend: site.baseurl }}" class="{{ mypage.lang }}">
+      {%- if mypage.lang == page.lang -%} <b><u>{{ mypage.lang }}</u></b> {%- else -%} {{ mypage.lang }} {%- endif -%}
+    </a> 
+  {% endfor %}
 </div>
 {% endif %}

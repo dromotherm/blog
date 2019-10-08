@@ -1,5 +1,6 @@
 ---
 layout: category_index
-title: all files...
+title: tous les posts du site classés par catégorie...
 lang: fr
+ref: map
 ---
