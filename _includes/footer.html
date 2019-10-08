@@ -5,16 +5,13 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col one-half">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
         <ul class="contact-list">
           <li class="p-name">
             {%- if site.author -%}
               {{ site.author | escape }}
             {%- endif -%}
             </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
+            
         </ul>
       </div>
 
@@ -25,9 +22,13 @@
       <img src="{{ site.baseurl }}/assets/footer.svg">
 
       <center>
-        <p>{{- site.description | escape -}}</p>
-        <i class="icon-twitter"></i>
-        <a rel="me" href='https://github.com/dromotherm/blog'><i class="github"></i></a>
+        <a href='https://github.com/dromotherm'><span style="color: #ff6600ff;"><i class="fab fa-github fa-2x"></span></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        {%- if site.email -%}
+        <a href="mailto:{{ site.email }}"><span style="color: #ff6600ff;"><i class="fas fa-envelope fa-2x"></i></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        {%- endif -%}
+        <a href="{{ 'feed.xml' | relative_url }}"><span style="color: #ff6600ff;"><i class="fas fa-rss-square fa-2x"></i></span></a>
+          <p>{{- site.description | escape -}}</p>
+        
       </center>
     </div>
 
