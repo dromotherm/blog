@@ -3,15 +3,5 @@
 ---
 
 @import "minima";
-@import "font-awesome/scss/fontawesome.scss";
-@import "font-awesome/scss/solid.scss";
-@import "font-awesome/scss/brands.scss";
 
-.user {
-  @extend %fa-icon;
-  @extend .fas;
 
-  &:before {
-    content: fa-content($fa-var-user);
-  }
-}
