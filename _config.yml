@@ -14,6 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: DROMOTHERM
+index:
+  en: indexEn
+  fr: index
 email: contact@dromotherm.fr
 layout: post
 show_excerpts: true
