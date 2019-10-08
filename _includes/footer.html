@@ -18,13 +18,17 @@
         </ul>
       </div>
 
-      <div class="footer-col one-half">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-
       <div class="social-links">
         {%- include social.html -%}
       </div>
+
+      <img src="{{ site.baseurl }}/assets/footer.svg">
+
+      <center>
+        <p>{{- site.description | escape -}}</p>
+        <i class="icon-twitter"></i>
+        <a rel="me" href='https://github.com/dromotherm/blog'><i class="github"></i></a>
+      </center>
     </div>
 
   </div>
