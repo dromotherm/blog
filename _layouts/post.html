@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   {% for staff-member in site.staff-members %}
-    {% if staff_member.name == page.author %}
+    {% if staff_member.surname == page.author %}
       {{ staff_member.mel }}
     {% endif %}
   {% endfor %}
