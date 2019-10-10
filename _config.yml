@@ -40,7 +40,11 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  
+
+collections: 
+  staff-members: 
+    people: true
+ 
 defaults:
   - scope:
       path: "assets/downloads/en"
