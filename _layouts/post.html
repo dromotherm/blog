@@ -3,9 +3,9 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
   {% for staff-member in site.staff-members %}
-    {{ staff_member.surname }}
-    {% if staff_member.surname == page.author %}
-      {{ staff_member.mel }}
+    {{ staff-member.surname }}
+    {% if staff-member.surname == page.author %}
+      {{ staff-member.mel }}
     {% endif %}
   {% endfor %}
   <header class="post-header">
