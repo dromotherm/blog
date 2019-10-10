@@ -11,7 +11,8 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        {{ site.staff-members[page.author].mel }}
+        {% assign author = site.staff-members | where: 'surname', page.author %}
+        {{ author.mel }}
         {% for staff-member in site.staff-members %}
           {% if staff-member.surname == page.author %}
             • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
