@@ -44,6 +44,7 @@ plugins:
 collections: 
   staff-members: 
     people: true
+    output: true
  
 defaults:
   - scope:
