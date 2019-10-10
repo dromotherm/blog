@@ -12,20 +12,15 @@ layout: default
       </time>
       {%- if page.author -%}
         {% assign author = site.staff-members | where: 'surname', page.author | first %}
+        {% if author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span class="p-author h-card" itemprop="name">
             <a href="mailto:{{ author.mel }}">{{ page.author | escape }}</a>
           </span>
         </span>
-        {% for staff-member in site.staff-members %}
-          {% if staff-member.surname == page.author %}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                <span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span>
-                <a href="mailto:{{ staff-member.mel }}">{{ page.author | escape }}</a>
-            </span>
-          {% endif %}
-        {% endfor %}
-      {%- endif -%}</p>
+        {% endif %}
+      {%- endif -%}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
