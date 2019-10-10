@@ -13,8 +13,9 @@ layout: default
       {%- if page.author -%}
         {% assign author = site.staff-members | where: 'surname', page.author | first %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span>
-          <a href="mailto:{{ author.mel }}">{{ page.author | escape }}</a>
+          <span class="p-author h-card" itemprop="name">
+            <a href="mailto:{{ author.mel }}">{{ page.author | escape }}</a>
+          </span>
         </span>
         {% for staff-member in site.staff-members %}
           {% if staff-member.surname == page.author %}
