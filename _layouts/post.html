@@ -11,7 +11,7 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        {% assign author = site.staff-members | where: 'surname', page.author %}
+        {% assign author = site.staff-members | where: 'surname', page.author | first %}
         {{ author.mel }}
         {% for staff-member in site.staff-members %}
           {% if staff-member.surname == page.author %}
