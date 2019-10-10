@@ -11,7 +11,7 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.author -%}
-        {% assign author = site.staff-members | where: 'surname', page.author | first %}
+        {% assign author = site.staff-members | where: 'surname', page.author | where: 'lang', page.lang | first %}
         {% if author %}
         • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span class="p-author h-card" itemprop="name">
