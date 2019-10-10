@@ -2,6 +2,7 @@
 layout: post
 title:  "Project Kickoff"
 date:   2019-09-29
+author: alex
 lang: fr
 ref: kickoff
 categories: [project management]
