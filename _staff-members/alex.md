@@ -12,5 +12,6 @@ En tant qu'exploitant de réseau routier, il a dû se concentrer sur les problè
 
 Spécialisé dans les systèmes d'information géographique (SIG) notamment pour la gestion des réseaux routiers, il rejoint le Cerema en mai 2014 en tant que directeur adjoint du laboratoire de génie civil de Clermont-Ferrand.
 
-Alexandre CUER est un développeur open-source, impliqué notamment dans le projet EmonCMS (http://github.com/emoncms/emoncms). 
+Alexandre CUER est un développeur open-source - [http://github.com/alexandrecuer](http://github.com/alexandrecuer)
+
 Compétences en développement : Ruby, PHP, Python, C et C+++.
