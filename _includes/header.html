@@ -60,5 +60,12 @@
       {%- if mypage.lang == page.lang -%} <b><u>{{ mypage.lang }}</u></b> {%- else -%} {{ mypage.lang }} {%- endif -%}
     </a> 
   {% endfor %}
+
+  {% assign pages=site.staff-members | where:"ref", page.ref | sort: 'lang' %}
+  {% for mypage in pages %} 
+    <a href="{{ mypage.url | prepend: site.baseurl }}" class="{{ mypage.lang }}">
+      {%- if mypage.lang == page.lang -%} <b><u>{{ mypage.lang }}</u></b> {%- else -%} {{ mypage.lang }} {%- endif -%}
+    </a> 
+  {% endfor %}
 </div>
 {% endif %}
