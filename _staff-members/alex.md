@@ -1,5 +1,5 @@
 ---
-surname: alex
+ref: alex
 name: Alexandre CUER
 position: chief executive officer
 mel: alexandre.cuer@cerema.fr
