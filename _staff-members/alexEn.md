@@ -12,5 +12,6 @@ As a road network operator, he had to focus on road security and safety problems
 
 Specialized in geographical information system (GIS) particularly for road network management, he joined Cerema in may 2014 as Deputy Director of the civil engineering laboratory of Clermont-Ferrand
 
-Alexandre CUER is an open-source developer, notably involved in the EmonCMS project (http://github.com/emoncms/emoncms) 
+Alexandre CUER is an open-source developer - [http://github.com/alexandrecuer](http://github.com/alexandrecuer)
+
 Development skills : Ruby, PHP, Python, C and C++
