@@ -6,7 +6,7 @@ mel: alexandre.cuer@cerema.fr
 layout: default
 lang: fr
 ---
-Ingénieur diplômé de l'ENTPE, titulaire d'une maîtrise en génie civil et transport, Alexandre CUER a été fonctionnaire pendant plus de 15 ans, occupant des fonctions de direction et de direction dans différentes administrations déconcentrées en France. 
+Ingénieur diplômé de l'ENTPE, titulaire d'une maîtrise en génie civil et transport, Alexandre CUER a été fonctionnaire pendant plus de 15 ans, occupant des fonctions de direction dans différentes administrations déconcentrées en France. 
 
 En tant qu'exploitant de réseau routier, il a dû se concentrer sur les problèmes de sécurité et de sûreté routières et superviser le déploiement d'un système de surveillance en temps réel du trafic sur le périphérique de Toulouse (150000 véhicules par jour). 
 
