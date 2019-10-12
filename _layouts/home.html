@@ -8,6 +8,7 @@ layout: default
   {%- endif -%}
 
   {{ content }}
+  {{ page.category }}
   {% if page.category %}
     {% assign posts=site.posts | where_exp:'post', "post.categories contains 'page.category'" %}
   {% else %}
