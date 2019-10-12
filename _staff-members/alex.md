@@ -12,7 +12,7 @@ En tant qu'exploitant de réseau routier, il a dû se concentrer sur les problè
 
 Spécialisé dans le management notamment de projet et les systèmes d'information, il rejoint le Cerema en mai 2014 en tant que directeur adjoint du laboratoire de génie civil de Clermont-Ferrand.
 
-[CV sur linkedin] (https://www.linkedin.com/in/alexandre-cuer-832ba971)
+[CV sur linkedin](https://www.linkedin.com/in/alexandre-cuer-832ba971)
 
 Alexandre CUER est un développeur open-source - [http://github.com/alexandrecuer](http://github.com/alexandrecuer)
 
