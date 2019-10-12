@@ -18,6 +18,7 @@ The file must start with a metadatas header
 layout: post
 title:  "Welcome !"
 author: surname
+draft: false
 lang: "en"
 ref: something
 date: AAAA-MM-DD
@@ -37,7 +38,9 @@ If you want a specific post to be available in french and english, you will have
  
 It is essential that both files have the same ref in the metadatas section 
 
-date and categories fields are optional
+date, draft and categories fields are optional
+
+if draft is set to true, the post will be considered as a work in progress and will not be published online. Once you remove the draft field or set it to false, the post is pushed to the site by the jekyll engine
 
 ### structure
 
