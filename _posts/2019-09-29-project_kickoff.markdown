@@ -5,7 +5,7 @@ date:   2019-09-29
 author: alex
 lang: fr
 ref: kickoff
-categories: [project management]
+categories: [project management, dromotherm]
 ---
 Le Kickoff se déroulera le 17 décembre 2019 de 10h à 13h dans les locaux du Cerema à la Part-Dieu, à la direction technique territoires et ville du Cerema, au 2, rue Antoine Charial - 69426 Lyon Cedex 03
 
