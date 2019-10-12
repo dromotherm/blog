@@ -9,7 +9,7 @@ layout: default
 
   {{ content }}
   {% if page.category %}
-    {% assign posts=site.posts | where:'post', "post.categories contains 'page.category'" %}
+    {% assign posts=site.posts | where_exp:'post', "post.categories contains 'page.category'" %}
   {% else %}
     {% assign posts=site.posts %}
   {% endif %}
