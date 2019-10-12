@@ -41,6 +41,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+feed:
+  en: /feed.xml
+  fr: /flux.xml
+  
 collections: 
   staff-members: 
     people: true

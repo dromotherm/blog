@@ -12,8 +12,8 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
-      {% if post.lang==page.lang %}
+      {% assign posts=site.posts | where:"lang", page.lang | where:"draft", false %}
+      {% for post in posts %}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -26,8 +26,7 @@ layout: default
           {{ post.excerpt }}
         {%- endif -%}
       </li>
-      {% endif %}
-      {%- endfor -%}
+      {% endfor %}
     </ul>
   {%- endif -%}
 

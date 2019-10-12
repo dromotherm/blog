@@ -3,7 +3,7 @@ layout: post
 title:  "Our philosophy"
 author: alex
 lang: en
-draft: yes
+draft: true
 ref: philosophy
 categories: [sustainable development]
 ---
