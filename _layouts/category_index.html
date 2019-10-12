@@ -7,11 +7,9 @@ title: "index/map"
 
 <div id="archive-list">
 
-  {% assign categories=site.categories | where:categories[1].lang, page.lang %}
-  {% for category in categories %}
-    {{ categories[0] }}
-  {% endfor %}
   {% for category in site.categories %}
+  {% assign selectedPosts = category.last | where:"lang", page.lang %}
+  {% if selectedPosts.size > 0 %}
   <h3>{{ category[0] }}</h3>
   <ul>
     {% for post in category[1] %}
@@ -20,6 +18,7 @@ title: "index/map"
       {% endif %}
     {% endfor %}
   </ul>
+  {% endfor %}
 {% endfor %}
 
 </div>
