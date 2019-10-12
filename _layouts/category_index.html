@@ -6,7 +6,11 @@ title: "index/map"
 <h2>{{ page.title }}</h2>
 
 <div id="archive-list">
-  
+
+  {% assign categories=site.categories | where:categories[1].lang=page.lang %}
+  {% for category in categories %}
+    {{ categories[0] }}
+  {% endfor %}
   {% for category in site.categories %}
   <h3>{{ category[0] }}</h3>
   <ul>
