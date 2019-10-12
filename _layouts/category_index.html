@@ -7,7 +7,7 @@ title: "index/map"
 
 <div id="archive-list">
 
-  {% assign categories=site.categories | where:categories[1].lang=page.lang %}
+  {% assign categories=site.categories | where:categories[1].lang, page.lang %}
   {% for category in categories %}
     {{ categories[0] }}
   {% endfor %}
