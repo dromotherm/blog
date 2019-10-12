@@ -21,7 +21,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
-      {% assign posts=site.posts | where:"lang", page.lang | where:"draft", false %}
+      {% assign posts=site.posts | where:"lang", page.lang | where:"draft", false | where_exp:"post", "post.categories contains page.category" %}
       {% for post in posts %}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
