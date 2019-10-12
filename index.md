@@ -2,5 +2,5 @@
 layout: home
 ref: index
 lang: fr
-category: dromotherm
+category: sustainable development
 ---
