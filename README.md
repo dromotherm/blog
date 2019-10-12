@@ -17,21 +17,27 @@ The file must start with a metadatas header
 ---
 layout: post
 title:  "Welcome !"
+author: surname
 lang: "en"
 ref: something
 date: AAAA-MM-DD
 categories: [project management, other category]
 ---
 ```
-lang can be "fr", "en" or even something else. Make sure that the whole text of the post is in a single language
+The author field is used to make the link with staff-members, as defined in the [_staff-members](/_staff-members) directory. In pratice, the software scans the _staff-members directory to find files whose metadatas header includes a ref field equal to the value that the post writer has given to the author field. 
+If the surname given in the post as no corresponding file in the _staff-members directory, the post will nevertheless be available for reading
 
-For a single post available in french and english, you will have to create two files 
+The lang field can be "fr", "en" or even something else. Make sure that the whole text of the post is in a single language.
+
+If you don't want your post to be available in another language, just write a single file.
+
+If you want a specific post to be available in french and english, you will have to create two files : 
 - AAAA-MM-DD-name.markdown
 - AAAA-MM-DD-nameEn.markdown
  
 It is essential that both files have the same ref in the metadatas section 
 
-date and categories are optional
+date and categories fields are optional
 
 ### structure
 
@@ -102,6 +108,8 @@ https://github.com/Kozea/WeasyPrint
 Multilingual adaptation was realized with the help of the following article which describes a simple an elegant solution :
 
 https://www.sylvaindurand.org/making-jekyll-multilingual/
+
+the models have been adapted to be language sensitive
 
 ## Downloadable content
 
