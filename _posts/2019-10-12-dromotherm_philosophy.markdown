@@ -8,4 +8,4 @@ ref: philosophy
 categories: [sustainable development]
 ---
 
-The dromotherm project focuses on the creation of small  banks in urban aeras, in order to dispose of many small low temperature heat stocks, to promote the replicability of surface geothermal techniques
+The dromotherm project focuses on creating many small low temperature heat stocks, in order to promote the replicability of surface geothermal techniques, especially in cities where there is no free space available for horizontal probes 
