@@ -1,0 +1,22 @@
+---
+layout: default
+title: "index/map"
+---
+
+<h2>{{ page.title }}</h2>
+
+<div id="archive-list">
+
+  {% for category in site.categories %}
+  {% assign selectedPosts = category.last | where:"lang", page.lang %}
+  {% if selectedPosts.size > 0 %}
+  <h3>{{ category[0] }}</h3>
+  <ul>
+    {% for post in selectedPosts %}
+        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+{% endfor %}
+
+</div>
