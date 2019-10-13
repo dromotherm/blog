@@ -14,3 +14,8 @@ script:
 branches:
   only:
   - master
+  
+after_success:
+- git config --global user.email "alexandre.cuer@cerema.fr"
+- git config --global user.name "alexandrecuer"
+- '[ "${TRAVIS_BRANCH}" = "master" ] && [ "${TRAVIS_PULL_REQUEST}" = "false" ] && bundle exec rake deploy || false'
