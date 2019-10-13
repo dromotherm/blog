@@ -10,12 +10,10 @@ title: "index/map"
   {% for category in site.categories %}
   {% assign selectedPosts = category.last | where:"lang", page.lang %}
   {% if selectedPosts.size > 0 %}
-  <h3>{{ category[0] }}</h3>
+  <h3>{{ selectedPosts[0] }}</h3>
   <ul>
-    {% for post in category[1] %}
-      {% if post.lang==page.lang %}
+    {% for post in selectedPosts[1] %}
         <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-      {% endif %}
     {% endfor %}
   </ul>
   {% endif %}
