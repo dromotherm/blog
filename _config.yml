@@ -41,6 +41,8 @@ theme: minima
 plugins:
   - jekyll-feed
 
+category_dir: categories
+
 feed:
   en: /feed.xml
   fr: /flux.xml
