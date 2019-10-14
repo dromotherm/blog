@@ -18,6 +18,8 @@ If it's a command line only machine, the possibility to exchange file(s) with th
 
 Once on the window machine, the public key will be copied to the clipboard and injected in the github repo as a deploy key
 
+Nota : I encountered problems generating directly the SSH key on a windows machine !
+
 ## initialize the github repo on the linux machine
 
 ```
@@ -138,7 +140,7 @@ git push
 
 ## ignored files
 
-Please note that the .gitignore file is like that :
+Please note that the [.gitignore](.gitignore) file looks like that :
 ```
 _site
 .sass-cache
