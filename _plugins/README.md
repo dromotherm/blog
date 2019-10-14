@@ -20,6 +20,8 @@ Once on the window machine, the public key will be copied to the clipboard and i
 
 Nota : I encountered problems generating directly the SSH key on a windows machine !
 
+cf https://travis-ci.community/t/solved-openssl-decrypt-yields-bad-decrypt-for-a-single-file/2886
+
 ## initialize the github repo on the linux machine
 
 ```
