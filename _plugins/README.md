@@ -80,6 +80,12 @@ choose allow write access in order for the key to be able to push (Read/write mo
 
 ## create the encrypted key
 
+Login to travis using yout github username and pass
+
+```
+travis login --org
+```
+
 ```
 travis encrypt-file dromotherm_rsa --add
 Detected repository as dromotherm/blog, is this correct? |yes| yes
@@ -160,3 +166,5 @@ just check :
 https://simpleit.rocks/ruby/jekyll/tutorials/automated-deployment-of-jekyll-websites-to-github-pages-with-a-git-push-to-github/
 
 https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
+
+https://docs.travis-ci.com/user/encrypting-files/
