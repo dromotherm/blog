@@ -58,6 +58,8 @@ echo "connecting via ssl"
 openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in ../dromotherm_rsa.enc -out ../dromotherm_rsa -d
 chmod 600 ../dromotherm_rsa
 eval `ssh-agent -s`
+ls -al dromotherm_rsa
+echo "adding the key"
 ssh-add ../dromotherm_rsa
 
 # Now that we're all set up, we can push.
