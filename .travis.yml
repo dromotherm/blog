@@ -13,5 +13,4 @@ env:
   - ENCRYPTION_LABEL: 05e522b11dc9
 sudo: false
 before_install:
-- openssl aes-256-cbc -K $encrypted_05e522b11dc9_key -iv $encrypted_05e522b11dc9_iv
-  -in dromotherm_rsa.enc -out dromotherm_rsa -d
+- openssl aes-256-cbc -K $encrypted_05e522b11dc9_key -iv $encrypted_05e522b11dc9_iv -in dromotherm_rsa.enc -out dromotherm_rsa -d
