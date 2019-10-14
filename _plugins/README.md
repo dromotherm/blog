@@ -3,7 +3,7 @@
 As we are using a rb plugin to generate pages for each categories of the site, and as github-pages does not accept plugins, 
 we need to generate the site by ourselves on a specific branch named gh-pages
 
-To carry out the compilation and the final git push, a specific script [deploy.sh](deploy.sh) can be found at the root of the master branch
+To carry out the compilation and the final git push, a specific script [deploy.sh](../deploy.sh) can be found at the root of the master branch
 
 The most important part is to establish a SSH link between travis and the github repo, which relies on the use of SSH keys :
 - the github directory will be granted the public SSH key as a deploy key
@@ -140,7 +140,7 @@ git push
 
 ## ignored files
 
-Please note that the [.gitignore](.gitignore) file looks like that :
+Please note that the [.gitignore](../.gitignore) file looks like that :
 ```
 _site
 .sass-cache
