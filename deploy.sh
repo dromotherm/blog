@@ -55,12 +55,12 @@ ENCRYPTED_IV_VAR="encrypted_${ENCRYPTION_LABEL}_iv"
 ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
 ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
 echo "connecting via ssl"
-openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in ../dromotherm_rsa.enc -out ../dromotherm_rsa -d
-chmod 600 ../dromotherm_rsa
+openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in dromotherm_rsa.enc -out dromotherm_rsa -d
+chmod 600 dromotherm_rsa
 eval `ssh-agent -s`
 ls -al dromotherm_rsa
 echo "adding the key"
-ssh-add ../dromotherm_rsa
+ssh-add dromotherm_rsa
 
 # Now that we're all set up, we can push.
 git push $SSH_REPO $TARGET_BRANCH
