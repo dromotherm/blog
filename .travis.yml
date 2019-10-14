@@ -1,21 +1,13 @@
 language: ruby
 rvm:
-  - 2.6.3
-
+- 2.6.3
 before_script:
- - chmod +x ./script/cibuild # or do this locally and commit
-
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-script:
-- ./script/cibuild
-- cat Gemfile.lock
-# branch whitelist, only for GitHub Pages
-branches:
-  only:
-  - master
-  
-after_success:
-- git config --global user.email "alexandre.cuer@cerema.fr"
-- git config --global user.name "alexandrecuer"
-- '[ "${TRAVIS_BRANCH}" = "master" ] && [ "${TRAVIS_PULL_REQUEST}" = "false" ] && bundle exec rake deploy || false'
+- npm install -g bower
+- bower install
+- chmod +x ./deploy.sh
+script: bash ./deploy.sh
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+  - COMMIT_AUTHOR_EMAIL: alexandre.cuer@cerema.fr
+sudo: false
