@@ -150,7 +150,7 @@ dromotherm_rsa.pub
 Gemfile.lock
 ```
 
-so if a local repo contains the original credentials, they will never bve committed to the github repo
+so if a local repo contains the original credentials, they will never be committed to the github repo
 
 
 ## extra information
