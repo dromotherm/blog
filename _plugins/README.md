@@ -80,7 +80,7 @@ choose allow write access in order for the key to be able to push (Read/write mo
 
 ## create the encrypted key
 
-Login to travis using yout github username and pass
+Login to travis using your github username and pass
 
 ```
 travis login --org
