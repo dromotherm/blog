@@ -19,6 +19,8 @@
 # - category_title_prefix: The string used before the category name in the page title (default is
 #                          'Category: ').
 
+# modified by Alexandre CUER on 14/10/2019 to achieve a multilingual approach
+
 require 'stringex'
 
 module Jekyll
@@ -31,15 +33,18 @@ module Jekyll
     #  +base+         is the String path to the <source>.
     #  +category_dir+ is the String path between <source> and the category folder.
     #  +category+     is the category currently being processed.
-    def initialize(site, base, category_dir, category)
+    def initialize(site, base, category_dir, category, lang)
       @site = site
       @base = base
       @dir  = category_dir
-      @name = 'index.html'
+      @name = "index#{lang}.html"
       self.process(@name)
+      
       # Read the YAML data from the layout page.
       self.read_yaml(File.join(base, '_layouts'), 'category_index.html')
       self.data['category']    = category
+      self.data['lang']        = lang
+      self.data['ref']         = category
       # Set the title for this page.
       title_prefix             = site.config['category_title_prefix'] || 'Category: '
       self.data['title']       = "#{title_prefix}#{category}"
@@ -58,14 +63,16 @@ module Jekyll
     #  +base+         is the String path to the <source>.
     #  +category_dir+ is the String path between <source> and the category folder.
     #  +category+     is the category currently being processed.
-    def initialize(site, base, category_dir, category)
+    def initialize(site, base, category_dir, category, lang)
       @site = site
       @base = base
       @dir  = category_dir
-      @name = 'atom.xml'
+      @name = "atom#{lang}.xml"
       self.process(@name)
+
       # Read the YAML data from the layout page.
       self.read_yaml(File.join(base, '_includes/custom'), 'category_feed.xml')
+      self.data['lang']        = lang
       self.data['category']    = category
       # Set the title for this page.
       title_prefix             = site.config['category_title_prefix'] || 'Category: '
@@ -88,15 +95,15 @@ module Jekyll
     #
     #  +category_dir+ is the String path to the category folder.
     #  +category+     is the category currently being processed.
-    def write_category_index(category_dir, category)
-      index = CategoryIndex.new(self, self.source, category_dir, category)
+    def write_category_index(category_dir, category, lang)
+      index = CategoryIndex.new(self, self.source, category_dir, category, lang)
       index.render(self.layouts, site_payload)
       index.write(self.dest)
       # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
       self.pages << index
 
       # Create an Atom-feed for each index.
-      feed = CategoryFeed.new(self, self.source, category_dir, category)
+      feed = CategoryFeed.new(self, self.source, category_dir, category, lang)
       feed.render(self.layouts, site_payload)
       feed.write(self.dest)
       # Record the fact that this page has been added, otherwise Site::cleanup will remove it.
@@ -108,7 +115,12 @@ module Jekyll
       if self.layouts.key? 'category_index'
         dir = self.config['category_dir'] || 'categories'
         self.categories.keys.each do |category|
-          self.write_category_index(File.join(dir, category.to_url), category)
+          warn "generating index for category #{category}"
+          langs=self.categories[category].map{|t| t["lang"]}.uniq
+          langs.each do |lang|
+             warn "got the lang #{lang}"
+             self.write_category_index(File.join(dir, category.to_url), category, lang)
+          end
         end
 
       # Throw an exception if the layout couldn't be found.
@@ -140,7 +152,7 @@ ERR
 
 
   # Adds some extra filters used during the category creation process.
-  module Filters
+  module CatFilters
 
     # Outputs a list of categories as comma-separated <a> links. This is used
     # to output the category list for each post on a category page.
@@ -170,7 +182,13 @@ ERR
     #
     def category_link(category)
       dir = @context.registers[:site].config['category_dir']
-      "<a class='category' href='/#{dir}/#{category.to_url}/'>#{category}</a>"
+      url = @context.registers[:site].config['url']
+      baseurl = @context.registers[:site].config['baseurl']
+      dir = "#{baseurl}/#{dir}"
+      # fetching the language
+      lang = @context.environments.first["page"]["lang"]
+      warn url
+      "<a class='category' href='#{url}#{dir}/#{category.to_url}/index#{lang}'>#{category}</a>"
     end
 
     # Outputs the post.date as formatted html, with hooks for CSS styling.
@@ -179,12 +197,16 @@ ERR
     #
     # Returns string
     def date_to_html_string(date)
-      result = '<span class="month">' + date.strftime('%b').upcase + '</span> '
-      result += date.strftime('<span class="day">%d</span> ')
-      result += date.strftime('<span class="year">%Y</span> ')
+      #result = '<span class="month">' + date.strftime('%b').upcase + '</span> '
+      #result += date.strftime('<span class="day">%d</span> ')
+      #result += date.strftime('<span class="year">%Y</span> ')
+      result = date.strftime("%Y/%m/%d")[0..10]
+      #warn result
       result
     end
 
   end
 
 end
+
+Liquid::Template.register_filter(Jekyll::CatFilters)
