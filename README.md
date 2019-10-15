@@ -1,6 +1,7 @@
 # Dromotherm
 
 site for dromotherm.com
+[![Build Status](https://travis-ci.org/dromotherm/blog.svg?branch=master)](https://travis-ci.org/dromotherm/blog)
 
 http://dromotherm.github.io/blog
 
