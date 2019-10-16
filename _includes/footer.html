@@ -26,8 +26,21 @@
         {%- if site.email -%}
         <a href="mailto:{{ site.email }}"><span style="color: #ff6600ff;"><i class="fas fa-envelope fa-2x"></i></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         {%- endif -%}
-        <a href="{{ site.feed[ page.lang ] | relative_url }}"><span style="color: #ff6600ff;"><i class="fas fa-rss-square fa-2x"></i></span></a>
-          <p>{{- site.description | escape -}}</p>
+        {% if page.url contains "categories" %}
+          {% comment %}
+            another solution = replace feedpath by 
+            /categories/{{ page.ref | replace: " ", "-" }}/
+          {% endcomment %}
+          {% assign array = page.url | split: "/" %}
+          {% assign component = array | last %}
+          {% assign toremove = component | append: "/" %}
+          {% assign feedpath = page.url | remove: toremove %}
+          <a href="{{site.baseurl}}{{feedpath}}atom{{page.lang}}.xml"><span style="color: #ff6600ff;"><i class="fas fa-rss-square fa-2x"></i></span></a>
+        {% else %}
+          <a href="{{ site.feed[ page.lang ] | relative_url }}"><span style="color: #ff6600ff;"><i class="fas fa-rss-square fa-2x"></i></span></a>
+        {% endif %}
+        
+        <p>{{- site.description | escape -}}</p>
         
       </center>
     </div>

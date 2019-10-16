@@ -14,8 +14,8 @@ layout: null
     {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
   </author>
   <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
-
-  {% for post in site.categories[page.category] limit: 5 %}
+  {% assign posts = site.categories[page.category] | where: "draft", false | where: "lang", page.lang %}
+  {% for post in posts limit: 5  %}
   <entry>
     <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
     <link href="{{ site.url }}{{ post.url }}"/>
