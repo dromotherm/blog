@@ -5,7 +5,7 @@ site for dromotherm.com
 [![Build Status](https://travis-ci.org/dromotherm/blog.svg?branch=master)](https://travis-ci.org/dromotherm/blog)
 
 The build status must be green in order for the gh-pages branch to be up-to-date. 
-The build role is to git push the compiled version of the site from travis to the github gh-pages branch.
+The build role is to git push the compiled version of the site from travis to the github gh-pages branch. There is a need of a real time compilation different from the one offered by github-pages because of the use of a plugin generating pages for each thematic categories.
 
 http://dromotherm.github.io/blog
 
@@ -27,7 +27,7 @@ draft: false
 lang: "en"
 ref: something
 date: AAAA-MM-DD
-categories: [project management, other category]
+categories: [dromotherm, project management, other category]
 ---
 ```
 The author field is used to make the link with staff-members, as defined in the [_staff-members](/_staff-members) directory. In pratice, the software scans the _staff-members directory to find files whose metadatas header includes a ref field equal to the value that the post writer has given to the author field. 
@@ -41,9 +41,13 @@ If you want a specific post to be available in french and english, you will have
 - AAAA-MM-DD-name.markdown
 - AAAA-MM-DD-nameEn.markdown
  
-It is essential that both files have the same ref in the metadatas section 
+It is essential that both files have the same ref in the metadatas section
 
-date, draft and categories fields are optional
+```diff
++ if you want your post to appear on front page, be sure to add `dromotherm` to the categories field
+```
+
+date and draft fields are optional
 
 if draft is set to true, the post will be considered as a work in progress and will not be published online. Once you remove the draft field or set it to false, the post is pushed to the site by the jekyll engine
 
