@@ -170,7 +170,8 @@ ERR
       when 1
         categories[0].to_s
       else
-        "#{categories[0...-1].join(', ')}, #{categories[-1]}"
+        categories[0..categories.length].join
+        #"#{categories[0...-1].join(', ')}, #{categories[-1]}"
       end
     end
 
@@ -188,7 +189,7 @@ ERR
       # fetching the language
       lang = @context.environments.first["page"]["lang"]
       warn url
-      "<a class='category' href='#{url}#{dir}/#{category.to_url}/index#{lang}'>#{category}</a>"
+      "<a class='tag' href='#{url}#{dir}/#{category.to_url}/index#{lang}'>#{category}</a>"
     end
 
     # Outputs the post.date as formatted html, with hooks for CSS styling.

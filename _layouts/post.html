@@ -23,7 +23,7 @@ layout: default
       {%- endif -%}
       <div class="categories">
       {% for category in page.categories %}
-        <a href="{{ site.baseurl }}/categories/{{ category | replace: " ", "-" }}/index{{ page.lang }}">{{ category }}</a>
+        <a class="tag" href="{{ site.baseurl }}/categories/{{ category | replace: " ", "-" }}/index{{ page.lang }}">{{ category }}</a>
       {% endfor %}
       </div>
     </p>

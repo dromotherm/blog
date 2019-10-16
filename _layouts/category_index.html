@@ -9,8 +9,8 @@ ref: category map
 {% assign posts = site.categories[page.category] | where:"lang", page.lang | where:"draft", false %}
 {% for post in posts %}
     <div>{{ post.date | date_to_html_string }}</div>
-    <div class="categories"> {{ post.categories | category_links }}</div>
     <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="categories"> {{ post.categories | category_links }}</div>
     
 {% endfor %}
 </ul>
