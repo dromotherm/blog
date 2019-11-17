@@ -19,7 +19,7 @@ Le schéma ci dessous représente l'architecture générale de l'écosystème TH
 
 Cette architecture permet de travailler avec deux types de fréquences radio : 868 Mhz et 169 Mhz et offre la possibilité de se raccorder à un bus industriel de type RS485, que l'on
 rencontre fréquemment dans les chaufferies gaz des bâtiments tertiaires, ce qui fait de THEMIS un agrégateur de données puissant, bénéficiant de la redoutable efficacité du protocole MQTT (Message Queuing Telemetry Transport). 
-Grâce a La bande 169Mhz, THEMIS est en mesure d'équiper des bâtiments de taille importante avec des capteurs sans fil.
+Grâce à la bande 169Mhz, THEMIS est en mesure d'équiper des bâtiments de taille importante avec des capteurs sans fil.
 
 Sur un bâtiment voire sur un ensemble de bâtiments, THEMIS est capable de rassembler au sein d'une même base NoSQL de données chronologiques 
 une bonne partie de ce qui est mesuré par les capteurs existants et de rajouter d'éventuelles informations manquantes. Le but est de capitaliser le recueil de données, afin d'offir une matière numérique cohérente 
