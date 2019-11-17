@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Themis, un Building Operating System (BOS) opensource"
+title:  "Themis, un Building Operating System (BOS)"
 date:   2019-11-17
 author: alex
 lang: fr
@@ -51,6 +51,11 @@ Avec cet outillage logiciel, THEMIS est l'équipement idéal des bureaux d'étud
 Le tableau de bord ci après détaille le suivi des circuits d'une chaufferie gaz. Les courbes vertes et rouge sont respectivement la température extérieure et la température de départ dans les circuits. Les fonctionnements de pompe sont 
 matérialisés en orange, les ouvertures et les fermetures de vannes 3 voies sont représentés par des traits verticaux bleus (ouvertures) et noirs (fermeture). 
 
+![suivi chaufferie OK]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_isolationOK.png){:class="img-responsive"}
+![suivi chaufferie pb vanne]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_defaut_vanne.png){:class="img-responsive"}
+
+![suivi chaufferie passoire]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_batiment_passoire.png){:class="img-responsive"}
+
 Le second graphique est typique d'une défaillance de vanne 3 voies. Le système mutiplie les ouvertures mais 
 la température dans le circuit ne bouge pas. Il faut appeler l'exploitant pour précéder au remplacement.
 
@@ -58,12 +63,6 @@ Le premier graphique illustre un fonctionnement normal : on distingue les rédui
 Le troisième graphique lui aussi illustre un fonctionnement normal. Il n'y a pas de réduits en semaine ou presque plus car il s'agit d'une passoire énergétique : l'intelligence 
 artificielle ayant modélisé le comportement du bâtiment est arrivée à la conclusion que la température chutait trop entre le soir et le matin et qu'il était nécessaire de maintenir le bâtiment en chauffe pendant la nuit pour garantir un confort minimal à l'arrivée des agents le matin. 
 En week end, le réduit est pratiqué mais sur une période plutôt courte. 
-
-![suivi chaufferie OK]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_isolationOK.png){:class="img-responsive"}
-![suivi chaufferie pb vanne]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_defaut_vanne.png){:class="img-responsive"}
-
-![suivi chaufferie passoire]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_batiment_passoire.png){:class="img-responsive"}
-
 
 Lorsque THEMIS sera arrivé à maturité, embarquant à son bord des algorithmes d’intelligence artificielle et des fonctions de pilotage intelligent, 
 il pourra, dans une optique décentralisée et autonome, jouer le rôle de contrôleur énergétique pour smartgrid multi-énergies. 
