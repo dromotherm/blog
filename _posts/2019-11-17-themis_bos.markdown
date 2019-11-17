@@ -19,11 +19,11 @@ Le schéma ci dessous représente l'architecture générale de l'écosystème TH
 
 Cette architecture permet de travailler avec deux types de fréquences radio : 868 Mhz et 169 Mhz et offre la possibilité de se raccorder à un bus industriel de type RS485, que l'on
 rencontre fréquemment dans les chaufferies gaz des bâtiments tertiaires, ce qui fait de THEMIS un agrégateur de données puissant, bénéficiant de la redoutable efficacité du protocole MQTT (Message Queuing Telemetry Transport). 
-La bande 169Mhz permet à THEMIS d'équiper de grands bâtiments avec des capteurs sans fil.
+Grâce a La bande 169Mhz, THEMIS est en mesure d'équiper des bâtiments de taille importante avec des capteurs sans fil.
 
-Sur un bâtiment voire sur un ensemble de bâtiments, THEMIS est capable de rassembler au sein d'une même base de données NoSQL chronologique 
-une bonne partie de ce qui est mesuré par les capteurs existants et de rajouter d'éventuels renseignements manquants. Le but est de capitaliser les informations recueillies, afin d'offir une matière numérique cohérente 
-à des algorithmes intelligents permettant de quantifier le comportement du bâtiment et donc d'en optimiser la gestion. 
+Sur un bâtiment voire sur un ensemble de bâtiments, THEMIS est capable de rassembler au sein d'une même base NoSQL de données chronologiques 
+une bonne partie de ce qui est mesuré par les capteurs existants et de rajouter d'éventuelles informations manquantes. Le but est de capitaliser le recueil de données, afin d'offir une matière numérique cohérente 
+à des algorithmes intelligents permettant de quantifier le comportement du bâtiment et d'en optimiser la gestion énergétique. 
 
 THEMIS offre une importante variété de mesures : température intérieure et extérieure, hygrométrie, CO2, puissance électrique instantanée, impulsions gaz, comptage de chaleur... 
 
@@ -46,7 +46,7 @@ Pendant les périodes d'été, THEMIS sait faire le calcul de l'humidité absolu
 
 ![psychrometric diagram]({{ site.baseurl }}/assets/themis/psychrometric.png){:class="img-responsive"}
 
-Avec cet outillage, THEMIS est l'outil idéal pour un bureau d'étude en efficacité énergétique. Il est aussi très pertinent dans le domaine de la maintenance pour le gestionnaire de bâtiments.
+Avec cet outillage logiciel, THEMIS est l'équipement idéal des bureaux d'études en efficacité énergétique. Il est aussi très pertinent dans le domaine de la maintenance pour le gestionnaire de bâtiments.
 
 Le tableau de bord ci après détaille le suivi des circuits d'une chaufferie gaz. Les courbes vertes et rouge sont respectivement la température extérieure et la température de départ dans les circuits. Les fonctionnements de pompe sont 
 matérialisés en orange, les ouvertures et les fermetures de vannes 3 voies sont représentés par des traits verticaux bleus (ouvertures) et noirs (fermeture). 
