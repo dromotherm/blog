@@ -67,6 +67,6 @@ En week end, le réduit est pratiqué mais sur une période plutôt courte.
 Lorsque THEMIS sera arrivé à maturité, embarquant à son bord des algorithmes d’intelligence artificielle et des fonctions de pilotage intelligent, 
 il pourra, dans une optique décentralisée et autonome, jouer le rôle de contrôleur énergétique pour smartgrid multi-énergies. 
 
-Themis sera le controlleur de réference pour la technologie dromotherm.
+Le système THEMIS est appelé à devenir le controlleur de réference pour la technologie dromotherm.
 
 ![dromotherm]({{ site.baseurl }}/assets/smartgrid_small.png){:class="img-responsive"}
