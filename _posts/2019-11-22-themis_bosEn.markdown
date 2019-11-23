@@ -3,7 +3,7 @@ layout: post
 title:  "The Building Operating System (BOS) Themis"
 date:   2019-11-22
 author: alex
-draft: true
+draft: false
 lang: en
 ref: themis bos opensource
 categories: [themis]
@@ -34,3 +34,43 @@ THEMIS can simulate thermal losses related to air leakages, and can estimate the
 in order to assess the difference with the prescribed performance.
 
 ![simulation des pertes par infiltrations]({{ site.baseurl }}/assets/themis/INFLOSSES.png){:class="img-responsive"}
+
+The system was heavily tested on the field during an operation carried out by the social landlord Allier habitat, with measurements carried out over one year 
+on three pavilion-type dwellings in order to evaluate different thermal insulation techniques from the outside.
+
+![suivi des consommations énergétiques]({{ site.baseurl }}/assets/themis/Energy.png){:class="img-responsive"}
+
+Given the precision of its monitoring, THEMIS makes it easy to distinguish what is relevant to uses (related to the residents'habits or behaviours) from what 
+is specific to the building's performance, as shown by the following illustration, where we can identify at a glance the energy consumption due to the use of an air conditioner.
+
+![simulation des pertes par infiltrations]({{ site.baseurl }}/assets/themis/Energie_ConfortTRH.png){:class="img-responsive"}
+
+During summer, THEMIS can calculate absolute humidity and produce psychrometric diagrams in order to identify the discomfort.
+
+![psychrometric diagram]({{ site.baseurl }}/assets/themis/psychrometric.png){:class="img-responsive"}
+
+With such software tools, THEMIS is the perfect equipment for engineering departments specialized in energy efficiency. It is also very relevant in the field of maintenance.
+
+The following dashboard details the circuits'monitoring in a gas boiler room. The green and red curves represents respectively the outside temperature and the flow temperature 
+in the circuits. The pumps'activities appear in orange, while the openings and closures of 3-way valves are represented by vertical lines, blue for openings and black for closures. 
+
+![suivi chaufferie OK]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_isolationOK.png){:class="img-responsive"}
+![suivi chaufferie pb vanne]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_defaut_vanne.png){:class="img-responsive"}
+![suivi chaufferie passoire]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_batiment_passoire.png){:class="img-responsive"}
+
+The second graph is typical of a 3-way valve failure. We can see repeating opening orders while the temperature in the circuit remains the same. 
+A replacement has to be achieved as soon as possible.
+
+The first graph illustrates a normal behaviour : at night, the hot water supply is reduced. 
+
+The third graph represents the heat regulation on a poorly insulated building : 
+while modeling the building's behaviour, the artificial intelligence concluded that the temperature dropped too much between evening and morning and 
+that it was necessary to keep the building warm at night in order to ensure a basic comfort in morning time, when office work begins. 
+During weekends, a reduction is practiced for a rather short period of time. 
+
+In the future, with on board artificial intelligence algorithms and intelligent control functions, 
+THEMIS will be able to act as a multi-energetic smartgrid controller, in a decentralized and autonomous perspective 
+
+The THEMIS system will become the reference controller for dromotherm technology.
+
+![dromotherm]({{ site.baseurl }}/assets/smartgrid_small.png){:class="img-responsive"}
