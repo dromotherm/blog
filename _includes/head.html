@@ -10,6 +10,7 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    
     {% for post in posts %}
       <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
     {% endfor %}

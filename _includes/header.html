@@ -48,7 +48,7 @@
 
 {% if page.ref %}
 <div class="wrapper" style="text-align: right; line-height: 2em">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+  {% assign posts=site.posts | where:"ref", page.ref | where:"draft": false | sort: 'lang' %}
   {% for post in posts %} 
     <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">
       {%- if post.lang == page.lang -%} <b><u>{{ post.lang }}</u></b> {%- else -%} {{ post.lang }} {%- endif -%}
