@@ -64,7 +64,7 @@ A replacement has to be achieved as soon as possible.
 The first graph illustrates a normal behaviour : at night, the hot water supply is reduced. 
 
 The third graph represents the heat regulation on a poorly insulated building : 
-while modeling the building's behaviour the artificial intelligence concluded that indoor temperature dropped too much between evening and morning When outside temperature was below a certain threshold and  
+while modeling the building's behaviour the artificial intelligence concluded that indoor temperature dropped too much between evening and morning when outside temperature was below a certain threshold and  
 that it was necessary to keep the building warm at night in order to ensure a basic comfort in morning time, when office work begins. 
 During weekends, a reduction is practiced for a rather short period of time. 
 
