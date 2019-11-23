@@ -4,7 +4,7 @@ title:  "The Building Operating System (BOS) Themis"
 date:   2019-11-22
 author: alex
 draft: true
-lang: fr
+lang: en
 ref: themis bos opensource
 categories: [themis]
 ---
