@@ -61,8 +61,7 @@ la température dans le circuit ne bouge pas. Il faut appeler l'exploitant pour 
 
 Le premier graphique illustre un fonctionnement normal : on distingue les réduits. 
 Le troisième graphique lui aussi illustre un fonctionnement normal. Il n'y a pas de réduits en semaine ou presque plus car il s'agit d'une passoire énergétique : l'intelligence 
-artificielle ayant modélisé le comportement du bâtiment est arrivée à la conclusion que si on arrêtait de chauffer en dessous d'une certaine température à l'extérieur, la température intérieure chutait trop entre le soir et le matin et qu'il était nécessaire de maintenir le bâtiment en chauffe pendant la nuit pour garantir un confort minimal à l'arrivée des occupants le matin. 
-En week end, le réduit est pratiqué mais sur une période plutôt courte. 
+artificielle ayant modélisé le comportement du bâtiment est arrivée à la conclusion qu'en dessous d'une certaine température extérieure, si on arrêtait de chauffer la nuit, la température intérieure chutait trop et que la meilleure option était de maintenir le bâtiment en chauffe pour garantir un confort minimal à l'arrivée des occupants le matin.
 
 Lorsque THEMIS sera arrivé à maturité, embarquant à son bord des algorithmes d’intelligence artificielle et des fonctions de pilotage intelligent, 
 il pourra, dans une optique décentralisée et autonome, jouer le rôle de contrôleur énergétique pour smartgrid multi-énergies. 
