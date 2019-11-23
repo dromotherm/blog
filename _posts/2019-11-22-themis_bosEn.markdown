@@ -40,7 +40,7 @@ on three pavilion-type dwellings in order to evaluate different thermal insulati
 
 ![suivi des consommations énergétiques]({{ site.baseurl }}/assets/themis/Energy.png){:class="img-responsive"}
 
-Given the precision of its monitoring, THEMIS makes it easy to distinguish what is relevant to uses (related to the residents'habits or behaviours) from what 
+Given the precision of its monitoring, THEMIS makes it easy to distinguish what is relevant to uses (ie related to the residents'habits or behaviours) from what 
 is specific to the building's performance, as shown by the following illustration, where we can identify at a glance the energy consumption due to the use of an air conditioner.
 
 ![simulation des pertes par infiltrations]({{ site.baseurl }}/assets/themis/Energie_ConfortTRH.png){:class="img-responsive"}
