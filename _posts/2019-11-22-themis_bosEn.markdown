@@ -64,7 +64,7 @@ A replacement has to be achieved as soon as possible.
 The first graph illustrates a normal behaviour : at night, hot water supply is reduced. 
 
 The third graph represents the heat regulation on a poorly insulated building : 
-while modeling the building's behaviour, the artificial intelligence concluded that indoor temperature dropped too much between evening and morning when outside temperature was below a certain threshold. 
+while modeling the building's behaviour, the artificial intelligence concluded that, when outside temperature was below a certain threshold and when heat injection in the circuit was stopped during the night, indoor temperature dropped too much between evening and morning. 
 In those cases, the decision taken is to keep the building warm at night in order to ensure a basic comfort in morning time, when office work resumes.
 
 In the future, with on board artificial intelligence algorithms and intelligent control functions, 
