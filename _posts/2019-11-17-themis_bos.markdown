@@ -53,7 +53,6 @@ matérialisés en orange, les ouvertures et les fermetures de vannes 3 voies son
 
 ![suivi chaufferie OK]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_isolationOK.png){:class="img-responsive"}
 ![suivi chaufferie pb vanne]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_defaut_vanne.png){:class="img-responsive"}
-
 ![suivi chaufferie passoire]({{ site.baseurl }}/assets/themis/monitoring_circuit_eau_chaude_batiment_passoire.png){:class="img-responsive"}
 
 Le second graphique est typique d'une défaillance de vanne 3 voies. Le système mutiplie les ouvertures mais 
