@@ -33,8 +33,7 @@ Capable de simuler les pertes thermiques par infiltration pour un bâtiment, THE
 
 ![simulation des pertes par infiltrations]({{ site.baseurl }}/assets/themis/INFLOSSES.png){:class="img-responsive"}
 
-La mise en œuvre sur le terrain et le système ont été expérimentés lors d’une opération menée par le bailleur social Allier habitat, avec des mesures effectuées durant un an sur trois habitations de type pavillonnaire afin d’évaluer différentes techniques d’isolation thermique par l’extérieur.
-
+La mise en œuvre sur le terrain et le système ont été expérimentés lors d’une opération menée par le bailleur social [Allier habitat](http://www.allier-habitat.fr/), avec des mesures effectuées durant un an sur trois habitations de type pavillonnaire afin d’évaluer différentes techniques d’isolation thermique par l’extérieur.
 
 ![suivi des consommations énergétiques]({{ site.baseurl }}/assets/themis/Energy.png){:class="img-responsive"}
 
