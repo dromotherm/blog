@@ -35,7 +35,7 @@ in order to assess the difference with the prescribed performance.
 
 ![simulation des pertes par infiltrations]({{ site.baseurl }}/assets/themis/INFLOSSES.png){:class="img-responsive"}
 
-The system was heavily tested on the field during an operation funded by the social landlord Allier habitat, with measurements carried out over one year 
+The system was heavily tested on the field during an operation funded by the social landlord [Allier habitat](http://www.allier-habitat.fr/), with measurements carried out over one year 
 on three pavilion-type dwellings in order to evaluate different thermal insulation techniques from the outside.
 
 ![suivi des consommations énergétiques]({{ site.baseurl }}/assets/themis/Energy.png){:class="img-responsive"}
