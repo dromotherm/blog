@@ -22,8 +22,8 @@ a standard communication protocol popular in industrial environments, such as bo
 benefiting from the high efficiency of the MQTT protocol (Message Queuing Telemetry Transport). 
 Thanks to the 169Mhz band, THEMIS is able to equip large buildings with wireless sensors.
 
-On a building or a set of buildings, THEMIS is able to gather in real time existing measurements from available facilities and extra ones from new sensors,
-storing all the feeds in the the same NoSQL chronological database. The aim is to capitalize physical data in order to provide a coherent digital material to intelligent 
+On a single building or on a set of buildings, THEMIS is able to gather in real time existing measurements from available facilities and extra ones from new sensors,
+storing all the feeds in the same NoSQL chronological database. The aim is to capitalize physical data in order to provide a coherent digital material to intelligent 
 algorithms so that they can quantify the building behaviour and optimize energy management. 
 
 THEMIS offers a wide variety of measurements: indoor and outdoor temperature, humidity, CO2, instantaneous electrical power, gas pulses, heat metering... 
@@ -35,7 +35,7 @@ in order to assess the difference with the prescribed performance.
 
 ![simulation des pertes par infiltrations]({{ site.baseurl }}/assets/themis/INFLOSSES.png){:class="img-responsive"}
 
-The system was heavily tested on the field during an operation carried out by the social landlord Allier habitat, with measurements carried out over one year 
+The system was heavily tested on the field during an operation funded by the social landlord Allier habitat, with measurements carried out over one year 
 on three pavilion-type dwellings in order to evaluate different thermal insulation techniques from the outside.
 
 ![suivi des consommations énergétiques]({{ site.baseurl }}/assets/themis/Energy.png){:class="img-responsive"}
