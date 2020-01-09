@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  "vidéo promo de Themis"
+title:  "Le système Themis en vidéo"
 date:   2020-01-09
-draft: true
 author: alex
 lang: fr
 ref: themis bos opensource
