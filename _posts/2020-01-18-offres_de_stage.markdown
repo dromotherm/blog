@@ -7,7 +7,9 @@ lang: fr
 ref: stages
 categories: [project management, dromotherm]
 ---
-A la suite de la réunion de lancement du projet, 2 offres de stage ont été élaborées, la première portant sur la thématique énergie, la seconde sur les aspects mécaniques.
+A la suite de la réunion de lancement du projet, il a été décidé d'élaborer 2 offres de stage, la première portant sur la thématique énergie, la seconde sur les aspects mécaniques.
+
+Le stage mécanique est prévu pour 2021... 
 
 # Stage énergie
 
@@ -25,4 +27,4 @@ Ce démonstrateur couplera :
 
 # Stage mécanique
 
-A venir...
+A prévoir sur 2021
