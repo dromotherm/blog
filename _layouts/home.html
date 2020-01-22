@@ -11,27 +11,36 @@ layout: default
   
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
+    
       {% if page.category %}
         {% assign posts=site.posts | where:"lang", page.lang | where:"draft", false | where_exp:"post", "post.categories contains page.category" %}
       {% else %}
         {% assign posts=site.posts | where:"lang", page.lang | where:"draft", false %}
       {% endif %}
+      <div class="row">
       {% for post in posts %}
-      <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        
+        <div class="col-lg-6 col-md-6 col-sm-6">
         <h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
         </h3>
+        {% if post.image %}
+           <img src=assets/{{ post.image}} class="rounded-lg">
+        {% endif %}
+        <div class="p-3 mb-2 bg-warning text-dark"><span class="post-meta">{{ post.date | date: date_format }}</span></div>
+        
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-      </li>
+        </div>
+        
+      
       {% endfor %}
-    </ul>
+      </div>
+    
   {%- endif -%}
 
 </div>

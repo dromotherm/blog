@@ -6,6 +6,7 @@ author: alex
 lang: fr
 ref: stages
 categories: [project management, dromotherm]
+image: TerraSpiral.jpg
 ---
 A la suite de la réunion de lancement du projet, il a été décidé d'élaborer 2 offres de stage, la première portant sur la thématique énergie, la seconde sur les aspects mécaniques.
 
