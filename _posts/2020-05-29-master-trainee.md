@@ -6,7 +6,7 @@ author: alex
 lang: fr
 ref: stages
 categories: [project management, dromotherm]
-draft: true
+draft: false
 ---
 
 Fébron SEVI est monté à bord du projet Dromotherm en avril 2020 donc en plein période de confinement liée au COVID-19. 
