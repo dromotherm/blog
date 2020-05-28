@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "présentation du stagiaire retenu pour le master énergie"
+title:  "nouveau venu à bord :-)"
 date:   2020-05-29
 author: alex
 lang: fr
