@@ -10,9 +10,9 @@ image: grad_travers.png
 draft: false
 ---
 
-Fébron SEVI est monté à bord du projet Dromotherm en avril 2020, en plein période de confinement liée au COVID-19. 
+Fébron SEVI est monté à bord du projet Dromotherm en mars 2020, en plein période de confinement liée au COVID-19. 
 
-Originaire du Bénin et après un bachelor et un master 1 de génie électrique au Burkina Faso, agé de 22 ans, Fébron est actuellement 
+Originaire du Bénin et après un bachelor et un master 1 de génie électrique et énergétique à l'Institut 2iE au Burkina Faso, agé de 22 ans, Fébron est actuellement 
 en dernière année de master 2 Ingénierie Énergies Durables à l'Institut National des Sciences Appliquées de Rouen(INSA)
 
 Fébron a travaillé sur 2 modèlisations simplifiées de l'échangeur dromotherm (0D vs 1D)
