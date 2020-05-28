@@ -4,7 +4,7 @@ title:  "nouveau venu à bord :-)"
 date:   2020-05-29
 author: alex
 lang: fr
-ref: stages
+ref: first models
 categories: [project management, dromotherm]
 draft: false
 ---
