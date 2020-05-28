@@ -21,7 +21,9 @@ L'idée est d'évaluer leur robustesse vis à vis du modèle 2D du Cerema et de 
 
 [notebook python retraçant une première approche du modèle 0D](https://github.com/seviprince/dromotherm/blob/master/Modelisation%200D.ipynb)
 
-![1Dvs2D]({{ site.baseurl }}/assets/1Dvs2D.png)
+![1Dvs2D]({{ site.baseurl }}/assets/master/1Dvs2D.png)
+
+![2Dmodel]({{ site.baseurl }}/assets/master/model2D.png)
 
 Fébron a aussi commencé à étudier le couplage d'un modèle de bâtiment au dromotherme, afin de pouvoir réaliser un premier 
 dimensionnement du futur démonstrateur. Bien entendu, il restera à intercaler un modèle de stockage entre le bâtiment et 
