@@ -19,7 +19,7 @@ Fébron a travaillé sur 2 modèlisations simplifiées de l'échangeur dromother
 
 L'idée est d'évaluer leur robustesse vis à vis du modèle 2D du Cerema et de faire le bon choix, entre rapidité et précision.....
 
-[notebook python retraçant une première approche du modèle 0D](https://github.com/seviprince/dromotherm/blob/master/Modelisation%200D.ipynb)
+[notebook python retraçant une première approche du modèle 0D](https://github.com/seviprince/dromotherm/blob/master/00_Modelisation%200D.ipynb)
 
 ![1Dvs2D]({{ site.baseurl }}/assets/master/1Dvs2D.png)
 
