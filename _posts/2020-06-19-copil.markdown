@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "comité de pilotage"
-date:   2020-06-20
+date:   2020-06-19
 author: alex
 lang: fr
 ref: copil
