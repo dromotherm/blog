@@ -36,22 +36,25 @@ Tennerdis | Nadine AUBINAIS-LANFREY
 - Fonctionnement de l'échangeur dromotherme en permanence pendant un an pour satisfaire des besoins ECS+chauffage globalisés
 
 Nota :
-- Durant les nuits d'été, le stockage 'chauffe' la route : il faudrait développer plus avant le modèle pour piloter plus finement le dromotherme. 
+- Durant les nuits d'été, le stockage 'chauffe' la route : il faudrait développer le modèle pour piloter plus finement le dromotherme. 
 - Les besoins de chauffage sont calés sur ceux d'une maison de 150 m2 RT2012.
 - Les besoins ECS représentent ceux d'une famille de 6 personnes. On est parti sur le principe d'un ballon tampon qui se chauffe toute la journée , ce qui n'est pas la réalité mais convient en terme d'ordre de grandeur
 - Le couplage actuel ne traduit pas le phénomène de prise en glace du stockage
 
-Il est intéressant de noter que la production d'ECS pendant la saison chaude ne semble pas pénaliser la recharge du stockage en température
+Il est intéressant de noter que la production d'ECS pendant la saison chaude ne semble pas pénaliser la recharge du stockage en température. Au fur et à mesure que la température dans le stockage augmente, le rendement du capteur dromotherm diminue.
 
 ![ECS]({{ site.baseurl }}/assets/master/cas_usage_ECS.png)
 
-Pistes à creuser dans le cadre du master mécanique : 
+Au niveau des réseaux, le projet devrait utiliser des tubes en polyéthylène haute densité (PHD) ou des conduites plastiques pré-isolés. Vu les températures en jeu et le faible linéaire, les pertes thermiques devraient être faibles (1%)
+
+### Pistes à creuser dans le cadre du master mécanique (février 2021) : 
 - jouer sur les propriétés des matériaux pour améliorer la conductivité dans l'échangeur dromotherm, ou pour agmenter la tortuosité (réseau granulaire dense). Pour l'instant, l'enrobé drainant est de granularité 0/14
 - remplacer la couche d'étanchéité par un sable enrobé, l'objectif étant d'atteindre une porosité de 1E-9 à 1E-10
 
-Application en terme de réduction des ilôts de chaleur urbain : la collecte énergétique de l'été se traduit par un abaissement de la température de chaussée d'environ 5°C entre le jour et la nuit....
+### Application en terme de réduction des ilôts de chaleur urbain
 
-A noter qu'au fur et à mesure que la température dans le stockage augmente, le rendement du capteur dromotherm diminue
+la collecte énergétique de l'été se traduit par un abaissement de la température de chaussée d'environ 5°C entre le jour et la nuit....
+
 
 ## dimensionnement et choix du site
 
@@ -63,8 +66,11 @@ Plusieurs sites sont présentés, sur le campus de l'université Savoie Mont Bla
 
 ![sites]({{ site.baseurl }}/assets/master/sites.png)
 
-La configuration la plus adaptée semble être la numéro 2, avec une voierie en section courante (plus simple qu'un parking).
+Le type de configuration la plus adaptée semble être la numéro 2, avec une voierie en section courante.
+Un parking présente des inconvénients : beaucoup de voitures, implantation délicate de caniveaux sur zone roulante.
 
 Vu la présence d'un bâtiment à proximité sur le site pressenti, la question du raccord à un usage existant est posée par Eiffage : il faudrait pour celà que la technologie énergétique du bâtiment auquel se raccorder soit compatible (chaleur basse température)
+
+Une fois le site définitif choisi, il faudra préparer le marché pour les travaux. La construction du démonstrateur est prévue pour février/mars 2021.
 
 # prochain copil : vendredi 23 Octobre 2020 de 10h à 12h
