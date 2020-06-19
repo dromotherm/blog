@@ -20,7 +20,7 @@ Cerema | Alexandre CUER, Frédéric BERNARDIN
 Ryb | Marc PALOMARES
 Tennerdis | Nadine AUBINAIS-LANFREY
 
-## Présentation de l'avancée du travail sur le master énergie
+## avancée des études énergétiques
 
 ![architecture retenue pour le couplage]({{ site.baseurl }}/assets/master/architecture.png)
 
@@ -43,9 +43,11 @@ Nota :
 
 Il est intéressant de noter que la production d'ECS pendant la saison chaude ne semble pas pénaliser la recharge du stockage en température
 
+![ECS]({{ site.baseurl }}/assets/master/cas_usage_ECS.png)
+
 Pistes à creuser dans le cadre du master mécanique : 
 - jouer sur les propriétés des matériaux pour améliorer la conductivité dans l'échangeur dromotherm, ou pour agmenter la tortuosité (réseau granulaire dense). Pour l'instant, l'enrobé drainant est de granularité 0/14
-- remplacer la couche d'étanchéité par un sable enrobé, l'objectif étant d'atteindre une porosité de 10-9 à 10-10
+- remplacer la couche d'étanchéité par un sable enrobé, l'objectif étant d'atteindre une porosité de 1E-9 à 1E-10
 
 Application en terme de réduction des ilôts de chaleur urbain : la collecte énergétique de l'été se traduit par un abaissement de la température de chaussée d'environ 5°C entre le jour et la nuit....
 
@@ -56,3 +58,13 @@ A noter qu'au fur et à mesure que la température dans le stockage augmente, le
 Pour simuler le besoin d'une maison RT2012 de 150m2 au sein du futur démonstrateur, on est parti sur une enveloppe en bois sur 20m2 de surface, peu isolée.
 
 ![dimensionnement]({{ site.baseurl }}/assets/master/dimensionnement.png)
+
+Plusieurs sites sont présentés, sur le campus de l'université Savoie Mont Blanc
+
+![sites]({{ site.baseurl }}/assets/master/sites.png)
+
+La configuration la plus adaptée semble être la numéro 2, avec une voierie en section courante (plus simple qu'un parking).
+
+Vu la présence d'un bâtiment à proximité sur le site pressenti, la question du raccord à un usage existant est posée par Eiffage : il faudrait pour celà que la technologie énergétique du bâtiment auquel se raccorder soit compatible (chaleur basse température)
+
+# prochain copil : vendredi 23 Octobre 2020 de 10h à 12h
