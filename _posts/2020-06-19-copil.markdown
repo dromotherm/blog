@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "comité de pilotage"
+date:   2020-06-20
+author: alex
+lang: fr
+ref: copil
+draft: true
+categories: [project management, dromotherm]
+image: maquette.png
+---
+
+présents :
+
+UCA/Institut Pascal : Evelyne TOUSSAINT
+
+Eiffage : Jérome DHERBECOURT, Flavien GEISSLER, Simon POUGET,  J. VAN ROMPU, 
+
+Locie : Benoit STUTZ, Fébron SEVI, 
+
+Cerema : Alexandre CUER, Frédéric BERNARDIN,
+
+Ryb : Marc PALOMARES
+
+Tennerdis : Nadine AUBINAIS-LANFREY
+
+## Présentation de l'avancée du travail sur le master énergie
+
+## choix du site
+
