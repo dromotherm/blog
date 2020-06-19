@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "comité de pilotage"
-date:   2020-06-20
+date:   2020-06-19
 author: alex
 lang: fr
 ref: copil
@@ -9,6 +9,8 @@ draft: true
 categories: [project management, dromotherm, copil]
 image: maquette.png
 ---
+Un comité de pilotage du projet dromotherm s'est tenu le 19 Juin 2020 de 10h à 12h. Vous trouverez dans ce post une synthèse des échanges.
+
 
 présents :
 
@@ -56,3 +58,5 @@ A noter qu'au fur et à mesure que la température dans le stockage augmente, le
 ## dimensionnement et choix du site
 
 Pour simuler le besoin d'une maison RT2012 de 150m2 au sein du futur démonstrateur, on est parti sur une enveloppe en bois sur 20m2 de surface, peu isolée.
+
+![dimensionnement]({{ site.baseurl }}/assets/master/dimensionnement.png)
