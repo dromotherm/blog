@@ -58,7 +58,7 @@ la collecte énergétique de l'été se traduit par un abaissement de la tempér
 
 ## dimensionnement et choix du site
 
-Pour simuler le besoin d'une maison RT2012 de 150m2 au sein du futur démonstrateur, on est parti sur une enveloppe en bois sur 20m2 de surface, peu isolée.
+Pour simuler le besoin d'une maison RT2012 de 150m2 au sein du futur démonstrateur, il est acté la mise en oeuvre d'une enveloppe en bois sur 20m2 de surface, peu isolée.
 
 ![dimensionnement]({{ site.baseurl }}/assets/master/dimensionnement.png)
 
@@ -71,6 +71,6 @@ Un parking présente des inconvénients : beaucoup de voitures, implantation dé
 
 Vu la présence d'un bâtiment à proximité sur le site pressenti, la question du raccord à un usage existant est posée par Eiffage : il faudrait pour celà que la technologie énergétique du bâtiment auquel se raccorder soit compatible (chaleur basse température)
 
-Une fois le site définitif choisi, il faudra préparer le marché pour les travaux. La construction du démonstrateur est prévue pour février/mars 2021.
+Une fois le site définitif choisi, il faudra préparer le marché pour les travaux. La construction du démonstrateur est à viser pour février/mars 2021.
 
 # prochain copil : vendredi 23 Octobre 2020 de 10h à 12h
