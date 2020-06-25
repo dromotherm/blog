@@ -49,11 +49,11 @@ Au niveau des réseaux, le projet devrait utiliser des tubes en polyéthylène h
 
 ### Pistes à creuser dans le cadre du master mécanique (février 2021) : 
 - jouer sur les propriétés des matériaux pour améliorer la conductivité dans l'échangeur dromotherm, ou pour agmenter la tortuosité (réseau granulaire dense). Pour l'instant, l'enrobé drainant est de granularité 0/14
-- remplacer la couche d'étanchéité par un sable enrobé, l'objectif étant d'atteindre une porosité de 1E-9 à 1E-10
+- remplacer la couche d'étanchéité par un sable enrobé, l'objectif étant d'atteindre une conductivité hydraulique verticale de 1E-9 à 1E-10
 
 ### Application en terme de réduction des ilôts de chaleur urbain
 
-la collecte énergétique de l'été se traduit par un abaissement de la température de chaussée d'environ 5°C entre le jour et la nuit....
+la collecte énergétique de l'été se traduit par un abaissement de la température de chaussée d'environ 5°C par rapport à la même chaussée sans circulation de fluide à l'intérieur....
 
 
 ## dimensionnement et choix du site
