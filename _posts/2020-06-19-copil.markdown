@@ -7,7 +7,7 @@ lang: fr
 ref: copil
 draft: false
 categories: [project management, dromotherm, copil]
-image: master/architecture.png
+image: architecture_small.png
 ---
 Un comité de pilotage du projet dromotherm s'est tenu le 19 Juin 2020 de 10h à 12h. Vous trouverez dans ce post une synthèse des échanges.
 
