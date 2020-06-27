@@ -8,3 +8,5 @@ layout: default
 {% for myfile in file %}
   <li><a href="{{ site.baseurl }}{{ myfile.path }}">{{ myfile.basename }}</a></li>
 {% endfor %}
+
+{{ page.content }}
