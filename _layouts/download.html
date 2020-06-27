@@ -9,4 +9,6 @@ layout: default
   <li><a href="{{ site.baseurl }}{{ myfile.path }}">{{ myfile.basename }}</a></li>
 {% endfor %}
 
-{{ page.content }}
+<div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+</div>
