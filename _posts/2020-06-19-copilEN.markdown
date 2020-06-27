@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "comité de pilotage"
+title:  "steering committee"
 date:   2020-06-19
 author: alex
 lang: en
@@ -24,24 +24,24 @@ Tennerdis | Nadine AUBINAIS-LANFREY
 
 ![architecture retenue pour le couplage]({{ site.baseurl }}/assets/master/architecture.png)
 
-1) Development of 0D and 1D simulations of the dromotherm exchanger, with calibration on the 2D model previously developed by Cerema. The 1D model seems to be best one.
+1) Development of 0D and 1D simulations of the dromotherm heat exchanger, with calibration on the 2D model previously developed by Cerema. The 1D model seems to be best one.
 
-2) Connection of the 1D model with a storage facility and a building supplied by a substation heat pump
+2) Connection of the 1D model to a storage facility supplying a building through a substation heat pump
 
-3) Use in simulations of a typical weather with synthetic data from RT2012
+3) Use in simulations of a typical weather from France with synthetic data from RT2012
 
 4) Exploration of 3 use cases: 
 - domestic hot water - DHW for 5/6 months from spring onwards
-- Recharging storage during the summer and then heating a building for 6 months in the winter
-- Operation of the dromothermal exchanger permanently for one year to satisfy global DHW+heating needs.
+- geothermal refill of a short-term storage during the summer, used during the cold season to heat a building
+- operation of the dromothermal exchanger permanently for one year to satisfy global DHW+heating needs.
 
 Note:
-- During the summer nights, the storage 'heats' the road: it would be necessary to develop the model to drive the dromotherm more finely. 
+- During the summer nights, the storage 'heats' the road: it would be necessary to develop further the model in order to drive the dromotherm more accuratly. 
 - The heating needs are based on those of a 150 m2 RT2012 house.
-- The DHW needs are those of a family of 6 people. We started on the principle of a buffer tank that heats all day long, which is not the reality but is appropriate in terms of order of magnitude.
-- The current coupling does not reflect the phenomenon of storage freeze-up
+- The DHW needs are those of a family of 6 people. The model currently implements a buffer tank that heats all day long, which is not the reality but is appropriate in terms of order of magnitude.
+- The current model does not reflect the phenomenon of storage freeze-up
 
-It is interesting to note that DHW production during the warm season does not seem to penalize the recharging of temperature storage. As the temperature in the storage increases, the efficiency of the dromotherm collector decreases.
+It is interesting to note that DHW production during the warm season does not seem to penalize the refill of the storage. As the temperature in the storage increases, the efficiency of the dromotherm collector decreases.
 
 ![ECS]({{ site.baseurl }}/assets/master/cas_usage_ECS.png)
 
