@@ -36,7 +36,7 @@ Tennerdis | Nadine AUBINAIS-LANFREY
 - operation of the dromothermal exchanger permanently for one year to satisfy global DHW+heating needs.
 
 Note:
-- During the summer nights, the storage 'heats' the road: it would be necessary to develop further the model in order to drive the dromotherm more accuratly. 
+- During summer nights, the storage 'heats' the road: it would be necessary to develop further the model in order to drive the dromotherm more accuratly. 
 - The heating needs are based on those of a 150 m2 RT2012 house.
 - The DHW needs are those of a family of 6 people. The model currently implements a buffer tank that heats all day long, which is not the reality but is appropriate in terms of order of magnitude.
 - The current model does not reflect the phenomenon of storage freeze-up
@@ -56,7 +56,7 @@ summer energy collection results in a reduction in pavement temperature of about
 
 
 ## sizing and site selection
-To simulate the need for a 150m2 RT2012 house in the future demonstrator, we will implementat a wooden envelope on 20m2 of surface, wit low insulation.
+To simulate the needs of a 150m2 RT2012 house in the future demonstrator, we will implementat a 20 m2 wooden envelope, with little insulation.
 
 ![dimensionnement]({{ site.baseurl }}/assets/master/dimensionnement.png)
 
@@ -67,6 +67,6 @@ Showcase of several sites, on the campus of the University Savoie Mont Blanc
 The most suitable configuration seems to be number 2, with a straightforward road.
 A parking area is not the best option: lots of cars, delicate layout of gutters/drains on a driving area.
 
-Given the presence of a nearby building on the proposed site, Eiffage raised the question of connecting to an existing use: the energy technology of the building to be connected to would have to be compatible (low temperature heat).
+Given the presence of a nearby building on configuration 2, Eiffage raised the question of connecting to an existing use: the energy technology of the building would have to be compatible (low temperature heat).
 
 Target for the demonstrator construction : February/March 2021.
