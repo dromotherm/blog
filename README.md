@@ -40,6 +40,8 @@ If you don't want your post to be available in another language, just write a si
 If you want a specific post to be available in french and english, you will have to create two files : 
 - AAAA-MM-DD-name.markdown
 - AAAA-MM-DD-nameEn.markdown
+
+**DO NOT USE A REFERENCE THAT COULD BE THE NAME OF A CATEGORY !!!**
  
 It is essential that both files have the same ref in the metadatas section
 
