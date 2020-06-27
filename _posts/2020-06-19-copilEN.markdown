@@ -47,7 +47,7 @@ It is interesting to note that DHW production during the warm season does not se
 
 The project is expected to use high density polyethylene (PHD) or pre-insulated plastic pipes. Due to the temperatures involved and the low linearity, heat losses are expected to be low (1%).
 
-### Study of mechanical behaviour (February 2021) : 
+### mechanical behaviour studies (February 2021) : 
 - experiment different material sets in order to improve conductivity in the dromotherm exchanger, or to increase tortuosity (dense granular network). Rigth now, the drainage mix has a granularity of 0/14
 - replace the sealing layer with coated sand, the objective being to achieve a vertical hydraulic conductivity of 1E-9 to 1E-10
 
@@ -55,7 +55,7 @@ The project is expected to use high density polyethylene (PHD) or pre-insulated 
 summer energy collection results in a reduction in pavement temperature of about 5°C compared to the same pavement with no fluid circulation inside ...
 
 
-## sizing and site selection
+## site selection
 To simulate the needs of a 150m2 RT2012 house in the future demonstrator, we will implementat a 20 m2 wooden envelope, with little insulation.
 
 ![dimensionnement]({{ site.baseurl }}/assets/master/dimensionnement.png)
