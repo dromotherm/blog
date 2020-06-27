@@ -117,7 +117,7 @@ https://github.com/Kozea/WeasyPrint
 
 ## Multilingual adaptation
 
-Multilingual adaptation was realized with the help of the following article which describes a simple an elegant solution :
+Multilingual adaptation was realized with the help of the following article which describes a simple and elegant solution :
 
 https://www.sylvaindurand.org/making-jekyll-multilingual/
 
