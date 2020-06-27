@@ -45,32 +45,28 @@ It is interesting to note that DHW production during the warm season does not se
 
 ![ECS]({{ site.baseurl }}/assets/master/cas_usage_ECS.png)
 
-Au niveau des réseaux, le projet devrait utiliser des tubes en polyéthylène haute densité (PHD) ou des conduites plastiques pré-isolés. Vu les températures en jeu et le faible linéaire, les pertes thermiques devraient être faibles (1%)
+The project is expected to use high density polyethylene (PHD) or pre-insulated plastic pipes. Due to the temperatures involved and the low linearity, heat losses are expected to be low (1%).
 
-### Pistes à creuser dans le cadre du master mécanique (février 2021) : 
-- jouer sur les propriétés des matériaux pour améliorer la conductivité dans l'échangeur dromotherm, ou pour agmenter la tortuosité (réseau granulaire dense). Pour l'instant, l'enrobé drainant est de granularité 0/14
-- remplacer la couche d'étanchéité par un sable enrobé, l'objectif étant d'atteindre une conductivité hydraulique verticale de 1E-9 à 1E-10
+### Study of mechanical behaviour (February 2021) : 
+- experiment different material sets in order to improve conductivity in the dromotherm exchanger, or to increase tortuosity (dense granular network). Rigth now, the drainage mix has a granularity of 0/14
+- replace the sealing layer with coated sand, the objective being to achieve a vertical hydraulic conductivity of 1E-9 to 1E-10
 
-### Application en terme de réduction des ilôts de chaleur urbain
+### reduction of the urban 'heat island' effect
+summer energy collection results in a reduction in pavement temperature of about 5°C compared to the same pavement with no fluid circulation inside ...
 
-la collecte énergétique de l'été se traduit par un abaissement de la température de chaussée d'environ 5°C par rapport à la même chaussée sans circulation de fluide à l'intérieur....
 
-
-## dimensionnement et choix du site
-
-Pour simuler le besoin d'une maison RT2012 de 150m2 au sein du futur démonstrateur, il est acté la mise en oeuvre d'une enveloppe en bois sur 20m2 de surface, peu isolée.
+## sizing and site selection
+To simulate the need for a 150m2 RT2012 house in the future demonstrator, we will implementat a wooden envelope on 20m2 of surface, wit low insulation.
 
 ![dimensionnement]({{ site.baseurl }}/assets/master/dimensionnement.png)
 
-Plusieurs sites sont présentés, sur le campus de l'université Savoie Mont Blanc
+Showcase of several sites, on the campus of the University Savoie Mont Blanc
 
 ![sites]({{ site.baseurl }}/assets/master/sites.png)
 
-Le type de configuration la plus adaptée semble être la numéro 2, avec une voierie en section courante.
-Un parking présente des inconvénients : beaucoup de voitures, implantation délicate de caniveaux sur zone roulante.
+The most suitable configuration seems to be number 2, with a straightforward road.
+A parking area is not the best option: lots of cars, delicate layout of gutters/drains on a driving area.
 
-Vu la présence d'un bâtiment à proximité sur le site pressenti, la question du raccord à un usage existant est posée par Eiffage : il faudrait pour celà que la technologie énergétique du bâtiment auquel se raccorder soit compatible (chaleur basse température)
+Given the presence of a nearby building on the proposed site, Eiffage raised the question of connecting to an existing use: the energy technology of the building to be connected to would have to be compatible (low temperature heat).
 
-Une fois le site définitif choisi, il faudra préparer le marché pour les travaux. La construction du démonstrateur est à viser pour février/mars 2021.
-
-# prochain copil : vendredi 23 Octobre 2020 de 10h à 12h
+Target for the demonstrator construction : February/March 2021.
