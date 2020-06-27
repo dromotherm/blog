@@ -4,7 +4,7 @@ title:  "steering committee"
 date:   2020-06-19
 author: alex
 lang: en
-ref: copil
+ref: copil_1
 draft: false
 categories: [project management, dromotherm, copil]
 image: architecture_small.png
