@@ -3,15 +3,15 @@ layout: post
 title:  "comité de pilotage"
 date:   2020-06-19
 author: alex
-lang: fr
+lang: en
 ref: copil
 draft: false
 categories: [project management, dromotherm, copil]
 image: architecture_small.png
 ---
-Un comité de pilotage du projet dromotherm s'est tenu le 19 Juin 2020 de 10h à 12h. Vous trouverez dans ce post une synthèse des échanges.
+A steering committee of the dromotherm project was held on 19 June 2020 from 10am to 12pm. 
 
-partenaire | représentants
+partner | representatives
 --|--
 UCA/Institut Pascal | Evelyne TOUSSAINT
 Eiffage | Jérome DHERBECOURT, Flavien GEISSLER, Simon POUGET,  J. VAN ROMPU
@@ -20,28 +20,28 @@ Cerema | Alexandre CUER, Frédéric BERNARDIN
 Ryb | Marc PALOMARES
 Tennerdis | Nadine AUBINAIS-LANFREY
 
-## avancée des études énergétiques
+## advances in energy studies
 
 ![architecture retenue pour le couplage]({{ site.baseurl }}/assets/master/architecture.png)
 
-1) Développement de modèles 0D et 1D pour simuler le comportement de l'échangeur dromotherm, avec calage sur le modèle 2D développé dans le cadre de travaux antérieurs par le Cerema. Pour l'instant, le modèle 1D semble être le plus proche du modèle 2D.
+1) Development of 0D and 1D simulations of the dromotherm exchanger, with calibration on the 2D model previously developed by Cerema. The 1D model seems to be best one.
 
-2) Couplage du modèle 1D avec un stockage et un bâtiment alimenté par une pompe à chaleur en sous-station
+2) Connection of the 1D model with a storage facility and a building supplied by a substation heat pump
 
-3) Utilisation lors des simulations d'une météo type à base de données synthétiques issues de la RT2012
+3) Use in simulations of a typical weather with synthetic data from RT2012
 
-4) Exploration de 3 cas d'usage : 
-- Talon eau chaude sanitaire - ECS pendant 5/6 mois à compter du printemps
-- Recharge du stockage pendant l'été puis chauffage d'un bâtiment pendant 6 mois d'hiver
-- Fonctionnement de l'échangeur dromotherme en permanence pendant un an pour satisfaire des besoins ECS+chauffage globalisés
+4) Exploration of 3 use cases: 
+- domestic hot water - DHW for 5/6 months from spring onwards
+- Recharging storage during the summer and then heating a building for 6 months in the winter
+- Operation of the dromothermal exchanger permanently for one year to satisfy global DHW+heating needs.
 
-Nota :
-- Durant les nuits d'été, le stockage 'chauffe' la route : il faudrait développer le modèle pour piloter plus finement le dromotherme. 
-- Les besoins de chauffage sont calés sur ceux d'une maison de 150 m2 RT2012.
-- Les besoins ECS représentent ceux d'une famille de 6 personnes. On est parti sur le principe d'un ballon tampon qui se chauffe toute la journée , ce qui n'est pas la réalité mais convient en terme d'ordre de grandeur
-- Le couplage actuel ne traduit pas le phénomène de prise en glace du stockage
+Note:
+- During the summer nights, the storage 'heats' the road: it would be necessary to develop the model to drive the dromotherm more finely. 
+- The heating needs are based on those of a 150 m2 RT2012 house.
+- The DHW needs are those of a family of 6 people. We started on the principle of a buffer tank that heats all day long, which is not the reality but is appropriate in terms of order of magnitude.
+- The current coupling does not reflect the phenomenon of storage freeze-up
 
-Il est intéressant de noter que la production d'ECS pendant la saison chaude ne semble pas pénaliser la recharge du stockage en température. Au fur et à mesure que la température dans le stockage augmente, le rendement du capteur dromotherm diminue.
+It is interesting to note that DHW production during the warm season does not seem to penalize the recharging of temperature storage. As the temperature in the storage increases, the efficiency of the dromotherm collector decreases.
 
 ![ECS]({{ site.baseurl }}/assets/master/cas_usage_ECS.png)
 
