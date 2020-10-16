@@ -2,11 +2,11 @@
 layout: post
 title:  "Démarrage thèse"
 date:   2020-10-15
-author: alex
+author: prince
 lang: fr
 ref: thesis
 draft: false
-categories: [project management, dromotherm, thesis]
+categories: [project management, dromotherm]
 image: soutenance.png
 ---
 # Soutenance master
