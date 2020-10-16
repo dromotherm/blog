@@ -11,8 +11,8 @@ image: architecture_small.png
 ---
 Après cinq mois de stage sur le développement d’un démonstrateur de stockage thermique couplé 
 à l’échangeur Dromotherm au sein du LOCIE, j’ai soutenu avec la mention Très-Bien mon mémoire 
-de fin d’études pour l’obtention de mon diplôme d’ingénieur à l’Institut 2iE Ouagadougou. 
-Ce mémoire a été encadré par le Prof. Benoit STUTZ du LOCIE, Alexandre CUER et Frédéric BERNARDIN du Cerema.
+de fin d’études pour l’obtention de mon diplôme d’ingénieur Génie électrique et énergétque (option énergies renouvelbles) à l’Institut 2iE Ouagadougou 
+. Ce mémoire (téléchageable sur:) a été encadré par le Prof. Benoit STUTZ du LOCIE, Alexandre CUER et Frédéric BERNARDIN du Cerema.
 (INSERER IMAGE)
 
 J’ai entamé depuis le 1er octobre 2020, la thèse en continuité de mon stage et dont le thème est : 
