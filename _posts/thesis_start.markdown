@@ -2,7 +2,7 @@
 layout: post
 title:  "Démarrage thèse"
 date:   2020-10-15
-author: prince
+author: alex
 lang: fr
 ref: thesis
 draft: false
