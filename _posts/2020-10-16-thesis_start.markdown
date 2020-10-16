@@ -25,5 +25,5 @@ Cette thèse sera dirigée par le Prof. Benoit STUTZ, co-dirigée par Frédéric
 
 De manière globale, il s'agira d'installer le prototype du démonstrateur développé lors du stage de master pour en faire une plateforme expérimentale.
 Cette dernière nous permettra de comparer les résultats expérimentaux à ceux obtenus par nos modèles afin de les valider.
-Par ailleurs, je participe à la fin de ce mois d’octobre à la finale du concours Trophées Performance organisé par Veolia (https://www.veolia.com/fr/carrieres/faire-carriere/concours-trophees-performance) pour soutenir à nouveau mon mémoire de master.
+Par ailleurs, je participe à la fin de ce mois d’octobre à la finale du concours Trophées Performance organisé par [Veolia](https://www.veolia.com/fr/carrieres/faire-carriere/concours-trophees-performance) pour soutenir à nouveau mon mémoire de master.
 Ce concours vise à confronter et valoriser les projets innovants étudiés par les étudiants de part le monde lors de leur stage de fin d’études Bac+5. 
