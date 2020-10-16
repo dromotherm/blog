@@ -7,7 +7,7 @@ lang: fr
 ref: thesis
 draft: false
 categories: [project management, dromotherm, thesis]
-image: architecture_small.png
+image: soutenance.png
 ---
 # Soutenance master
 
@@ -15,7 +15,7 @@ Après cinq mois de stage sur le développement d’un démonstrateur de stockag
 à l’échangeur Dromotherm au sein du LOCIE, j’ai soutenu avec la mention Très-Bien mon mémoire 
 de fin d’études pour l’obtention de mon diplôme d’ingénieur Génie électrique et énergétque (option énergies renouvelbles) à l’Institut 2iE Ouagadougou 
 . Ce mémoire ([téléchargeable ici](/assets/downloads/fr/Mémoire_SEVI_Prince_corrigé.pdf)) a été encadré par le Prof. Benoit STUTZ du LOCIE, Alexandre CUER et Frédéric BERNARDIN du Cerema.
-![image_de_la_soutenance]({{ site.baseurl }}/assets/thesis/soutenance.jpg){:class="img-responsive"}
+![image_de_la_soutenance]({{ site.baseurl }}/assets/thesis/soutenance.png)
 
 # Démarrage thèse
 
