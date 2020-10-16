@@ -21,7 +21,7 @@ de fin d’études pour l’obtention de mon diplôme d’ingénieur Génie éle
 # Démarrage thèse
 
 J’ai entamé depuis le 1er octobre 2020, la thèse en continuité de mon stage et dont le thème est : 
-«Caractérisation mécanique et énergétique de l’échangeur Dromotherm et valorisation en lien avec les usages du bâtiment».
+**«Caractérisation mécanique et énergétique de l’échangeur Dromotherm et valorisation en lien avec les usages du bâtiment»**.
 Cette thèse sera dirigée par le Prof. Benoit STUTZ, co-dirigée par Frédéric BERNARDIN et encadrée par Alexandre CUER et Evelyne Toussaint (Institut Pascal).
 
 De manière globale, il s'agira d'installer le prototype du démonstrateur développé lors du stage de master pour en faire une plateforme expérimentale.
