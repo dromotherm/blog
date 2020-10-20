@@ -5,7 +5,7 @@ date:   2020-10-15
 author: Prince
 lang: fr
 ref: thesis
-draft: true
+draft: false
 categories: [project management, dromotherm, thesis]
 image: soutenance.png
 ---
