@@ -9,7 +9,6 @@ draft: false
 categories: [project management, dromotherm, thesis]
 image: soutenance.png
 ---
-# Soutenance master
 
 Après cinq mois de stage sur le développement d’un démonstrateur de stockage thermique couplé 
 à l’échangeur Dromotherm au sein du LOCIE, j’ai soutenu avec la mention Très-Bien mon mémoire 
