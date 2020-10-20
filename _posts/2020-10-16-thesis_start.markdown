@@ -10,7 +10,9 @@ categories: [project management, dromotherm, thesis]
 image: soutenance.png
 ---
 
-Après cinq mois de stage sur le développement d’un démonstrateur de stockage thermique couplé à l’échangeur Dromotherm au sein du LOCIE, j’ai soutenu avec la mention `Très-Bien` mon mémoire de fin d’études pour l’obtention de mon diplôme d’ingénieur Génie électrique et énergétique (option énergies renouvelables) à l’Institut 2iE Ouagadougou. 
+Fin des cinq mois de stage sur le développement d’un démonstrateur de stockage thermique couplé à l’échangeur Dromotherm au sein du LOCIE :-)
+
+J’ai soutenu avec la mention `Très-Bien` mon mémoire de fin d’études pour l’obtention de mon diplôme d’ingénieur Génie électrique et énergétique (option énergies renouvelables) à l’Institut 2iE Ouagadougou. 
 
 Ce mémoire ([téléchargeable ici](/assets/downloads/fr/Mémoire_SEVI_Prince_corrigé.pdf)) a été encadré par le Prof. Benoit STUTZ du LOCIE, Alexandre CUER et Frédéric BERNARDIN du Cerema.
 
