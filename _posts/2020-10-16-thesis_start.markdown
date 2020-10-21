@@ -31,4 +31,4 @@ Ce démonstrateur à l'échelle 1 nous permettra de comparer les résultats exp�
 
 Par ailleurs, je participe à la fin de ce mois d’octobre à la finale du concours Trophées Performance organisé par [Veolia](https://www.veolia.com/fr/carrieres/faire-carriere/concours-trophees-performance) et j'y présenterai mes résultats de master.
 
-Ce concours vise à confronter et valoriser les projets innovants étudiés par les étudiants de part le monde lors de leur stage de fin d’études Bac+5. 
+Ce concours vise à confronter et valoriser les projets innovants étudiés par les étudiants de part le monde lors de leur stage de fin d’études Bac+5... 
