@@ -20,7 +20,7 @@ Ce mémoire ([téléchargeable ici](/assets/downloads/fr/Mémoire_SEVI_Prince_co
 
 
 
-J’ai entamé depuis le 1er octobre 2020, la thèse en continuité de mon stage avec pour thème : 
+J’ai entamé depuis le 1er octobre 2020 une thèse en continuité de mon stage avec pour thème : 
 **«Caractérisation mécanique et énergétique de l’échangeur Dromotherm et valorisation en lien avec les usages du bâtiment»**.
 
 Cette thèse sera dirigée par le Prof. Benoit STUTZ, co-dirigée par Frédéric BERNARDIN et encadrée par Alexandre CUER et Evelyne TOUSSAINT (Institut Pascal).
@@ -31,4 +31,4 @@ Ce démonstrateur à l'échelle 1 nous permettra de comparer les résultats exp�
 
 Par ailleurs, je participe à la fin de ce mois d’octobre à la finale du concours Trophées Performance organisé par [Veolia](https://www.veolia.com/fr/carrieres/faire-carriere/concours-trophees-performance) et j'y présenterai mes résultats de master.
 
-Ce concours vise à confronter et valoriser les projets innovants étudiés par les étudiants de part le monde lors de leur stage de fin d’études Bac+5... 
+Ce concours vise à confronter et valoriser les travaux innovants menés par des étudiants lors de leur stage de fin d’études Bac+5... 
