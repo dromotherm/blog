@@ -10,7 +10,7 @@ categories: [project management, dromotherm]
 image: div/dromotherm_demonstrateur_small.png
 ---
 
-Le projet dromotherm participera aux atelier Ville & Aménagement Durable du pôle de compétitivité Tenerrdis
+Le projet dromotherm participera aux ateliers Ville & Aménagement Durable du pôle de compétitivité Tenerrdis
 
 ![]({{ site.baseurl }}/assets/div/dromotherm_demonstrateur_small.png)
 
