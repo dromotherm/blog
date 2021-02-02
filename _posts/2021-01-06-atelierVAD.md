@@ -10,10 +10,12 @@ categories: [project management, dromotherm]
 image: div/dromotherm_demonstrateur_vig.png
 ---
 
-Le projet dromotherm participera aux ateliers Ville & Aménagement Durable
+Le projet dromotherm a participé aux ateliers Innovations du centre d’échanges et de ressources ville & aménagements durables le 14 janvier 2021
 
 ![]({{ site.baseurl }}/assets/div/dromotherm_demonstrateur_small.png)
 
-Animé par le pôle de compétitivité Tenerrdis, cet atelier portera sur les revêtements innovants pour adapter les projets d’aménagements au changement climatique. 
+Cet atelier a porté sur les revêtements innovants pour adapter les projets d’aménagements au changement climatique. 
 
 [pour en savoir plus](https://www.tenerrdis.fr/fr/evenements/atelier-innovation-ville-amenagement-durable/)
+
+[les supports utilisés lors de l'atelier](https://www.ville-amenagement-durable.org/Innovation-amenagement)
