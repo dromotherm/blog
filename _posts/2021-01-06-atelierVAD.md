@@ -10,7 +10,7 @@ categories: [project management, dromotherm]
 image: div/dromotherm_demonstrateur_vig.png
 ---
 
-Le projet dromotherm a participé aux ateliers Innovations du centre d’échanges et de ressources ville & aménagements durables le 14 janvier 2021
+Le projet dromotherm a participé aux ateliers Innovations du centre d’échanges et de ressources VAD, ville & aménagements durables, le 14 janvier 2021
 
 ![]({{ site.baseurl }}/assets/div/dromotherm_demonstrateur_small.png)
 
