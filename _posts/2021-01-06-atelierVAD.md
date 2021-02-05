@@ -10,11 +10,12 @@ categories: [project management, dromotherm]
 image: div/dromotherm_demonstrateur_vig.png
 ---
 
-Le projet dromotherm a participé aux ateliers Innovations du centre d’échanges et de ressources VAD, ville & aménagements durables, le 14 janvier 2021
+Le projet dromotherm a participé aux ateliers Innovations du centre Ville & Aménagements Durables. 
 
-![]({{ site.baseurl }}/assets/div/dromotherm_demonstrateur_small.png)
+Le 14 janvier 2021, le centre d'échanges et de ressources VAD a fait un tour de plusieurs technologies innovantes dans le domaine des revêtements routiers. Dromotherm et son échangeur de chaleur routier était du lot. Le but est de trouver comment adapter les projets d’aménagements au changement climatique. 
+Une des questions pour l'instant encore ouverte concerne l'insertion de la technologie dromotherm dans la politique des villes en matière de gestion des eaux et de lutte contre la surchauffe.
 
-Cet atelier a porté sur les revêtements innovants pour adapter les projets d’aménagements au changement climatique. 
+![]({{ site.baseurl }}/assets/div/dromotherm_demonstrateur_small.png) 
 
 [pour en savoir plus](https://www.tenerrdis.fr/fr/evenements/atelier-innovation-ville-amenagement-durable/)
 
