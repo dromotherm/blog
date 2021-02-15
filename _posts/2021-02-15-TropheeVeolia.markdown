@@ -7,7 +7,7 @@ lang: fr
 ref: trophee_veolia
 draft: false
 categories: [project management, dromotherm]
-image: master/tropheee.png
+image: master/trophee.png
 ---
 
 C'est avec un immense plaisir que je vous annonce ma distinction aux **Concours Trophées Performances de Veolia édition 2020** dans la catégorie ville.
