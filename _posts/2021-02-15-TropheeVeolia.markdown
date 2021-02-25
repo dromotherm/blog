@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Trophées Performance Veolia 2020"
+title:  "Trophées Veolia 2020"
 date:   2021-02-15
 author: Prince
 lang: fr
