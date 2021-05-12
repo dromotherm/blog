@@ -7,7 +7,7 @@ lang: fr
 ref: thesis_1
 draft: false
 categories: [project management, dromotherm, thesis]
-image: soutenance.png
+image: thesis/soutenance.png
 ---
 
 Fin des cinq mois de stage sur le développement d’un simulateur de stockage thermique couplé à l’échangeur Dromotherm au sein du LOCIE :-)
