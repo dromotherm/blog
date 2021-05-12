@@ -7,7 +7,7 @@ lang: fr
 ref: trophee_veolia
 draft: false
 categories: [project management, dromotherm]
-image: master/trophee.png
+image: master/trophee.jpg
 ---
 
 Les travaux de master sur le Dromotherm ont fait l'objet d'une distinction.
