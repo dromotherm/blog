@@ -28,7 +28,7 @@ layout: default
           </a>
         </h3>
         {% if post.image %}
-           <img src=/assets/{{ post.image}} class="rounded-lg">
+           <img src=/assets/{{ post.image}} class="img-fluid rounded-lg">
         {% endif %}
         <div class="p-3 mb-2 bg-warning text-dark"><span class="post-meta">{{ post.date | date: date_format }}</span></div>
         
