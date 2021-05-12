@@ -2,10 +2,10 @@
 
 site for www.dromotherm.com
 
-[![Build Status](https://travis-ci.org/dromotherm/blog.svg?branch=master)](https://travis-ci.org/dromotherm/blog)
+[![Build and deploy Jekyll site to GitHub Pages](https://github.com/dromotherm/blog/actions/workflows/ruby.yml/badge.svg)](https://github.com/dromotherm/blog/actions/workflows/ruby.yml)
 
 The build status must be green in order for the gh-pages branch to be up-to-date. 
-The build role is to git push the compiled version of the site from travis to the github gh-pages branch. There is a need of a real time compilation different from the one offered by github-pages because of the use of a plugin generating pages for each thematic categories.
+There is a rbuby script generating pages for each thematic categories.
 
 http://dromotherm.github.io/blog
 
@@ -47,7 +47,11 @@ It is essential that both files have the same ref in the metadatas section
 
 ```diff
 + if you want your post to appear on front page, be sure to add `dromotherm` to the categories field
++ Dans ce cas il faut ajouter une image dans la section de métadonnées:
++ image: master/trophee.jpg
++ ATTENTION, la largeur de l'image doit être le double de sa hauteur
 ```
+
 
 date and draft fields are optional
 
