@@ -5,7 +5,7 @@ date:   2020-05-27
 author: alex
 lang: fr
 ref: first models
-categories: [project management, dromotherm, nrj master]
+categories: [dromotherm, nrj master]
 image: grad_travers.png
 draft: false
 ---
