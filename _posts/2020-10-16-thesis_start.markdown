@@ -6,7 +6,7 @@ author: Prince
 lang: fr
 ref: thesis_1
 draft: false
-categories: [project management, dromotherm, thesis]
+categories: [dromotherm, thesis]
 image: thesis/soutenance.png
 ---
 
