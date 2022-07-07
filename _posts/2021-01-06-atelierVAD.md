@@ -6,7 +6,7 @@ author: alex
 lang: fr
 ref: tenerrdis_vad
 draft: false
-categories: [project management, dromotherm]
+categories: [valorisation, dromotherm]
 image: div/dromotherm_demonstrateur_vig.png
 ---
 
