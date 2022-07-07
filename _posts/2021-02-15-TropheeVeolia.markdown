@@ -6,7 +6,7 @@ author: Prince
 lang: fr
 ref: trophee_veolia
 draft: false
-categories: [project management, dromotherm]
+categories: [valorisation, dromotherm]
 image: master/trophee.jpg
 ---
 
