@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: thesis | DROMOTHERM]]></title>
+  <link href="https://www.dromotherm.com/categories/thesis/atomfr.xml" rel="self"/>
+  <link href="https://www.dromotherm.com/"/>
+  <updated>2022-07-09T17:34:22+00:00</updated>
+  <id>https://www.dromotherm.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[contact@dromotherm.com]]></email>
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+  
+  
+  <entry>
+    <title type="html"><![CDATA[Démarrage thèse]]></title>
+    <link href="https://www.dromotherm.com/2020/10/thesis_start/"/>
+    <updated>2020-10-15T00:00:00+00:00</updated>
+    <id>https://www.dromotherm.com/2020/10/thesis_start</id>
+    <content type="html"><![CDATA[<p>Fin des cinq mois de stage sur le développement d’un simulateur de stockage thermique couplé à l’échangeur Dromotherm au sein du LOCIE :-)</p>
+
+<p>J’ai soutenu avec la mention <code class="highlighter-rouge">Très-Bien</code> mon mémoire de fin d’études pour l’obtention de mon diplôme d’ingénieur Génie électrique et énergétique (option énergies renouvelables) à l’Institut 2iE Ouagadougou.</p>
+
+<p>Ce mémoire (<a href="/assets/downloads/fr/Mémoire_SEVI_Prince_corrigé.pdf">téléchargeable ici</a>) a été encadré par le Prof. Benoit STUTZ du LOCIE, Alexandre CUER et Frédéric BERNARDIN du Cerema.</p>
+
+<p><img src="/assets/thesis/soutenance.png" alt="image_de_la_soutenance" /></p>
+
+<p>J’ai entamé depuis le 1er octobre 2020 une thèse en continuité de mon stage avec pour thème : 
+<strong>«Caractérisation mécanique et énergétique de l’échangeur Dromotherm et valorisation en lien avec les usages du bâtiment»</strong>.</p>
+
+<p>Cette thèse sera dirigée par le Prof. Benoit STUTZ, co-dirigée par Frédéric BERNARDIN et encadrée par Alexandre CUER et Evelyne TOUSSAINT (Institut Pascal).</p>
+
+<p>De manière globale, il s’agira de construire une plateforme expérimentale avec un dromotherme, un bâtiment et un stockage énergétique.</p>
+
+<p>Ce démonstrateur à l’échelle 1 nous permettra de comparer les résultats expérimentaux aux simulations afin de définir un cadre opérationnel de mise en oeuvre.</p>
+
+<p>Par ailleurs, je participe à la fin de ce mois d’octobre à la finale du concours Trophées Performance organisé par <a href="https://www.veolia.com/fr/carrieres/faire-carriere/concours-trophees-performance">Veolia</a> et j’y présenterai mes résultats de master.</p>
+
+<p>Ce concours vise à confronter et valoriser les travaux innovants menés par des étudiants lors de leur stage de fin d’études Bac+5…</p>
+]]></content>
+  </entry>
+  
+</feed>

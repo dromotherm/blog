@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DROMOTHERM</title>
+    <description>On the way to a new energetic paradigm...  .</description>
+    <link>https://www.dromotherm.com/</link>
+    <atom:link href= "https://www.dromotherm.com/flux.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 09 Jul 2022 17:34:22 +0000</pubDate>
+    <lastBuildDate>Sat, 09 Jul 2022 17:34:22 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.7</generator>
+    
+    
+      <item>
+        <title>Instrumentation</title>
+        <description>&lt;p&gt;Le démonstrateur construit sur le site du &lt;a href=&quot;https://www.google.com/maps/place/45.639799,+5.874676/@45.6398219,5.8747829,19z/data=!3m1!1e3&quot;&gt;Locie&lt;/a&gt; dispose enfin d’une instrumentation opérationnelle.&lt;/p&gt;
+
+&lt;p&gt;Une machine &lt;a href=&quot;http://dromotherm.github.io/documentation&quot;&gt;Themis&lt;/a&gt; a été spécialement mise au point pour l’occasion. 
+La configuration devait être initialement repartie sur 2 coffrets, l’un avec l’intelligence embarquée et les modules DI, DO, AI et AO, l’autre avec les modules de monitoring de type thermocouple et PT100.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/thesis/config_labo.jpg&quot; alt=&quot;themis labo conf&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Soit un total de 18 modules plus le récepteur radio pour les capteurs sans fil 169 Mhz…&lt;/p&gt;
+
+&lt;p&gt;Le jour J, l’ensemble a du être réparti sur 3 armoires, en raison d’aléas de terrain assez courants, notamment des cables de thermocouple coupés trop court lors des opérations de gros oeuvre. Les techniciens du Cerema ont réalisé eux-mêmes la tranchée entre la chaussée et le stockage car rien de tout celà n’avait été pris en charge par les équipes de TP pourtant équipées de minipelles. Bref, dès qu’il y a de l’innovation dans l’air et qu’on sort des sentiers battus, les laboratoires doivent savoir improviser !!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/thesis/armoires1&amp;amp;2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/thesis/armoires3&amp;amp;4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Une série de tableaux de bord permet de suivre l’instrumentation en temps réel :&lt;/strong&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Dénomination&lt;/th&gt;
+      &lt;th&gt;URL de consultation&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Conditions intérieures&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://dromotherm.ddns.net/dashboard/view/hab&quot;&gt;http://dromotherm.ddns.net/dashboard/view/hab&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chaussée&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://dromotherm.ddns.net/dashboard/view/cha&quot;&gt;http://dromotherm.ddns.net/dashboard/view/cha&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Stockage&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://dromotherm.ddns.net/dashboard/view/sto&quot;&gt;http://dromotherm.ddns.net/dashboard/view/sto&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Météo&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://dromotherm.ddns.net/dashboard/view/meteo&quot;&gt;http://dromotherm.ddns.net/dashboard/view/meteo&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Le suivi des conditions météorologiques comprend :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;un pyranomètre pour la mesure de la radiation solaire extraterrestre&lt;/li&gt;
+  &lt;li&gt;un pyrgéomètre pour la mesure de la radiation atmosphérique&lt;/li&gt;
+  &lt;li&gt;un anémomètre pour la mesure de la vitesse du vent&lt;/li&gt;
+  &lt;li&gt;un pluviomètre à augets basculants pour la mesure des hauteurs de précipitations&lt;/li&gt;
+  &lt;li&gt;un capteur de température et d’humidité&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;les-travaux&quot;&gt;les travaux&lt;/h1&gt;
+
+&lt;p&gt;Pour memoire, les travaux du génie civil ont eu lieu au printemps 2022.&lt;/p&gt;
+
+&lt;p&gt;Un stockage d’environ 45 m3 a été mis en place, équipé de 4 couches de tubes géothermiques en spirale, donc divisé en 5 couches.&lt;/p&gt;
+
+&lt;p&gt;Chacune des couches a été instrumentée en température par des thermocouples.&lt;/p&gt;
+
+&lt;p&gt;Les 3 couches de chaussée (roulement, drainant en liaison et base) ont été instrumentées de façon identique.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/thesis/dromotherm_principe.png&quot; alt=&quot;principe&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;le-stockage-géothermique&quot;&gt;le stockage géothermique&lt;/h2&gt;
+
+&lt;h3 id=&quot;juste-après-les-travaux-dexcavation&quot;&gt;juste après les travaux d’excavation&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/thesis/Stockage.jpg&quot; alt=&quot;sto1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mise-en-place-du-système-spiralé&quot;&gt;mise en place du système spiralé&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/thesis/pose_spirales_stockage.JPG&quot; alt=&quot;sto2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;épandage-de-la-couche-de-sable&quot;&gt;épandage de la couche de sable&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/thesis/remplissage_stockage.JPG&quot; alt=&quot;sto3&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2022/07/instru1/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2022/07/instru1/</guid>
+        
+        
+        <category>dromotherm</category>
+        
+        <category>instrumentation</category>
+        
+      </item>
+    
+      <item>
+        <title>Trophées Veolia 2020</title>
+        <description>&lt;p&gt;Les travaux de master sur le Dromotherm ont fait l’objet d’une distinction.&lt;/p&gt;
+
+&lt;p&gt;C’est avec un immense plaisir que je vous annonce être lauréat de l’édition 2020 du &lt;strong&gt;Concours Trophées Performances de Veolia&lt;/strong&gt; 
+dans la catégorie ville.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/master/Trophee-perf-3.jpg&quot; alt=&quot;la remise des prix&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La cérémonie de remise a eu lieu le mardi 02 février 2021 au siège de &lt;a href=&quot;https://www.youtube.com/watch?v=cd3J64suSZU&amp;amp;feature=youtu.be&quot;&gt;Veolia&lt;/a&gt; à Paris.&lt;/p&gt;
+
+&lt;p&gt;Merci à Veolia pour ses Trophées Performances qui valorisent nos travaux et nos écoles !!!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2021/02/TropheeVeolia/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2021/02/TropheeVeolia/</guid>
+        
+        
+        <category>dromotherm</category>
+        
+        <category>valorisation</category>
+        
+      </item>
+    
+      <item>
+        <title>Ateliers VAD Tenerrdis</title>
+        <description>&lt;p&gt;Le projet dromotherm a participé à un atelier du centre Ville &amp;amp; Aménagements Durables.&lt;/p&gt;
+
+&lt;p&gt;Le 14 janvier 2021, le centre d’échanges et de ressources VAD a fait un tour de plusieurs technologies innovantes dans le domaine des revêtements routiers. Dromotherm et son échangeur de chaleur routier était du lot. Le but est de trouver comment adapter les projets d’aménagements au changement climatique. 
+Une des questions pour l’instant encore ouverte concerne l’insertion de la technologie dromotherm dans la politique des villes en matière de gestion des eaux et de lutte contre la surchauffe.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/div/dromotherm_demonstrateur_small.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tenerrdis.fr/fr/evenements/atelier-innovation-ville-amenagement-durable/&quot;&gt;pour en savoir plus&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.ville-amenagement-durable.org/Innovation-amenagement&quot;&gt;les supports utilisés lors de l’atelier&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2021/01/atelierVAD/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2021/01/atelierVAD/</guid>
+        
+        
+        <category>dromotherm</category>
+        
+        <category>valorisation</category>
+        
+      </item>
+    
+      <item>
+        <title>Démarrage thèse</title>
+        <description>&lt;p&gt;Fin des cinq mois de stage sur le développement d’un simulateur de stockage thermique couplé à l’échangeur Dromotherm au sein du LOCIE :-)&lt;/p&gt;
+
+&lt;p&gt;J’ai soutenu avec la mention &lt;code class=&quot;highlighter-rouge&quot;&gt;Très-Bien&lt;/code&gt; mon mémoire de fin d’études pour l’obtention de mon diplôme d’ingénieur Génie électrique et énergétique (option énergies renouvelables) à l’Institut 2iE Ouagadougou.&lt;/p&gt;
+
+&lt;p&gt;Ce mémoire (&lt;a href=&quot;/assets/downloads/fr/Mémoire_SEVI_Prince_corrigé.pdf&quot;&gt;téléchargeable ici&lt;/a&gt;) a été encadré par le Prof. Benoit STUTZ du LOCIE, Alexandre CUER et Frédéric BERNARDIN du Cerema.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/thesis/soutenance.png&quot; alt=&quot;image_de_la_soutenance&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;J’ai entamé depuis le 1er octobre 2020 une thèse en continuité de mon stage avec pour thème : 
+&lt;strong&gt;«Caractérisation mécanique et énergétique de l’échangeur Dromotherm et valorisation en lien avec les usages du bâtiment»&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cette thèse sera dirigée par le Prof. Benoit STUTZ, co-dirigée par Frédéric BERNARDIN et encadrée par Alexandre CUER et Evelyne TOUSSAINT (Institut Pascal).&lt;/p&gt;
+
+&lt;p&gt;De manière globale, il s’agira de construire une plateforme expérimentale avec un dromotherme, un bâtiment et un stockage énergétique.&lt;/p&gt;
+
+&lt;p&gt;Ce démonstrateur à l’échelle 1 nous permettra de comparer les résultats expérimentaux aux simulations afin de définir un cadre opérationnel de mise en oeuvre.&lt;/p&gt;
+
+&lt;p&gt;Par ailleurs, je participe à la fin de ce mois d’octobre à la finale du concours Trophées Performance organisé par &lt;a href=&quot;https://www.veolia.com/fr/carrieres/faire-carriere/concours-trophees-performance&quot;&gt;Veolia&lt;/a&gt; et j’y présenterai mes résultats de master.&lt;/p&gt;
+
+&lt;p&gt;Ce concours vise à confronter et valoriser les travaux innovants menés par des étudiants lors de leur stage de fin d’études Bac+5…&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Oct 2020 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2020/10/thesis_start/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2020/10/thesis_start/</guid>
+        
+        
+        <category>dromotherm</category>
+        
+        <category>thesis</category>
+        
+      </item>
+    
+      <item>
+        <title>comité de pilotage</title>
+        <description>&lt;p&gt;Un comité de pilotage du projet dromotherm s’est tenu le 19 Juin 2020 de 10h à 12h. Vous trouverez dans ce post une synthèse des échanges.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;partenaire&lt;/th&gt;
+      &lt;th&gt;représentants&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;UCA/Institut Pascal&lt;/td&gt;
+      &lt;td&gt;Evelyne TOUSSAINT&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Eiffage&lt;/td&gt;
+      &lt;td&gt;Jérome DHERBECOURT, Flavien GEISSLER, Simon POUGET,  J. VAN ROMPU&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Locie&lt;/td&gt;
+      &lt;td&gt;Benoit STUTZ, Fébron SEVI&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Cerema&lt;/td&gt;
+      &lt;td&gt;Alexandre CUER, Frédéric BERNARDIN&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ryb&lt;/td&gt;
+      &lt;td&gt;Marc PALOMARES&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Tennerdis&lt;/td&gt;
+      &lt;td&gt;Nadine AUBINAIS-LANFREY&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;avancée-des-études-énergétiques&quot;&gt;avancée des études énergétiques&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/master/architecture.png&quot; alt=&quot;architecture retenue pour le couplage&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1) Développement de modèles 0D et 1D pour simuler le comportement de l’échangeur dromotherm, avec calage sur le modèle 2D développé dans le cadre de travaux antérieurs par le Cerema. Pour l’instant, le modèle 1D semble être le plus proche du modèle 2D.&lt;/p&gt;
+
+&lt;p&gt;2) Couplage du modèle 1D avec un stockage et un bâtiment alimenté par une pompe à chaleur en sous-station&lt;/p&gt;
+
+&lt;p&gt;3) Utilisation lors des simulations d’une météo type à base de données synthétiques issues de la RT2012&lt;/p&gt;
+
+&lt;p&gt;4) Exploration de 3 cas d’usage :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Talon eau chaude sanitaire - ECS pendant 5/6 mois à compter du printemps&lt;/li&gt;
+  &lt;li&gt;Recharge du stockage pendant l’été puis chauffage d’un bâtiment pendant 6 mois d’hiver&lt;/li&gt;
+  &lt;li&gt;Fonctionnement de l’échangeur dromotherme en permanence pendant un an pour satisfaire des besoins ECS+chauffage globalisés&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Nota :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Durant les nuits d’été, le stockage ‘chauffe’ la route : il faudrait développer le modèle pour piloter plus finement le dromotherme.&lt;/li&gt;
+  &lt;li&gt;Les besoins de chauffage sont calés sur ceux d’une maison de 150 m2 RT2012.&lt;/li&gt;
+  &lt;li&gt;Les besoins ECS représentent ceux d’une famille de 6 personnes. On est parti sur le principe d’un ballon tampon qui se chauffe toute la journée , ce qui n’est pas la réalité mais convient en terme d’ordre de grandeur&lt;/li&gt;
+  &lt;li&gt;Le couplage actuel ne traduit pas le phénomène de prise en glace du stockage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Il est intéressant de noter que la production d’ECS pendant la saison chaude ne semble pas pénaliser la recharge du stockage en température. Au fur et à mesure que la température dans le stockage augmente, le rendement du capteur dromotherm diminue.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/master/cas_usage_ECS.png&quot; alt=&quot;ECS&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Au niveau des réseaux, le projet devrait utiliser des tubes en polyéthylène haute densité (PHD) ou des conduites plastiques pré-isolés. Vu les températures en jeu et le faible linéaire, les pertes thermiques devraient être faibles (1%)&lt;/p&gt;
+
+&lt;h3 id=&quot;pistes-à-creuser-dans-le-cadre-du-master-mécanique-février-2021-&quot;&gt;Pistes à creuser dans le cadre du master mécanique (février 2021) :&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;jouer sur les propriétés des matériaux pour améliorer la conductivité dans l’échangeur dromotherm, ou pour agmenter la tortuosité (réseau granulaire dense). Pour l’instant, l’enrobé drainant est de granularité 0/14&lt;/li&gt;
+  &lt;li&gt;remplacer la couche d’étanchéité par un sable enrobé, l’objectif étant d’atteindre une conductivité hydraulique verticale de 1E-9 à 1E-10&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;application-en-terme-de-réduction-des-ilôts-de-chaleur-urbain&quot;&gt;Application en terme de réduction des ilôts de chaleur urbain&lt;/h3&gt;
+
+&lt;p&gt;la collecte énergétique de l’été se traduit par un abaissement de la température de chaussée d’environ 5°C par rapport à la même chaussée sans circulation de fluide à l’intérieur….&lt;/p&gt;
+
+&lt;h2 id=&quot;dimensionnement-et-choix-du-site&quot;&gt;dimensionnement et choix du site&lt;/h2&gt;
+
+&lt;p&gt;Pour simuler le besoin d’une maison RT2012 de 150m2 au sein du futur démonstrateur, il est acté la mise en oeuvre d’une enveloppe en bois sur 20m2 de surface, peu isolée.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/master/dimensionnement.png&quot; alt=&quot;dimensionnement&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Plusieurs sites sont présentés, sur le campus de l’université Savoie Mont Blanc&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/master/sites.png&quot; alt=&quot;sites&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le type de configuration la plus adaptée semble être la numéro 2, avec une voierie en section courante.
+Un parking présente des inconvénients : beaucoup de voitures, implantation délicate de caniveaux sur zone roulante.&lt;/p&gt;
+
+&lt;p&gt;Vu la présence d’un bâtiment à proximité sur le site pressenti, la question du raccord à un usage existant est posée par Eiffage : il faudrait pour celà que la technologie énergétique du bâtiment auquel se raccorder soit compatible (chaleur basse température)&lt;/p&gt;
+
+&lt;p&gt;Une fois le site définitif choisi, il faudra préparer le marché pour les travaux. La construction du démonstrateur est à viser pour février/mars 2021.&lt;/p&gt;
+
+&lt;h1 id=&quot;prochain-copil--vendredi-23-octobre-2020-de-10h-à-12h&quot;&gt;prochain copil : vendredi 23 Octobre 2020 de 10h à 12h&lt;/h1&gt;
+</description>
+        <pubDate>Fri, 19 Jun 2020 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2020/06/copil/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2020/06/copil/</guid>
+        
+        
+        <category>copil</category>
+        
+        <category>dromotherm</category>
+        
+        <category>project management</category>
+        
+      </item>
+    
+      <item>
+        <title>nouveau venu à bord :-)</title>
+        <description>&lt;p&gt;Fébron SEVI est monté à bord du projet Dromotherm en mars 2020, en plein période de confinement liée au COVID-19.&lt;/p&gt;
+
+&lt;p&gt;Originaire du Bénin et après un bachelor et un master 1 de génie électrique et énergétique à l’Institut 2iE au Burkina Faso, agé de 22 ans, Fébron est actuellement 
+en dernière année de master 2 Ingénierie Énergies Durables à l’Institut National des Sciences Appliquées de Rouen(INSA)&lt;/p&gt;
+
+&lt;p&gt;Fébron a travaillé sur 2 modèlisations simplifiées de l’échangeur dromotherm (0D vs 1D)&lt;/p&gt;
+
+&lt;p&gt;L’idée est d’évaluer leur robustesse vis à vis du modèle 2D du Cerema et de faire le bon choix, entre rapidité et précision…..&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/seviprince/dromotherm/blob/master/00_Modelisation%200D.ipynb&quot;&gt;notebook python retraçant une première approche du modèle 0D&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/master/1Dvs2D.png&quot; alt=&quot;1Dvs2D&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/master/model2D.png&quot; alt=&quot;2Dmodel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fébron a aussi commencé à étudier le couplage d’un modèle de bâtiment au dromotherme, afin de pouvoir réaliser un premier 
+dimensionnement du futur démonstrateur. Bien entendu, il restera à intercaler un modèle de stockage entre le bâtiment et 
+le dromotherme.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 27 May 2020 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2020/05/master_trainee/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2020/05/master_trainee/</guid>
+        
+        
+        <category>dromotherm</category>
+        
+        <category>nrj master</category>
+        
+      </item>
+    
+      <item>
+        <title>Offres de stage niveau master</title>
+        <description>&lt;p&gt;A la suite de la réunion de lancement du projet, il a été décidé d’élaborer 2 offres de stage, la première portant sur la thématique énergie, la seconde sur les aspects mécaniques.&lt;/p&gt;
+
+&lt;p&gt;Le stage mécanique est prévu pour 2021…&lt;/p&gt;
+
+&lt;h1 id=&quot;stage-énergie&quot;&gt;Stage énergie&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;/assets/stages/Offre_stage_2020_energie.pdf&quot;&gt;télécharger l’offre de stage dromotherm énergie&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Intitulé :&lt;/strong&gt; dimensionnement/modélisation/choix de l’implantation d’un démonstrateur sur le site du Bourget de Lac à proximité de Chambéry. 
+Ce démonstrateur couplera :&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;un échangeur routier dromotherme de 30 m²,&lt;/li&gt;
+  &lt;li&gt;un stockage thermique enterré de 45 m³ constitué de gravier saturé et équipé de corbeilles géothermiques,&lt;/li&gt;
+  &lt;li&gt;un bâtiment en bois de 20 m² positionné sur le stockage thermique.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Durée du stage :&lt;/strong&gt; 5 mois entre le 03/02/2020 et le 24/07/2020&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Profil recherché :&lt;/strong&gt; bonnes compétences en thermique- énergétique&lt;/p&gt;
+
+&lt;h1 id=&quot;stage-mécanique&quot;&gt;Stage mécanique&lt;/h1&gt;
+
+&lt;p&gt;A prévoir sur 2021&lt;/p&gt;
+</description>
+        <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2020/01/offres_de_stage/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2020/01/offres_de_stage/</guid>
+        
+        
+        <category>dromotherm</category>
+        
+        <category>project management</category>
+        
+      </item>
+    
+      <item>
+        <title>Le système Themis en vidéo</title>
+        <description>&lt;p&gt;Avec le projet Themis, le Cerema Clermont-Ferrand a intégré plusieurs solutions de l’internet des objets au sein d’un dispositif de monitoring temps réel dédié à l’étude des performances énergétiques des bâtiments. Themis mesure les consommations électriques et évalue le confort thermique à travers des mesures de températures et d’humidité relative. Le système calcule automatiquement l’humidité absolue et peut afficher des diagrammes psychrométriques.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/_a5tcsRNEdg&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 09 Jan 2020 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2020/01/ThemisVideo/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2020/01/ThemisVideo/</guid>
+        
+        
+        <category>themis</category>
+        
+      </item>
+    
+      <item>
+        <title>Themis, un Building Operating System (BOS)</title>
+        <description>&lt;p&gt;THEMIS est un réseau de monitoring NON INTRUSIF orienté performance énérgétique du
+bâtiment, qui utilise le logiciel &lt;a href=&quot;http://github.com/emoncms/emoncms&quot;&gt;EmonCMS&lt;/a&gt; comme grapheur et comme stockage de données.
+EmonCMS est une base de données NoSQL dédiée au monitoring temps réel à base d’objets
+connectés. Son code est opensource.&lt;/p&gt;
+
+&lt;p&gt;Le schéma ci dessous représente l’architecture générale de l’écosystème THEMIS, avec au centre un routeur 4G smartflex….&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/themis/ecosysteme_version1.png&quot; alt=&quot;architecture d'un réseau de monitoring themis&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Cette architecture permet de travailler avec deux types de fréquences radio : 868 Mhz et 169 Mhz et offre la possibilité de se raccorder à un bus industriel de type RS485, que l’on
+rencontre fréquemment dans les chaufferies gaz des bâtiments tertiaires, ce qui fait de THEMIS un agrégateur de données puissant, bénéficiant de la redoutable efficacité du protocole MQTT (Message Queuing Telemetry Transport). 
+Grâce à la bande 169Mhz, THEMIS est en mesure d’équiper des bâtiments de taille importante avec des capteurs sans fil.&lt;/p&gt;
+
+&lt;p&gt;Sur un bâtiment voire sur un ensemble de bâtiments, THEMIS est capable de rassembler au sein d’une même base NoSQL de données chronologiques 
+une bonne partie de ce qui est mesuré par les capteurs existants et de rajouter d’éventuelles informations manquantes. Le but est de capitaliser le recueil de données, afin d’offir une matière numérique cohérente 
+à des algorithmes intelligents permettant de quantifier le comportement du bâtiment et d’en optimiser la gestion énergétique.&lt;/p&gt;
+
+&lt;p&gt;THEMIS offre une importante variété de mesures : température intérieure et extérieure, hygrométrie, CO2, puissance électrique instantanée, impulsions gaz, comptage de chaleur…&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/themis/themis_in_a_box.png&quot; alt=&quot;Themis in da box&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Capable de simuler les pertes thermiques par infiltration pour un bâtiment, THEMIS peut réaliser de façon automatisée le calcul d’un coefficient Ubat “terrain” (coefficient de déperdition d’une enveloppe) pour conduire des études de performances énergétiques analogues à celles menées dans le cadre du programme PREBAT (Programme de recherche et d’expérimentation sur l’énergie dans le bâtiment, initié par le plan climat 2004-2012 du gouvernement français).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/themis/INFLOSSES.png&quot; alt=&quot;simulation des pertes par infiltrations&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La mise en œuvre sur le terrain et le système ont été expérimentés lors d’une opération menée par le bailleur social &lt;a href=&quot;http://www.allier-habitat.fr/&quot;&gt;Allier habitat&lt;/a&gt;, avec des mesures effectuées durant un an sur trois habitations de type pavillonnaire afin d’évaluer différentes techniques d’isolation thermique par l’extérieur.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/themis/Energy.png&quot; alt=&quot;suivi des consommations énergétiques&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Vu la précision de son monitoring, THEMIS permet sans effort de faire le distinguo entre ce qui relève des usages et tout ce qui est propre au comportement du bâtiment, comme on le voit sur l’illustration suivante, où l’on 
+identifie d’un seul coup d’oeil les consommations énergétiques dues à l’utilisation d’un climatiseur.
+&lt;img src=&quot;/assets/themis/Energie_ConfortTRH.png&quot; alt=&quot;simulation des pertes par infiltrations&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pendant les périodes d’été, THEMIS sait faire le calcul de l’humidité absolue et permet de produire des diagrammes psychrométriques faisant apparaître les pourcentages hors du polygone de confort.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/themis/psychrometric.png&quot; alt=&quot;psychrometric diagram&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Avec cet outillage logiciel, THEMIS est l’équipement idéal des bureaux d’études en efficacité énergétique. Il est aussi très pertinent dans le domaine de la maintenance pour le gestionnaire de bâtiments.&lt;/p&gt;
+
+&lt;p&gt;Le tableau de bord ci après détaille le suivi des circuits d’une chaufferie gaz. Les courbes verte et rouge sont respectivement la température extérieure et la température de départ dans les circuits. Les fonctionnements de pompe sont 
+matérialisés en orange, les ouvertures et les fermetures de vannes 3 voies sont représentées par des traits verticaux bleus (ouvertures) et noirs (fermetures).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/themis/monitoring_circuit_eau_chaude_isolationOK.png&quot; alt=&quot;suivi chaufferie OK&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;img src=&quot;/assets/themis/monitoring_circuit_eau_chaude_defaut_vanne.png&quot; alt=&quot;suivi chaufferie pb vanne&quot; class=&quot;img-responsive&quot; /&gt;
+&lt;img src=&quot;/assets/themis/monitoring_circuit_eau_chaude_batiment_passoire.png&quot; alt=&quot;suivi chaufferie passoire&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Le second graphique est typique d’une défaillance de vanne 3 voies. Le système mutiplie les ouvertures mais 
+la température dans le circuit ne bouge pas. Il faut appeler l’exploitant pour procéder au remplacement.&lt;/p&gt;
+
+&lt;p&gt;Le premier graphique illustre un fonctionnement normal : on distingue les réduits. 
+Le troisième graphique lui aussi illustre un fonctionnement normal. Il n’y a pas de réduits en semaine ou presque plus car il s’agit d’une passoire énergétique : l’intelligence 
+artificielle ayant modélisé le comportement du bâtiment est arrivée à la conclusion qu’en dessous d’une certaine température extérieure, si on arrêtait de chauffer la nuit, la température intérieure chutait trop et que la meilleure option était de maintenir le bâtiment en chauffe pour garantir un confort minimal à l’arrivée des occupants le matin.&lt;/p&gt;
+
+&lt;p&gt;Lorsque THEMIS sera arrivé à maturité, embarquant à son bord des algorithmes d’intelligence artificielle et des fonctions de pilotage intelligent, 
+il pourra, dans une optique décentralisée et autonome, jouer le rôle de contrôleur énergétique pour smartgrid multi-énergies.&lt;/p&gt;
+
+&lt;p&gt;Le système THEMIS est appelé à devenir le controlleur de réference pour la technologie dromotherm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/smartgrid_small.png&quot; alt=&quot;dromotherm&quot; class=&quot;img-responsive&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 17 Nov 2019 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2019/11/themis_bos/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2019/11/themis_bos/</guid>
+        
+        
+        <category>themis</category>
+        
+      </item>
+    
+      <item>
+        <title>Project Kickoff</title>
+        <description>&lt;p&gt;Le Kickoff se déroulera le 17 décembre 2019 de 10h à 13h dans les locaux du Cerema à la Part-Dieu, à la direction technique territoires et ville du Cerema, au 2, rue Antoine Charial - 69426 Lyon Cedex 03&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://maps.google.fr/maps?oe=utf-8&amp;amp;client=firefox-a&amp;amp;safe=images&amp;amp;q=2+rue+antoine+charial&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=2+Rue+Antoine+Charial,+69003+Lyon,+Rh%C3%B4ne,+Rh%C3%B4ne-Alpes&amp;amp;gl=fr&amp;amp;t=m&amp;amp;z=14&amp;amp;ll=45.758488,4.863417&amp;amp;source=embed&quot;&gt;comment s’y rendre ?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Salle “Lucie Aubrac”, sous-sol du bâtiment&lt;/p&gt;
+</description>
+        <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+        <link>https://www.dromotherm.com/2019/09/project_kickoff/</link>
+        <guid isPermaLink="true">https://www.dromotherm.com/2019/09/project_kickoff/</guid>
+        
+        
+        <category>dromotherm</category>
+        
+        <category>project management</category>
+        
+      </item>
+    
+  </channel>
+</rss>

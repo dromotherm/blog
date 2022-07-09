@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: dromotherm | DROMOTHERM]]></title>
+  <link href="https://www.dromotherm.com/categories/dromotherm/atomen.xml" rel="self"/>
+  <link href="https://www.dromotherm.com/"/>
+  <updated>2022-07-09T17:34:22+00:00</updated>
+  <id>https://www.dromotherm.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[contact@dromotherm.com]]></email>
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+  
+  
+  <entry>
+    <title type="html"><![CDATA[steering committee]]></title>
+    <link href="https://www.dromotherm.com/2020/06/copilEN/"/>
+    <updated>2020-06-19T00:00:00+00:00</updated>
+    <id>https://www.dromotherm.com/2020/06/copilEN</id>
+    <content type="html"><![CDATA[<p>A steering committee of the dromotherm project was held on 19 June 2020 from 10am to 12pm.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>partner</th>
+      <th>representatives</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UCA/Institut Pascal</td>
+      <td>Evelyne TOUSSAINT</td>
+    </tr>
+    <tr>
+      <td>Eiffage</td>
+      <td>Jérome DHERBECOURT, Flavien GEISSLER, Simon POUGET,  J. VAN ROMPU</td>
+    </tr>
+    <tr>
+      <td>Locie</td>
+      <td>Benoit STUTZ, Fébron SEVI</td>
+    </tr>
+    <tr>
+      <td>Cerema</td>
+      <td>Alexandre CUER, Frédéric BERNARDIN</td>
+    </tr>
+    <tr>
+      <td>Ryb</td>
+      <td>Marc PALOMARES</td>
+    </tr>
+    <tr>
+      <td>Tennerdis</td>
+      <td>Nadine AUBINAIS-LANFREY</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="advances-in-energy-studies">advances in energy studies</h2>
+
+<p><img src="/assets/master/architecture.png" alt="architecture retenue pour le couplage" /></p>
+
+<p>1) Development of 0D and 1D simulations of the dromotherm heat exchanger, with calibration on the 2D model previously developed by Cerema. The 1D model seems to be best one.</p>
+
+<p>2) Connection of the 1D model to a storage facility supplying a building through a substation heat pump</p>
+
+<p>3) Use in simulations of a typical weather from France with synthetic data from RT2012</p>
+
+<p>4) Exploration of 3 use cases:</p>
+<ul>
+  <li>domestic hot water - DHW for 5/6 months from spring onwards</li>
+  <li>geothermal refill of a short-term storage during the summer, used during the cold season to heat a building</li>
+  <li>operation of the dromothermal exchanger permanently for one year to satisfy global DHW+heating needs.</li>
+</ul>
+
+<p>Note:</p>
+<ul>
+  <li>During summer nights, the storage ‘heats’ the road: it would be necessary to develop further the model in order to drive the dromotherm more accuratly.</li>
+  <li>The heating needs are based on those of a 150 m2 RT2012 house.</li>
+  <li>The DHW needs are those of a family of 6 people. The model currently implements a buffer tank that heats all day long, which is not the reality but is appropriate in terms of magnitude.</li>
+  <li>The current model does not reflect the phenomenon of storage freeze-up</li>
+</ul>
+
+<p>It is interesting to note that DHW production during the warm season does not seem to penalize the refill of the storage. As the temperature in the storage increases, the efficiency of the dromotherm collector decreases.</p>
+
+<p><img src="/assets/master/cas_usage_ECS.png" alt="ECS" /></p>
+
+<p>The project is expected to use high density polyethylene (PHD) or pre-insulated plastic pipes. Due to the temperatures involved and the low linearity, heat losses are expected to be low (1%).</p>
+
+<h3 id="mechanical-behaviour-studies-february-2021-">mechanical behaviour studies (February 2021) :</h3>
+<ul>
+  <li>experiment different material sets in order to improve conductivity in the dromotherm exchanger, or to increase tortuosity (dense granular network). Rigth now, the drainage mix has a granularity of 0/14</li>
+  <li>replace the sealing layer with coated sand, the objective being to achieve a vertical hydraulic conductivity of 1E-9 to 1E-10</li>
+</ul>
+
+<h3 id="reduction-of-the-urban-heat-island-effect">reduction of the urban ‘heat island’ effect</h3>
+<p>summer energy collection results in a reduction in pavement temperature of about 5°C compared to the same pavement with no fluid circulation inside …</p>
+
+<h2 id="site-selection">site selection</h2>
+<p>To simulate the needs of a 150m2 RT2012 house in the future demonstrator, we will implementat a 20 m2 wooden envelope, with little insulation.</p>
+
+<p><img src="/assets/master/dimensionnement.png" alt="dimensionnement" /></p>
+
+<p>Showcase of several sites, on the campus of the University Savoie Mont Blanc</p>
+
+<p><img src="/assets/master/sites.png" alt="sites" /></p>
+
+<p>The most suitable configuration seems to be number 2, with a straightforward road.
+A parking area is not the best option: lots of cars, delicate layout of gutters/drains on a driving area.</p>
+
+<p>Given the presence of a nearby building on configuration 2, Eiffage raised the question of connecting to an existing use: the energy technology of the building would have to be compatible (low temperature heat).</p>
+
+<p>Target for the demonstrator construction : February/March 2021.</p>
+]]></content>
+  </entry>
+  
+</feed>

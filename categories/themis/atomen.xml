@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: themis | DROMOTHERM]]></title>
+  <link href="https://www.dromotherm.com/categories/themis/atomen.xml" rel="self"/>
+  <link href="https://www.dromotherm.com/"/>
+  <updated>2022-07-09T17:34:22+00:00</updated>
+  <id>https://www.dromotherm.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[contact@dromotherm.com]]></email>
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+  
+  
+  <entry>
+    <title type="html"><![CDATA[The Building Operating System (BOS) Themis]]></title>
+    <link href="https://www.dromotherm.com/2019/11/themis_bosEn/"/>
+    <updated>2019-11-22T00:00:00+00:00</updated>
+    <id>https://www.dromotherm.com/2019/11/themis_bosEn</id>
+    <content type="html"><![CDATA[<p>THEMIS (THermic and Energetic MonItoring System) is a NON-INTRUSIVE monitoring network targeting building energy performance. 
+THEMIS embeds a fork of the <a href="http://github.com/emoncms/emoncms">EmonCMS</a> software as a grapher and for data storage. 
+EmonCMS is a NoSQL database dedicated to real-time monitoring based on connected objects. Its code is open source.</p>
+
+<p>The diagram below represents the general architecture of the THEMIS ecosystem, structured around an <a href="https://www.advantech.com">Advantech</a> 4G smartflex cellular router/gateway…..</p>
+
+<p><img src="/assets/themis/ecosysteme_version1.png" alt="architecture d'un réseau de monitoring themis" class="img-responsive" /></p>
+
+<p>This architecture implements two types of radio frequencies: 868 Mhz and 169 Mhz and offers the possibility to interface with an industrial RS485 bus (modbus), 
+a standard communication protocol popular in industrial environments, such as boiler rooms of tertiary buildings. This makes THEMIS a powerful data aggregator, 
+benefiting from the high efficiency of the MQTT protocol (Message Queuing Telemetry Transport). 
+Thanks to the 169Mhz band, THEMIS is able to equip large buildings with wireless sensors.</p>
+
+<p>On a single building or on a set of buildings, THEMIS is able to gather in real time existing measurements from available facilities and extra ones from new sensors,
+storing all the feeds in the same NoSQL chronological database. The aim is to capitalize physical data in order to provide a coherent digital material to intelligent 
+algorithms so that they can quantify the building behaviour and optimize energy management.</p>
+
+<p>THEMIS offers a wide variety of measurements: indoor and outdoor temperature, humidity, CO2, instantaneous electrical power, gas pulses, heat metering…</p>
+
+<p><img src="/assets/themis/themis_in_a_box.png" alt="Themis in da box" class="img-responsive" /></p>
+
+<p>THEMIS can simulate thermal losses related to air leakages, and can estimate the actual performance of the building envelope, 
+in order to assess the difference with the prescribed performance.</p>
+
+<p><img src="/assets/themis/INFLOSSES.png" alt="simulation des pertes par infiltrations" class="img-responsive" /></p>
+
+<p>The system was heavily tested on the field during an operation funded by the social landlord <a href="http://www.allier-habitat.fr/">Allier habitat</a>, with measurements carried out over one year 
+on three pavilion-type dwellings in order to evaluate different thermal insulation techniques from the outside.</p>
+
+<p><img src="/assets/themis/Energy.png" alt="suivi des consommations énergétiques" class="img-responsive" /></p>
+
+<p>Given the precision of its monitoring, THEMIS makes it easy to distinguish what is relevant to uses (ie related to the residents’habits or behaviours) from what 
+is specific to the building’s performance, as shown by the following illustration, where we can identify at a glance the energy consumption due to the use of an air conditioner.</p>
+
+<p><img src="/assets/themis/Energie_ConfortTRH.png" alt="simulation des pertes par infiltrations" class="img-responsive" /></p>
+
+<p>During summer, THEMIS can calculate absolute humidity and produce psychrometric diagrams in order to identify the discomfort.</p>
+
+<p><img src="/assets/themis/psychrometric.png" alt="psychrometric diagram" class="img-responsive" /></p>
+
+<p>With such software tools, THEMIS is the perfect equipment for engineering departments specialized in energy efficiency. It is also very relevant in the field of maintenance.</p>
+
+<p>The following dashboard details the circuits’monitoring in a gas boiler room. The green and red curves represents respectively the outside temperature and the flow temperature 
+in the circuits. The pumps’activities appear in orange, while the openings and closures of 3-way valves are represented by vertical lines, blue for openings and black for closures.</p>
+
+<p><img src="/assets/themis/monitoring_circuit_eau_chaude_isolationOK.png" alt="suivi chaufferie OK" class="img-responsive" />
+<img src="/assets/themis/monitoring_circuit_eau_chaude_defaut_vanne.png" alt="suivi chaufferie pb vanne" class="img-responsive" />
+<img src="/assets/themis/monitoring_circuit_eau_chaude_batiment_passoire.png" alt="suivi chaufferie passoire" class="img-responsive" /></p>
+
+<p>The second graph is typical of a 3-way valve failure. We can see repeating opening orders while the temperature in the circuit remains the same. 
+A replacement has to be achieved as soon as possible.</p>
+
+<p>The first graph illustrates a normal behaviour : at night, hot water supply is reduced.</p>
+
+<p>The third graph represents the heat regulation on a poorly insulated building : 
+while modeling the building’s behaviour, the artificial intelligence concluded that, when outside temperature was below a certain threshold and when heat injection in the circuit was stopped during the night, indoor temperature dropped too much between evening and morning. 
+In those cases, the decision taken is to keep the building warm at night in order to ensure a basic comfort in morning time, when office work resumes.</p>
+
+<p>In the future, with on board artificial intelligence algorithms and intelligent control functions, 
+THEMIS will be able to act as a multi-energetic smartgrid controller, in a decentralized and autonomous perspective</p>
+
+<p>The THEMIS system will become the reference controller for dromotherm technology.</p>
+
+<p><img src="/assets/smartgrid_small.png" alt="dromotherm" class="img-responsive" /></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: copil | DROMOTHERM]]></title>
+  <link href="https://www.dromotherm.com/categories/copil/atomfr.xml" rel="self"/>
+  <link href="https://www.dromotherm.com/"/>
+  <updated>2022-07-09T17:34:22+00:00</updated>
+  <id>https://www.dromotherm.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[contact@dromotherm.com]]></email>
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+  
+  
+  <entry>
+    <title type="html"><![CDATA[comité de pilotage]]></title>
+    <link href="https://www.dromotherm.com/2020/06/copil/"/>
+    <updated>2020-06-19T00:00:00+00:00</updated>
+    <id>https://www.dromotherm.com/2020/06/copil</id>
+    <content type="html"><![CDATA[<p>Un comité de pilotage du projet dromotherm s’est tenu le 19 Juin 2020 de 10h à 12h. Vous trouverez dans ce post une synthèse des échanges.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>partenaire</th>
+      <th>représentants</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>UCA/Institut Pascal</td>
+      <td>Evelyne TOUSSAINT</td>
+    </tr>
+    <tr>
+      <td>Eiffage</td>
+      <td>Jérome DHERBECOURT, Flavien GEISSLER, Simon POUGET,  J. VAN ROMPU</td>
+    </tr>
+    <tr>
+      <td>Locie</td>
+      <td>Benoit STUTZ, Fébron SEVI</td>
+    </tr>
+    <tr>
+      <td>Cerema</td>
+      <td>Alexandre CUER, Frédéric BERNARDIN</td>
+    </tr>
+    <tr>
+      <td>Ryb</td>
+      <td>Marc PALOMARES</td>
+    </tr>
+    <tr>
+      <td>Tennerdis</td>
+      <td>Nadine AUBINAIS-LANFREY</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="avancée-des-études-énergétiques">avancée des études énergétiques</h2>
+
+<p><img src="/assets/master/architecture.png" alt="architecture retenue pour le couplage" /></p>
+
+<p>1) Développement de modèles 0D et 1D pour simuler le comportement de l’échangeur dromotherm, avec calage sur le modèle 2D développé dans le cadre de travaux antérieurs par le Cerema. Pour l’instant, le modèle 1D semble être le plus proche du modèle 2D.</p>
+
+<p>2) Couplage du modèle 1D avec un stockage et un bâtiment alimenté par une pompe à chaleur en sous-station</p>
+
+<p>3) Utilisation lors des simulations d’une météo type à base de données synthétiques issues de la RT2012</p>
+
+<p>4) Exploration de 3 cas d’usage :</p>
+<ul>
+  <li>Talon eau chaude sanitaire - ECS pendant 5/6 mois à compter du printemps</li>
+  <li>Recharge du stockage pendant l’été puis chauffage d’un bâtiment pendant 6 mois d’hiver</li>
+  <li>Fonctionnement de l’échangeur dromotherme en permanence pendant un an pour satisfaire des besoins ECS+chauffage globalisés</li>
+</ul>
+
+<p>Nota :</p>
+<ul>
+  <li>Durant les nuits d’été, le stockage ‘chauffe’ la route : il faudrait développer le modèle pour piloter plus finement le dromotherme.</li>
+  <li>Les besoins de chauffage sont calés sur ceux d’une maison de 150 m2 RT2012.</li>
+  <li>Les besoins ECS représentent ceux d’une famille de 6 personnes. On est parti sur le principe d’un ballon tampon qui se chauffe toute la journée , ce qui n’est pas la réalité mais convient en terme d’ordre de grandeur</li>
+  <li>Le couplage actuel ne traduit pas le phénomène de prise en glace du stockage</li>
+</ul>
+
+<p>Il est intéressant de noter que la production d’ECS pendant la saison chaude ne semble pas pénaliser la recharge du stockage en température. Au fur et à mesure que la température dans le stockage augmente, le rendement du capteur dromotherm diminue.</p>
+
+<p><img src="/assets/master/cas_usage_ECS.png" alt="ECS" /></p>
+
+<p>Au niveau des réseaux, le projet devrait utiliser des tubes en polyéthylène haute densité (PHD) ou des conduites plastiques pré-isolés. Vu les températures en jeu et le faible linéaire, les pertes thermiques devraient être faibles (1%)</p>
+
+<h3 id="pistes-à-creuser-dans-le-cadre-du-master-mécanique-février-2021-">Pistes à creuser dans le cadre du master mécanique (février 2021) :</h3>
+<ul>
+  <li>jouer sur les propriétés des matériaux pour améliorer la conductivité dans l’échangeur dromotherm, ou pour agmenter la tortuosité (réseau granulaire dense). Pour l’instant, l’enrobé drainant est de granularité 0/14</li>
+  <li>remplacer la couche d’étanchéité par un sable enrobé, l’objectif étant d’atteindre une conductivité hydraulique verticale de 1E-9 à 1E-10</li>
+</ul>
+
+<h3 id="application-en-terme-de-réduction-des-ilôts-de-chaleur-urbain">Application en terme de réduction des ilôts de chaleur urbain</h3>
+
+<p>la collecte énergétique de l’été se traduit par un abaissement de la température de chaussée d’environ 5°C par rapport à la même chaussée sans circulation de fluide à l’intérieur….</p>
+
+<h2 id="dimensionnement-et-choix-du-site">dimensionnement et choix du site</h2>
+
+<p>Pour simuler le besoin d’une maison RT2012 de 150m2 au sein du futur démonstrateur, il est acté la mise en oeuvre d’une enveloppe en bois sur 20m2 de surface, peu isolée.</p>
+
+<p><img src="/assets/master/dimensionnement.png" alt="dimensionnement" /></p>
+
+<p>Plusieurs sites sont présentés, sur le campus de l’université Savoie Mont Blanc</p>
+
+<p><img src="/assets/master/sites.png" alt="sites" /></p>
+
+<p>Le type de configuration la plus adaptée semble être la numéro 2, avec une voierie en section courante.
+Un parking présente des inconvénients : beaucoup de voitures, implantation délicate de caniveaux sur zone roulante.</p>
+
+<p>Vu la présence d’un bâtiment à proximité sur le site pressenti, la question du raccord à un usage existant est posée par Eiffage : il faudrait pour celà que la technologie énergétique du bâtiment auquel se raccorder soit compatible (chaleur basse température)</p>
+
+<p>Une fois le site définitif choisi, il faudra préparer le marché pour les travaux. La construction du démonstrateur est à viser pour février/mars 2021.</p>
+
+<h1 id="prochain-copil--vendredi-23-octobre-2020-de-10h-à-12h">prochain copil : vendredi 23 Octobre 2020 de 10h à 12h</h1>
+]]></content>
+  </entry>
+  
+</feed>

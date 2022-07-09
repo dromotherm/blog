@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: nrj master | DROMOTHERM]]></title>
+  <link href="https://www.dromotherm.com/categories/nrj-master/atomfr.xml" rel="self"/>
+  <link href="https://www.dromotherm.com/"/>
+  <updated>2022-07-09T17:34:22+00:00</updated>
+  <id>https://www.dromotherm.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[contact@dromotherm.com]]></email>
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+  
+  
+  <entry>
+    <title type="html"><![CDATA[nouveau venu à bord :-)]]></title>
+    <link href="https://www.dromotherm.com/2020/05/master_trainee/"/>
+    <updated>2020-05-27T00:00:00+00:00</updated>
+    <id>https://www.dromotherm.com/2020/05/master_trainee</id>
+    <content type="html"><![CDATA[<p>Fébron SEVI est monté à bord du projet Dromotherm en mars 2020, en plein période de confinement liée au COVID-19.</p>
+
+<p>Originaire du Bénin et après un bachelor et un master 1 de génie électrique et énergétique à l’Institut 2iE au Burkina Faso, agé de 22 ans, Fébron est actuellement 
+en dernière année de master 2 Ingénierie Énergies Durables à l’Institut National des Sciences Appliquées de Rouen(INSA)</p>
+
+<p>Fébron a travaillé sur 2 modèlisations simplifiées de l’échangeur dromotherm (0D vs 1D)</p>
+
+<p>L’idée est d’évaluer leur robustesse vis à vis du modèle 2D du Cerema et de faire le bon choix, entre rapidité et précision…..</p>
+
+<p><a href="https://github.com/seviprince/dromotherm/blob/master/00_Modelisation%200D.ipynb">notebook python retraçant une première approche du modèle 0D</a></p>
+
+<p><img src="/assets/master/1Dvs2D.png" alt="1Dvs2D" /></p>
+
+<p><img src="/assets/master/model2D.png" alt="2Dmodel" /></p>
+
+<p>Fébron a aussi commencé à étudier le couplage d’un modèle de bâtiment au dromotherme, afin de pouvoir réaliser un premier 
+dimensionnement du futur démonstrateur. Bien entendu, il restera à intercaler un modèle de stockage entre le bâtiment et 
+le dromotherme.</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: instrumentation | DROMOTHERM]]></title>
+  <link href="https://www.dromotherm.com/categories/instrumentation/atomfr.xml" rel="self"/>
+  <link href="https://www.dromotherm.com/"/>
+  <updated>2022-07-09T17:34:22+00:00</updated>
+  <id>https://www.dromotherm.com/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    <email><![CDATA[contact@dromotherm.com]]></email>
+  </author>
+  <generator uri="https://github.com/recurser/jekyll-plugins">Recurser</generator>
+  
+  
+  <entry>
+    <title type="html"><![CDATA[Instrumentation]]></title>
+    <link href="https://www.dromotherm.com/2022/07/instru1/"/>
+    <updated>2022-07-06T00:00:00+00:00</updated>
+    <id>https://www.dromotherm.com/2022/07/instru1</id>
+    <content type="html"><![CDATA[<p>Le démonstrateur construit sur le site du <a href="https://www.google.com/maps/place/45.639799,+5.874676/@45.6398219,5.8747829,19z/data=!3m1!1e3">Locie</a> dispose enfin d’une instrumentation opérationnelle.</p>
+
+<p>Une machine <a href="http://dromotherm.github.io/documentation">Themis</a> a été spécialement mise au point pour l’occasion. 
+La configuration devait être initialement repartie sur 2 coffrets, l’un avec l’intelligence embarquée et les modules DI, DO, AI et AO, l’autre avec les modules de monitoring de type thermocouple et PT100.</p>
+
+<p><img src="/assets/thesis/config_labo.jpg" alt="themis labo conf" /></p>
+
+<p>Soit un total de 18 modules plus le récepteur radio pour les capteurs sans fil 169 Mhz…</p>
+
+<p>Le jour J, l’ensemble a du être réparti sur 3 armoires, en raison d’aléas de terrain assez courants, notamment des cables de thermocouple coupés trop court lors des opérations de gros oeuvre. Les techniciens du Cerema ont réalisé eux-mêmes la tranchée entre la chaussée et le stockage car rien de tout celà n’avait été pris en charge par les équipes de TP pourtant équipées de minipelles. Bref, dès qu’il y a de l’innovation dans l’air et qu’on sort des sentiers battus, les laboratoires doivent savoir improviser !!</p>
+
+<p><img src="/assets/thesis/armoires1&amp;2.jpg" alt="" /></p>
+
+<p><img src="/assets/thesis/armoires3&amp;4.jpg" alt="" /></p>
+
+<p><strong>Une série de tableaux de bord permet de suivre l’instrumentation en temps réel :</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dénomination</th>
+      <th>URL de consultation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Conditions intérieures</td>
+      <td><a href="http://dromotherm.ddns.net/dashboard/view/hab">http://dromotherm.ddns.net/dashboard/view/hab</a></td>
+    </tr>
+    <tr>
+      <td>Chaussée</td>
+      <td><a href="http://dromotherm.ddns.net/dashboard/view/cha">http://dromotherm.ddns.net/dashboard/view/cha</a></td>
+    </tr>
+    <tr>
+      <td>Stockage</td>
+      <td><a href="http://dromotherm.ddns.net/dashboard/view/sto">http://dromotherm.ddns.net/dashboard/view/sto</a></td>
+    </tr>
+    <tr>
+      <td>Météo</td>
+      <td><a href="http://dromotherm.ddns.net/dashboard/view/meteo">http://dromotherm.ddns.net/dashboard/view/meteo</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Le suivi des conditions météorologiques comprend :</p>
+
+<ul>
+  <li>un pyranomètre pour la mesure de la radiation solaire extraterrestre</li>
+  <li>un pyrgéomètre pour la mesure de la radiation atmosphérique</li>
+  <li>un anémomètre pour la mesure de la vitesse du vent</li>
+  <li>un pluviomètre à augets basculants pour la mesure des hauteurs de précipitations</li>
+  <li>un capteur de température et d’humidité</li>
+</ul>
+
+<h1 id="les-travaux">les travaux</h1>
+
+<p>Pour memoire, les travaux du génie civil ont eu lieu au printemps 2022.</p>
+
+<p>Un stockage d’environ 45 m3 a été mis en place, équipé de 4 couches de tubes géothermiques en spirale, donc divisé en 5 couches.</p>
+
+<p>Chacune des couches a été instrumentée en température par des thermocouples.</p>
+
+<p>Les 3 couches de chaussée (roulement, drainant en liaison et base) ont été instrumentées de façon identique.</p>
+
+<p><img src="/assets/thesis/dromotherm_principe.png" alt="principe" /></p>
+
+<h2 id="le-stockage-géothermique">le stockage géothermique</h2>
+
+<h3 id="juste-après-les-travaux-dexcavation">juste après les travaux d’excavation</h3>
+<p><img src="/assets/thesis/Stockage.jpg" alt="sto1" /></p>
+
+<h3 id="mise-en-place-du-système-spiralé">mise en place du système spiralé</h3>
+<p><img src="/assets/thesis/pose_spirales_stockage.JPG" alt="sto2" /></p>
+
+<h3 id="épandage-de-la-couche-de-sable">épandage de la couche de sable</h3>
+<p><img src="/assets/thesis/remplissage_stockage.JPG" alt="sto3" /></p>
+]]></content>
+  </entry>
+  
+</feed>
