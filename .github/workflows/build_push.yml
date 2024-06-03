@@ -1,4 +1,4 @@
-name: Build Jekyll site
+name: Build n push Jekyll site to pages
 on:
   workflow_dispatch:
 permissions:
