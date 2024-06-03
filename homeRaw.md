@@ -54,5 +54,5 @@ entreprises de travaux publics Eiffage et Ryb/groupe Elydan.
 
 ![logos]({{ site.baseurl }}/assets/logo_partenaires.png){:class="img-responsive"}
 
-![logos]({{ site.baseurl }}/assets/logo_AURA.png){:class="img-responsive"}
+![logos]({{ site.baseurl }}/assets/Logo_AURA.png){:class="img-responsive"}
 
