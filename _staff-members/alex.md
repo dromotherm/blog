@@ -90,4 +90,4 @@ Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEM
 
 [operating-systems](https://github.com/Open-Building-Management/operating-systems) est une distribution linux construite à partir du générateur buildroot, pour une utilisation en mode embarqué ou en datacenter sur baremetal.
 
-Elle permet le déploiement rapide d'applications conteneurisées, notamment netbox, permettant de gérer un parc d'objets connectés.
+Elle autorise le déploiement rapide d'applications conteneurisées, notamment netbox, permettant de gérer un parc d'objets connectés.
