@@ -11,20 +11,21 @@ Diplôme d'ingénieur de l'ENTPE
 
 Maîtrise en génie civil de l'INSA Lyon
 
+IOT - Internet Of Things
 
 # Développements Python
 
-## Maintenance des intégrations emoncms et emoncms_history sous home-assistant
+## Maintenance d'intégrations home-assistant
 
 y compris la library synchrone [pyemoncms](https://github.com/Open-Building-Management/pyemoncms) basée sur [aiohttp](https://github.com/aio-libs/aiohttp)
 
-https://www.home-assistant.io/integrations/emoncms/
+[emoncms](https://www.home-assistant.io/integrations/emoncms/)
 
-https://www.home-assistant.io/integrations/emoncms_history/ 
+[emoncms_history](https://www.home-assistant.io/integrations/emoncms_history/ )
 
-## projet BIOS - Building Intelligent Operating System - Internet Of Things
+## projet BIOS
 
-BIOS est une Gestion Technique de Bâtiments embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
+BIOS (Building Intelligent Operating System) est une Gestion Technique de Bâtiments embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
 
 BIOS utilise docker pour isoler les services, ce qui garantit la robustesse terrain.
 
@@ -38,7 +39,7 @@ Le système fonctionne de manière sécurisée en [https](https://fr.wikipedia.o
 
 # Développements PHP
 
-# emoncms
+## emoncms
 
 [emoncms](https://github.com/emoncms/emoncms) est un logiciel de monitoring de bâtiment, avec sa propre timesérie embarquée.
 
