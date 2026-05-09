@@ -11,7 +11,9 @@ Diplôme d'ingénieur de l'ENTPE
 
 Maîtrise en génie civil de l'INSA Lyon
 
-IOT - Internet Of Things
+[CV sur linkedin](https://www.linkedin.com/in/alexandre-cuer-832ba971)
+
+**IOT - Internet Of Things**
 
 # Développements Python
 
@@ -45,13 +47,13 @@ Le système fonctionne de manière sécurisée en [https](https://fr.wikipedia.o
 
 Son principal atout, par rapport à des solutions comme influxdb et grafana, est la légéreté et la rapidité.
 
-Participation aux développements depuis 2018
+**Participation aux développements depuis 2018**
 
 # devops
 
 ## emoncms standalone container
 
-https://emoncms-docker.github.io/
+[site web](https://emoncms-docker.github.io/)
 
 [Sources](https://github.com/Open-Building-Management/emoncms)
 
@@ -61,8 +63,5 @@ Cette image utilise [s6-overlay](https://github.com/just-containers/s6-overlay/)
 
 Elle est utilisable comme un addon sous home-assistant.
 
-Un pipeline utilisant [QEMU](https://fr.wikipedia.org/wiki/QEMU) produit les images pour 3 architectures (x86, arm64, arm/v7) et les met en ligne sur [docker hub](https://hub.docker.com/r/alexjunk/emoncms) 
-
-
-[CV sur linkedin](https://www.linkedin.com/in/alexandre-cuer-832ba971)
+Un pipeline utilisant [QEMU](https://fr.wikipedia.org/wiki/QEMU) produit les images pour 3 architectures (x86, arm64, arm/v7) et les met en ligne sur [docker hub](https://hub.docker.com/r/alexjunk/emoncms)
 
