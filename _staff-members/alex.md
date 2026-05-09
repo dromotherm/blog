@@ -25,7 +25,9 @@ Maîtrise en génie civil de l'INSA Lyon : 1997
 
 Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com/Open-Building-Management/pyemoncms) basée sur [aiohttp](https://github.com/aio-libs/aiohttp)
 
-## générateur de fichiers IDF pour energyplus : IDFHub
+## IDFHub
+
+[IDFHub](https://github.com/Open-Building-Management/ladybug_codes) est un générateur de fichiers IDF (Input Data File) pour energyplus
 
 [Energyplus](https://energyplus.net/) est un logiciel permettant de simuler le comportement énergétique d'un bâtiment et de ses systèmes HVAC (Heating, Ventilation, and Air Conditioning)
 
@@ -35,11 +37,13 @@ Un générateur de helpers fournit des classes assistant le développement pour 
 
 ## EnergyGym
 
-Exploratoire, la bibliothèque [EnergyGym](https://github.com/Open-Building-Management/EnergyGym) fournit un environnement pour entrainer des réseaux neurones par apprentissage renforcé à comprendre le comportement énergétique d'un bâtiment.
+Exploratoire, la bibliothèque [EnergyGym](https://github.com/Open-Building-Management/EnergyGym) fournit un environnement pour entrainer par apprentissage renforcé des réseaux neurones, l'objectif étant de prédire l'optimal restart du système énergétique d'un bâtiment quelconque. 
+
+Le comportement énergétique du bâtiment est simulé par des modèles électriques RC simples.
 
 Développé en lien avec SIGMA Clermont-Ferrand, EnergyPlus implémente diverses techniques d'apprentissage renforcé : Deep Q-Network ou DQN, double DQN, Dueling DQN, Dueling PER (Prioritized Experience Replay)
 
-## projet BIOS
+## BIOS
 
 BIOS (Building Intelligent Operating System) est une Gestion Technique de Bâtiments embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
 
@@ -55,23 +59,24 @@ L'interface utilisateur est entièrement en [web component](https://developer.mo
 
 # Développements PHP
 
-## emoncms
+## Emoncms
 
-[emoncms](https://github.com/emoncms/emoncms) est un logiciel de monitoring de bâtiment, avec sa propre timesérie embarquée.
+[Emoncms](https://github.com/emoncms/emoncms) est un logiciel de monitoring de bâtiment, avec sa propre timesérie embarquée.
 
 Son principal atout, par rapport à des solutions comme influxdb et grafana, est la légéreté et la rapidité.
 
 **Participation aux développements depuis 2018**
 
-# devops
+# DEVOPS
 
 ## emoncms standalone container
 
 Le container docker [standalone emoncms](https://emoncms-docker.github.io/) utilise [s6-overlay](https://github.com/just-containers/s6-overlay/) comme système d'init.
 
 Il embarque le serveur apache/PHP, la timesérie, la base de données clé-valeur redis utilisée comme tampon d'écriture et tous les services au sein d'une seule image, ce qui facilite le déploiement.
+Cette image est conçue pour être embarqué sur des systèmes contraints, en mode edge.
 
-Il est utilisable comme un addon sous home-assistant, gràce à une configuration en mode ingress.
+Elle est utilisable comme un addon sous home-assistant, gràce à une configuration en mode ingress.
 
 Un pipeline utilisant [QEMU](https://fr.wikipedia.org/wiki/QEMU) produit les images pour 3 architectures (x86, arm64, arm/v7) et les met en ligne sur [docker hub](https://hub.docker.com/r/alexjunk/emoncms)
 
