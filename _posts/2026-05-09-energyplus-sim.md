@@ -53,4 +53,4 @@ HPATW_EIR_EIR_HEATPUMP_AIR2WATER	| 0.001788	| 2.07	| 73564.99	| 35000.00	| 0.001
 
 # profiles
 
-![]({{ site.baseurl }}/assets/energy_plus/)hpatw_profiles.png)
+![]({{ site.baseurl }}/assets/energy_plus/hpatw_profiles.png)
