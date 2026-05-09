@@ -69,7 +69,7 @@ Son principal atout, par rapport à des solutions comme influxdb et grafana, est
 
 # DEVOPS
 
-## emoncms standalone container
+## Emoncms standalone container
 
 Le container docker [standalone emoncms](https://emoncms-docker.github.io/) utilise [s6-overlay](https://github.com/just-containers/s6-overlay/) comme système d'init.
 
@@ -78,7 +78,7 @@ Cette image est conçue pour être embarquée sur des systèmes contraints, en m
 
 Elle est utilisable comme un addon sous home-assistant, gràce à une configuration en mode ingress.
 
-Un pipeline utilisant [QEMU](https://fr.wikipedia.org/wiki/QEMU) produit les images pour 3 architectures (x86, arm64, arm/v7) et les met en ligne sur [docker hub](https://hub.docker.com/r/alexjunk/emoncms)
+Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEMU) produit les images pour 3 architectures (x86, arm64, arm/v7) et les met en ligne sur [docker hub](https://hub.docker.com/r/alexjunk/emoncms)
 
 [Sources](https://github.com/Open-Building-Management/emoncms)
 
