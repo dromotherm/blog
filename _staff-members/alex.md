@@ -27,7 +27,7 @@ Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com
 
 ## IDFHub
 
-[IDFHub](https://github.com/Open-Building-Management/ladybug_codes) est un générateur de fichiers IDF (Input Data File) pour energyplus
+[IDFHub](https://github.com/Open-Building-Management/ladybug_codes) est un générateur de fichiers IDF (Input Data File) pour Energyplus
 
 [Energyplus](https://energyplus.net/) est un logiciel permettant de simuler le comportement énergétique d'un bâtiment et de ses systèmes HVAC (Heating, Ventilation, and Air Conditioning)
 
@@ -74,7 +74,7 @@ Son principal atout, par rapport à des solutions comme influxdb et grafana, est
 Le container docker [standalone emoncms](https://emoncms-docker.github.io/) utilise [s6-overlay](https://github.com/just-containers/s6-overlay/) comme système d'init.
 
 Il embarque le serveur apache/PHP, la timesérie, la base de données clé-valeur redis utilisée comme tampon d'écriture et tous les services au sein d'une seule image, ce qui facilite le déploiement.
-Cette image est conçue pour être embarqué sur des systèmes contraints, en mode edge.
+Cette image est conçue pour être embarquée sur des systèmes contraints, en mode edge.
 
 Elle est utilisable comme un addon sous home-assistant, gràce à une configuration en mode ingress.
 
