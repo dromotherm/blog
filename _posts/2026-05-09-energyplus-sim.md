@@ -50,3 +50,7 @@ INSIDE_VARIABLE_PUMP	| 0.001788	| 456.78	| 0.001788	| 456.78
 HeatPump:PlantLoop:EIR:Heating | Initial Design Size Load Side Volume Flow Rate [m3/s]	| Initial Design Size Source Side Volume Flow Rate [m3/s]	| Design Size Nominal Capacity [W]	| User-Specified Nominal Capacity [W]	| Design Size Load Side Volume Flow Rate [m3/s]	| Design Size Source Side Volume Flow Rate [m3/s]
 --|--|--|--|--|--|--
 HPATW_EIR_EIR_HEATPUMP_AIR2WATER	| 0.001788	| 2.07	| 73564.99	| 35000.00	| 0.001788	| 2.07
+
+# profiles
+
+![]({{ site.baseurl }}/assets/energy_plus/)hpatw_profiles.png)
