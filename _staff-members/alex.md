@@ -9,19 +9,18 @@ lang: fr
 
 
 # Alexandre CUER
---
 
-Diplôme d'ingénieur de l'ENTPE : 1997
+🟢 Diplôme d'ingénieur de l'ENTPE : 1997
 
-Maîtrise en génie civil de l'INSA Lyon : 1997
+🟢 Maîtrise en génie civil de l'INSA Lyon : 1997
 
 [CV sur linkedin](https://www.linkedin.com/in/alexandre-cuer-832ba971)
 
 **IOT - Internet Of Things**
 
-# Développements Python
+##  Développements Python
 
-## Maintenance d'intégrations home-assistant
+### Maintenance d'intégrations home-assistant
 
 L'intégration [emoncms](https://www.home-assistant.io/integrations/emoncms/) permet de synchroniser en toute simplicité des données recueillies par emoncms au sein de home-assistant 
 
