@@ -7,6 +7,8 @@ layout: default
 lang: fr
 ---
 
+# Alexandre CUER
+
 Diplôme d'ingénieur de l'ENTPE : 1997
 
 Maîtrise en génie civil de l'INSA Lyon : 1997
@@ -83,3 +85,9 @@ Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEM
 [Sources](https://github.com/Open-Building-Management/emoncms)
 
 [Pour en savoir plus](https://github.com/Open-Building-Management/containers/tree/main/emoncms)
+
+## Operating-systems
+
+[operating-systems](https://github.com/Open-Building-Management/operating-systems) est une distribution linux construite à partir du générateur buildroot, pour une utilisation en mode embarqué ou en datacenter sur baremetal.
+
+Elle permet le déploiement rapide d'applications conteneurisées, notamment netbox, permettant de gérer un parc d'objets connectés.
