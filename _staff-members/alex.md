@@ -45,7 +45,7 @@ Développé en lien avec SIGMA Clermont-Ferrand, EnergyPlus implémente diverses
 
 ## BIOS
 
-BIOS (Building Intelligent Operating System) est une Gestion Technique de Bâtiments embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
+[BIOS](https://alexandrecuer.github.io/bios-smart-control-84/download/Bios_Datasheet_FR_2025.pdf) (Building Intelligent Operating System) est une Gestion Technique de Bâtiments (GTB) embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
 
 BIOS :
 
@@ -78,7 +78,7 @@ Cette image est conçue pour être embarquée sur des systèmes contraints, en m
 
 Elle est utilisable comme un addon sous home-assistant, gràce à une configuration en mode ingress.
 
-Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEMU) produit les images pour 3 architectures (x86, arm64, arm/v7) et les met en ligne sur [docker hub](https://hub.docker.com/r/alexjunk/emoncms)
+Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEMU) produit les images pour 3 architectures (`x86`, `arm64`, `arm/v7`) et les met en ligne sur [docker hub](https://hub.docker.com/r/alexjunk/emoncms)
 
 [Sources](https://github.com/Open-Building-Management/emoncms)
 
