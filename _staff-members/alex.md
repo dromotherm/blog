@@ -19,9 +19,9 @@ Maîtrise en génie civil de l'INSA Lyon : 1997
 
 ## Maintenance d'intégrations home-assistant
 
-[emoncms](https://www.home-assistant.io/integrations/emoncms/) permet de synchroniser en toute simplicité des données recueillies par emoncms au sein de home-assistant 
+L'intégration [emoncms](https://www.home-assistant.io/integrations/emoncms/) permet de synchroniser en toute simplicité des données recueillies par emoncms au sein de home-assistant 
 
-[emoncms_history](https://www.home-assistant.io/integrations/emoncms_history/ ) permet d'intégrer à une base de données emoncms des données issues d'un système home-assistant
+l'intégration [emoncms_history](https://www.home-assistant.io/integrations/emoncms_history/ ) permet d'intégrer à une base de données emoncms des données issues d'un système home-assistant
 
 Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com/Open-Building-Management/pyemoncms) basée sur [aiohttp](https://github.com/aio-libs/aiohttp)
 
