@@ -7,6 +7,7 @@ lang: "fr"
 ref: eplus_sim_01
 date: 2026-05-09
 categories: [dromotherm, simulation]
+image: energy_plus/acf_2.png
 ---
 
 Rather than rebuilding enverything from scratch in python like we did in the thesis, a more robust approach is to use [energyplus](https://energyplus.net/)
