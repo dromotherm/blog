@@ -10,7 +10,7 @@ categories: [dromotherm, simulation]
 image: energy_plus/acf_2.png
 ---
 
-Rather than rebuilding enverything from scratch in python like we did in the thesis, a more robust approach is to use [energyplus](https://energyplus.net/)
+Rather than rebuilding from scratch in python, a robust approach is to use [energyplus](https://energyplus.net/)
 
 
 
