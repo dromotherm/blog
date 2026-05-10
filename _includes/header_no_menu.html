@@ -1,0 +1,13 @@
+{%- assign default_paths = site.pages | map: "path" -%}
+{%- assign page_paths = site.header_pages | default: default_paths -%}
+{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <div class="navbar-header col-sm-6 col-md-8">
+        <a class="site-title" href="{{ site.baseurl }}/{{ site.index[page.lang] }}">
+          <img src="{{ site.baseurl }}/assets/dromotherm7.svg" class="img-fluid" data-target="#navbar"> {{ site.title | escape }}
+        </a>
+        </div>
+    </div>
+</nav>
+

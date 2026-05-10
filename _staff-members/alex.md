@@ -2,7 +2,7 @@
 ref: alex
 name: Alexandre CUER
 mel: alexandre.cuer@cerema.fr
-layout: default
+layout: default_no_menu
 lang: fr
 ---
 
