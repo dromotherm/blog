@@ -22,15 +22,21 @@ lang: fr
 [CV sur linkedin](https://www.linkedin.com/in/alexandre-cuer-832ba971)
 
 
+## BIOS
+
+[BIOS](https://alexandrecuer.github.io/bios-smart-control-84/download/Bios_Datasheet_FR_2025.pdf) (Building Intelligent Operating System) est une Gestion Technique de Bâtiments (GTB) embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
+
+BIOS :
+
+- utilise docker pour isoler les services, ce qui garantit la robustesse terrain.
+- dispose d'un orchestrateur de services pour que l'utilsateur active facilement les briques (capteurs sans fil, modbus, prévisions météo) dont il a besoin.
+- fonctionne de manière sécurisée en [https](https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol_Secure)
+
+Un superviseur permet de gérer les mises à jour depuis l'interface utilsateur.
+
+L'interface utilisateur est entièrement en [web component](https://developer.mozilla.org/fr/docs/Web/API/Web_components)
+
 ##  Développements Python
-
-### Maintenance d'intégrations home-assistant
-
-L'intégration [emoncms](https://www.home-assistant.io/integrations/emoncms/) permet de synchroniser en toute simplicité des données recueillies par emoncms au sein de home-assistant 
-
-L'intégration [emoncms_history](https://www.home-assistant.io/integrations/emoncms_history/ ) permet d'intégrer à une base de données emoncms des données issues d'un système home-assistant
-
-Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com/Open-Building-Management/pyemoncms) basée sur [aiohttp](https://github.com/aio-libs/aiohttp)
 
 ### IDFHub
 
@@ -50,19 +56,13 @@ Le comportement énergétique du bâtiment est simulé par des modèles électri
 
 Développé en lien avec SIGMA Clermont-Ferrand, EnergyPlus implémente diverses techniques d'apprentissage renforcé : Deep Q-Network ou DQN, double DQN, Dueling DQN, Dueling PER (Prioritized Experience Replay)
 
-### BIOS
+### Maintenance d'intégrations home-assistant
 
-[BIOS](https://alexandrecuer.github.io/bios-smart-control-84/download/Bios_Datasheet_FR_2025.pdf) (Building Intelligent Operating System) est une Gestion Technique de Bâtiments (GTB) embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
+L'intégration [emoncms](https://www.home-assistant.io/integrations/emoncms/) permet de synchroniser en toute simplicité des données recueillies par emoncms au sein de home-assistant 
 
-BIOS :
+L'intégration [emoncms_history](https://www.home-assistant.io/integrations/emoncms_history/ ) permet d'intégrer à une base de données emoncms des données issues d'un système home-assistant
 
-- utilise docker pour isoler les services, ce qui garantit la robustesse terrain.
-- dispose d'un orchestrateur de services pour que l'utilsateur active facilement les briques (capteurs sans fil, modbus, prévisions météo) dont il a besoin.
-- fonctionne de manière sécurisée en [https](https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol_Secure)
-
-Un superviseur permet de gérer les mises à jour depuis l'interface utilsateur.
-
-L'interface utilisateur est entièrement en [web component](https://developer.mozilla.org/fr/docs/Web/API/Web_components)
+Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com/Open-Building-Management/pyemoncms) basée sur [aiohttp](https://github.com/aio-libs/aiohttp)
 
 ## Développements PHP
 
