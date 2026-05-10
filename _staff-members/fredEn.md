@@ -1,7 +1,6 @@
 ---
 ref: fred
 name: Frédéric BERNARDIN
-position: chief operation officer
 mel: frederic.bernardin@cerema.fr
 layout: default
 lang: en
