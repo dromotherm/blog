@@ -1,7 +1,6 @@
 ---
 ref: alex
 name: Alexandre CUER
-position: chief executive officer
 mel: alexandre.cuer@cerema.fr
 layout: default
 lang: fr
@@ -14,9 +13,11 @@ lang: fr
 
 🟢 Maîtrise en génie civil de l'INSA Lyon : 1997
 
+**Recherche & développements** 
+
 🔵 **IOT - Internet Of Things**
 
-🔵 **simulation. monitoring et pilotage de bâtiments et de systèmes énergétiques, pompes à chaleur**
+🔵 **simulation, monitoring et pilotage de bâtiments et de systèmes énergétiques, pompes à chaleur**
 
 
 [CV sur linkedin](https://www.linkedin.com/in/alexandre-cuer-832ba971)
@@ -35,6 +36,8 @@ BIOS :
 Un superviseur permet de gérer les mises à jour depuis l'interface utilsateur.
 
 L'interface utilisateur est entièrement en [web component](https://developer.mozilla.org/fr/docs/Web/API/Web_components)
+
+La structure étant modulaire, tous les protocoles sont adressables (Bacnet IP, KNX, RS485)
 
 ##  Développements Python
 
