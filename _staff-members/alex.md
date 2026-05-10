@@ -86,7 +86,7 @@ Le container docker [standalone emoncms](https://emoncms-docker.github.io/) util
 Il embarque le serveur apache/PHP, la timesérie, la base de données clé-valeur redis utilisée comme tampon d'écriture et tous les services au sein d'une seule image, ce qui facilite le déploiement.
 Cette image est conçue pour être embarquée sur des systèmes contraints, en mode edge.
 
-Elle est utilisable comme un addon sous home-assistant, gràce à une configuration en mode ingress.
+Elle est utilisable comme un [addon home-assistant](https://developers.home-assistant.io/docs/apps/), grâce à une configuration en mode [ingress](https://github.com/Open-Building-Management/emoncms/discussions/17).
 
 Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEMU) produit les images pour 3 architectures (`x86`, `arm64`, `arm/v7`) et les met en ligne sur [docker hub](https://hub.docker.com/r/alexjunk/emoncms)
 
