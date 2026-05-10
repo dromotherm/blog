@@ -16,6 +16,9 @@ lang: fr
 
 🔵 **IOT - Internet Of Things**
 
+🔵 **simulation. monitoring et pilotage de bâtiments et de systèmes énergétiques, pompes à chaleur**
+
+
 [CV sur linkedin](https://www.linkedin.com/in/alexandre-cuer-832ba971)
 
 
@@ -90,6 +93,6 @@ Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEM
 
 ### Operating-systems
 
-[operating-systems](https://github.com/Open-Building-Management/operating-systems) est une distribution linux construite à partir du générateur buildroot, pour une utilisation en mode embarqué ou en datacenter sur baremetal.
+[operating-systems](https://github.com/Open-Building-Management/operating-systems) est une distribution linux construite à partir du générateur buildroot, pour une utilisation en mode embarqué ou en datacenter sur bare metal.
 
 Elle autorise le déploiement rapide d'applications conteneurisées, notamment netbox, permettant de gérer un parc d'objets connectés.
