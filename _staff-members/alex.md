@@ -24,8 +24,16 @@ lang: fr
 
 # PROJETS
 
-# Dromotherm | depuis 2018
+## Dromotherm | depuis 2018 | chef de projet
 
+Le projet Dromotherm, financé par le dispositif Pack Ambition Recherche de la région Auvergne-Rhône-Alpes sur la période 2020 – 2025, est une initiative innovante visant à transformer la gestion énergétique des zones urbaines.
+
+En utilisant la chaleur captée par les chaussées durant l'été, cette technologie permet de chauffer les bâtiments environnants en hiver, offrant une solution durable et efficace pour réduire les émissions de carbone, améliorer l'efficacité énergétique et lutter contre les Îlots de Chaleur Urbains.
+
+Concept et Fonctionnement :
+- **Récupération de la chaleur Solaire** : Les routes absorbent la chaleur solaire en été. Cette chaleur est stockée dans le sol grâce à un fluide caloporteur circulant sous la chaussée.
+- **Stockage géothermique** : La chaleur est stockée dans un massif de gravier saturé sous le sol, qui agit comme un réservoir thermique.
+- **Restitution en Hiver** : En hiver, la chaleur stockée est extraite pour chauffer les bâtiments grâce à des pompes à chaleur géothermiques.
 
 
 ## BIOS | depuis 2021 | chef de projet
@@ -50,7 +58,7 @@ La structure étant modulaire, tous les protocoles sont adressables (Bacnet IP, 
 
 #  Développements Python
 
-## IDFHub | depuis décembre 2025
+## IDFHub | depuis décembre 2025 | chef de projet
 
 [IDFHub](https://github.com/Open-Building-Management/ladybug_codes) est un générateur de fichiers IDF (Input Data File) pour Energyplus
 
@@ -60,7 +68,7 @@ L'API d'energyplus est complexe à appréhender et la bibliothèque IDFHub perme
 
 Un générateur de helpers fournit des classes assistant le développement pour ajouter rapidement les équipements sans se perdre dans la documentation.
 
-## EnergyGym | de juillet 2022 à janvier 2025
+## EnergyGym | de juillet 2022 à janvier 2025 | chef de projet
 
 Exploratoire, la bibliothèque [EnergyGym](https://github.com/Open-Building-Management/EnergyGym) fournit un environnement pour entrainer par apprentissage renforcé des réseaux neurones, l'objectif étant de prédire l'optimal restart du système énergétique d'un bâtiment quelconque. 
 
@@ -68,7 +76,7 @@ Le comportement énergétique du bâtiment est simulé par des modèles électri
 
 Développé en lien avec SIGMA Clermont-Ferrand, EnergyPlus implémente diverses techniques d'apprentissage renforcé : Deep Q-Network ou DQN, double DQN, Dueling DQN, Dueling PER (Prioritized Experience Replay)
 
-## Maintenance d'intégrations home-assistant | depuis mai 2024
+## Maintenance d'intégrations home-assistant | depuis mai 2024 | contributeur
 
 L'intégration [emoncms](https://www.home-assistant.io/integrations/emoncms/) permet de synchroniser en toute simplicité des données recueillies par emoncms au sein de home-assistant 
 
@@ -78,17 +86,15 @@ Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com
 
 # Développements PHP
 
-## Emoncms | depuis 2019
+## Emoncms | depuis 2019 | contributeur
 
 [Emoncms](https://github.com/emoncms/emoncms) est un logiciel de monitoring de bâtiment, avec sa propre timesérie embarquée.
 
 Son principal atout, par rapport à des solutions comme influxdb et grafana, est la légéreté et la rapidité.
 
-**Participation aux développements depuis 2018**
-
 # DEVOPS
 
-## Emoncms standalone container | depuis septembre 2023
+## Emoncms standalone container | depuis septembre 2023 | chef de projet
 
 Le container docker [standalone emoncms](https://emoncms-docker.github.io/) utilise [s6-overlay](https://github.com/just-containers/s6-overlay/) comme système d'init.
 
@@ -103,7 +109,7 @@ Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEM
 
 [Pour en savoir plus](https://github.com/Open-Building-Management/containers/tree/main/emoncms)
 
-## Operating-systems | depuis mai 2025
+## Operating-systems | depuis mai 2025 | chef de projet
 
 [operating-systems](https://github.com/Open-Building-Management/operating-systems) est une distribution linux construite à partir du générateur buildroot, pour une utilisation en mode embarqué ou en datacenter sur bare metal.
 
