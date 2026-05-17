@@ -47,7 +47,7 @@ Il manque 2 briques pour passer en classe A selon selon la norme **NF EN ISO 521
 BIOS :
 
 - utilise docker pour isoler les services, ce qui garantit la robustesse terrain.
-- dispose d'un orchestrateur de services pour que l'utilsateur active facilement les briques (capteurs sans fil, modbus, prévisions météo) dont il a besoin.
+- dispose d'un orchestrateur de services qui active les briques (capteurs sans fil, modbus, prévisions météo) sélectionnées par l'utilisateur.
 - fonctionne de manière sécurisée en [https](https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol_Secure)
 
 Un superviseur permet de gérer les mises à jour depuis l'interface utilsateur.
@@ -55,6 +55,14 @@ Un superviseur permet de gérer les mises à jour depuis l'interface utilsateur.
 L'interface utilisateur est entièrement en [web component](https://developer.mozilla.org/fr/docs/Web/API/Web_components)
 
 La structure étant modulaire, tous les protocoles sont adressables (Bacnet IP, KNX, RS485)
+
+# Développements PHP
+
+## Emoncms | depuis 2019 | core contributor
+
+[Emoncms](https://github.com/emoncms/emoncms) est un logiciel de monitoring de bâtiment, avec sa propre timesérie embarquée.
+
+Son principal atout, par rapport à des solutions comme influxdb et grafana, est la légéreté et la rapidité.
 
 #  Développements Python
 
@@ -83,14 +91,6 @@ L'intégration [emoncms](https://www.home-assistant.io/integrations/emoncms/) pe
 L'intégration [emoncms_history](https://www.home-assistant.io/integrations/emoncms_history/ ) permet d'intégrer à une base de données emoncms des données issues d'un système home-assistant
 
 Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com/Open-Building-Management/pyemoncms) basée sur [aiohttp](https://github.com/aio-libs/aiohttp)
-
-# Développements PHP
-
-## Emoncms | depuis 2019 | contributeur
-
-[Emoncms](https://github.com/emoncms/emoncms) est un logiciel de monitoring de bâtiment, avec sa propre timesérie embarquée.
-
-Son principal atout, par rapport à des solutions comme influxdb et grafana, est la légéreté et la rapidité.
 
 # Devops
 
