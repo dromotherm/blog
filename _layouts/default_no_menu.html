@@ -2,6 +2,25 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
+  <link rel="stylesheet" href="{{ "/assets/css/cv.css" | relative_url }}">
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("h2").forEach(h2 => {
+
+      const parts = h2.textContent.split("|");
+
+      if (parts.length === 2) {
+
+        const title = parts[0].trim();
+        const date = parts[1].trim();
+        h2.innerHTML = `
+          <span class="cv-title">${title}</span>
+          <span class="cv-date">${date}</span>
+        `;
+      }
+    });
+  });
+  </script>
 
   <body>
     {%- include header_no_menu.html -%}

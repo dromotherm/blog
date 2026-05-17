@@ -23,7 +23,7 @@ lang: fr
 [CV sur linkedin](https://www.linkedin.com/in/alexandre-cuer-832ba971)
 
 
-## BIOS
+## BIOS | depuis 2021
 
 [BIOS](https://alexandrecuer.github.io/bios-smart-control-84/download/Bios_Datasheet_FR_2025.pdf) (Building Intelligent Operating System) est une Gestion Technique de Bâtiments (GTB) embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
 
