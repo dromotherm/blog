@@ -31,9 +31,9 @@ Le projet Dromotherm, financé par le dispositif Pack Ambition Recherche de la r
 En utilisant la chaleur captée par les chaussées durant l'été, cette technologie permet de chauffer les bâtiments environnants en hiver, offrant une solution durable et efficace pour réduire les émissions de carbone, améliorer l'efficacité énergétique et lutter contre les Îlots de Chaleur Urbains.
 
 Concept et Fonctionnement :
-- **Récupération de la chaleur Solaire** : Les routes absorbent la chaleur solaire en été. Cette chaleur est récupérée grâce à un fluide caloporteur circulant dans un enrobé drainant sous la couche de roulement.
+- **Récupération de la chaleur solaire** : Les routes absorbent la chaleur solaire en été. Cette chaleur est récupérée grâce à un fluide caloporteur circulant dans un enrobé drainant sous la couche de roulement.
 - **Stockage géothermique** : La chaleur est stockée dans un massif de gravier saturé sous le sol, qui agit comme un réservoir thermique.
-- **Restitution en Hiver** : En hiver, la chaleur stockée est extraite pour chauffer les bâtiments grâce à des pompes à chaleur géothermiques.
+- **Restitution en hiver** : En hiver, la chaleur stockée est extraite pour chauffer les bâtiments grâce à des pompes à chaleur géothermiques.
 
 
 ## BIOS | depuis 2021 | chef de projet
