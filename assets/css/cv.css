@@ -1,26 +1,11 @@
-h2 {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 1rem;
-
-  align-items: baseline;
-
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-
-  padding-bottom: 0.5rem;
-
-  border-bottom: 1px solid #ddd;
-}
-
+h2,
 h3 {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 1rem;
 
+  gap: 1rem;
   align-items: baseline;
 
-  margin-top: 3rem;
   margin-bottom: 1rem;
 
   padding-bottom: 0.5rem;
@@ -28,9 +13,24 @@ h3 {
   border-bottom: 1px solid #ddd;
 }
 
-.cv-title {
+h2 {
+  margin-top: 3rem;
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+/* Taille spécifique selon le niveau */
+
+h2 .cv-title {
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+h3 .cv-title {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .cv-date {
