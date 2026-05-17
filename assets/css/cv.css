@@ -2,8 +2,8 @@ h2,
 h3 {
   display: grid;
   grid-template-columns: 1fr auto;
-
   gap: 1rem;
+
   align-items: baseline;
 
   margin-bottom: 1rem;
@@ -13,16 +13,10 @@ h3 {
   border-bottom: 1px solid #ddd;
 }
 
-h2 {
-  margin-top: 3rem;
-}
+h2 { margin-top: 3rem; }
+h3 { margin-top: 2rem; }
 
-h3 {
-  margin-top: 2rem;
-}
-
-/* Taille spécifique selon le niveau */
-
+/* Titre */
 h2 .cv-title {
   font-size: 1.4rem;
   font-weight: 700;
@@ -33,8 +27,25 @@ h3 .cv-title {
   font-weight: 600;
 }
 
+/* Bloc droite */
+.cv-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+}
+
+/* Date */
 .cv-date {
   color: #666;
   font-size: 1rem;
   white-space: nowrap;
+}
+
+/* Rôle */
+.cv-role {
+  font-size: 0.85rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }

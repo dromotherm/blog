@@ -6,17 +6,21 @@
   <script>
   document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("h2, h3").forEach(title => {
-	  console.log(title);
+	
+	  const parts = title.textContent.split("|").map(p => p.trim());
 
-      const parts = title.textContent.split("|");
+      if (parts.length >= 2) {
 
-      if (parts.length === 2) {
+        const left = parts[0];
+        const date = parts[1];
+        const role = parts[2]; // optionnel
 
-        const left = parts[0].trim();
-        const right = parts[1].trim();
         title.innerHTML = `
           <span class="cv-title">${left}</span>
-          <span class="cv-date">${right}</span>
+          <span class="cv-meta">
+            <span class="cv-date">${date}</span>
+            ${role ? `<span class="cv-role">${role}</span>` : ""}
+          </span>
         `;
       }
     });
