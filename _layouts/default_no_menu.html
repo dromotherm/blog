@@ -5,17 +5,17 @@
   <link rel="stylesheet" href="{{ "/assets/css/cv.css" | relative_url }}">
   <script>
   document.addEventListener("DOMContentLoaded", () => {
-    document.querySelectorAll("h2").forEach(h2 => {
+    document.querySelectorAll("h2", "h3").forEach(title => {
 
-      const parts = h2.textContent.split("|");
+      const parts = title.textContent.split("|");
 
       if (parts.length === 2) {
 
-        const title = parts[0].trim();
-        const date = parts[1].trim();
-        h2.innerHTML = `
-          <span class="cv-title">${title}</span>
-          <span class="cv-date">${date}</span>
+        const left = parts[0].trim();
+        const right = parts[1].trim();
+        title.innerHTML = `
+          <span class="cv-title">${left}</span>
+          <span class="cv-date">${right}</span>
         `;
       }
     });
