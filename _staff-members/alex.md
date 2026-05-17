@@ -41,7 +41,7 @@ La structure étant modulaire, tous les protocoles sont adressables (Bacnet IP, 
 
 ##  Développements Python
 
-### IDFHub
+### IDFHub | depuis décembre 2025
 
 [IDFHub](https://github.com/Open-Building-Management/ladybug_codes) est un générateur de fichiers IDF (Input Data File) pour Energyplus
 
@@ -51,7 +51,7 @@ L'API d'energyplus est complexe à appréhender et la bibliothèque IDFHub perme
 
 Un générateur de helpers fournit des classes assistant le développement pour ajouter rapidement les équipements sans se perdre dans la documentation.
 
-### EnergyGym
+### EnergyGym | de juillet 2022 à janvier 2025
 
 Exploratoire, la bibliothèque [EnergyGym](https://github.com/Open-Building-Management/EnergyGym) fournit un environnement pour entrainer par apprentissage renforcé des réseaux neurones, l'objectif étant de prédire l'optimal restart du système énergétique d'un bâtiment quelconque. 
 
@@ -59,7 +59,7 @@ Le comportement énergétique du bâtiment est simulé par des modèles électri
 
 Développé en lien avec SIGMA Clermont-Ferrand, EnergyPlus implémente diverses techniques d'apprentissage renforcé : Deep Q-Network ou DQN, double DQN, Dueling DQN, Dueling PER (Prioritized Experience Replay)
 
-### Maintenance d'intégrations home-assistant
+### Maintenance d'intégrations home-assistant | depuis mai 2024
 
 L'intégration [emoncms](https://www.home-assistant.io/integrations/emoncms/) permet de synchroniser en toute simplicité des données recueillies par emoncms au sein de home-assistant 
 
@@ -69,7 +69,7 @@ Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com
 
 ## Développements PHP
 
-### Emoncms
+### Emoncms | depuis 2019
 
 [Emoncms](https://github.com/emoncms/emoncms) est un logiciel de monitoring de bâtiment, avec sa propre timesérie embarquée.
 
@@ -79,7 +79,7 @@ Son principal atout, par rapport à des solutions comme influxdb et grafana, est
 
 ## DEVOPS
 
-### Emoncms standalone container
+### Emoncms standalone container | depuis septembre 2023
 
 Le container docker [standalone emoncms](https://emoncms-docker.github.io/) utilise [s6-overlay](https://github.com/just-containers/s6-overlay/) comme système d'init.
 
@@ -94,7 +94,7 @@ Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEM
 
 [Pour en savoir plus](https://github.com/Open-Building-Management/containers/tree/main/emoncms)
 
-### Operating-systems
+### Operating-systems | depuis mai 2025
 
 [operating-systems](https://github.com/Open-Building-Management/operating-systems) est une distribution linux construite à partir du générateur buildroot, pour une utilisation en mode embarqué ou en datacenter sur bare metal.
 
