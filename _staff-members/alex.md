@@ -31,7 +31,7 @@ Le projet Dromotherm, financé par le dispositif Pack Ambition Recherche de la r
 En utilisant la chaleur captée par les chaussées durant l'été, cette technologie permet de chauffer les bâtiments environnants en hiver, offrant une solution durable et efficace pour réduire les émissions de carbone, améliorer l'efficacité énergétique et lutter contre les Îlots de Chaleur Urbains.
 
 Concept et Fonctionnement :
-- **Récupération de la chaleur Solaire** : Les routes absorbent la chaleur solaire en été. Cette chaleur est stockée dans le sol grâce à un fluide caloporteur circulant sous la chaussée.
+- **Récupération de la chaleur Solaire** : Les routes absorbent la chaleur solaire en été. Cette chaleur est récupérée grâce à un fluide caloporteur circulant dans un enrobé drainant sous la couche de roulement.
 - **Stockage géothermique** : La chaleur est stockée dans un massif de gravier saturé sous le sol, qui agit comme un réservoir thermique.
 - **Restitution en Hiver** : En hiver, la chaleur stockée est extraite pour chauffer les bâtiments grâce à des pompes à chaleur géothermiques.
 
@@ -40,7 +40,7 @@ Concept et Fonctionnement :
 
 [BIOS](https://alexandrecuer.github.io/bios-smart-control-84/download/Bios_Datasheet_FR_2025.pdf) (Building Intelligent Operating System) est une Gestion Technique de Bâtiments (GTB) embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
 
-Il lui manque 2 briques pour passer en classe A selon selon la norme NF EN ISO 52120-1-2022 : 
+Il manque 2 briques pour passer en classe A selon selon la norme **NF EN ISO 52120-1-2022** : 
 - la commande des pompes à vitesse variable
 - la mise en séquence des différents générateurs en fonction des prédictions de charges
 
