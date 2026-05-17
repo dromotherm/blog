@@ -22,7 +22,7 @@ lang: fr
 
 [CV sur linkedin](https://www.linkedin.com/in/alexandre-cuer-832ba971)
 
-# PROJETS
+# Projets
 
 ## Dromotherm | depuis 2018 | chef de projet
 
@@ -92,7 +92,7 @@ Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com
 
 Son principal atout, par rapport à des solutions comme influxdb et grafana, est la légéreté et la rapidité.
 
-# DEVOPS
+# Devops
 
 ## Emoncms standalone container | depuis septembre 2023 | chef de projet
 
