@@ -38,7 +38,7 @@
 }
 
 .footer-social a {
-  color: #ff6600;
+  color: #666;
 
   font-size: 1.2rem;
 
@@ -48,6 +48,7 @@
 }
 
 .footer-social a:hover {
+  color: #ff6600;
   opacity: 0.75;
   transform: translateY(-1px);
 }
