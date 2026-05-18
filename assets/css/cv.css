@@ -27,6 +27,16 @@ h3 .cv-title {
   font-weight: 600;
 }
 
+.cv-title img {
+  height: 1.1em;
+
+  opacity: 0.85;
+  width: auto;
+  vertical-align: middle;
+
+  filter: grayscale(100%);
+}
+
 /* Bloc droite */
 .cv-meta {
   display: flex;

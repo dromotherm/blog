@@ -6,8 +6,10 @@
   <script>
   document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("h2, h3").forEach(title => {
-	
-	  const parts = title.textContent.split("|").map(p => p.trim());
+
+	  const raw = title.innerHTML;
+
+      const parts = raw.split("|").map(p => p.trim());
 
       if (parts.length >= 2) {
 
