@@ -24,50 +24,45 @@ lang: fr
 
 # Projets
 
-## BIOS | depuis 2021 | chef de projet
+## [BIOS](https://alexandrecuer.github.io/bios-smart-control-84/download/Bios_Datasheet_FR_2025.pdf) | depuis 2021 | chef de projet
 
-[BIOS](https://alexandrecuer.github.io/bios-smart-control-84/download/Bios_Datasheet_FR_2025.pdf) (Building Intelligent Operating System) est une Gestion Technique de Bâtiments (GTB) embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
+BIOS (Building Intelligent Operating System) est une Gestion Technique de Bâtiments (GTB) embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/) :
+- utilisant docker pour isoler les services, ce qui garantit la robustesse terrain
+- disposant d'un superviseur assurant les mises à jour depuis l'interface utilisateur et d'un orchestrateur de services activant les briques (capteurs sans fil, modbus, prévisions météo) sélectionnées par l'utilisateur
+- fonctionnant de manière sécurisée en [https](https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol_Secure)
 
 Il manque 2 briques pour passer en classe A selon selon la norme **NF EN ISO 52120-1-2022** : 
 - la commande des pompes à vitesse variable
 - la mise en séquence des différents générateurs en fonction des prédictions de charges
 
-BIOS :
-
-- utilise docker pour isoler les services, ce qui garantit la robustesse terrain.
-- dispose d'un orchestrateur de services qui active les briques (capteurs sans fil, modbus, prévisions météo) sélectionnées par l'utilisateur.
-- fonctionne de manière sécurisée en [https](https://fr.wikipedia.org/wiki/Hypertext_Transfer_Protocol_Secure)
-
-Un superviseur permet de gérer les mises à jour depuis l'interface utilsateur.
+La structure étant modulaire, tous les protocoles sont adressables (Bacnet IP, KNX, RS485)
 
 L'interface utilisateur est entièrement en [web component](https://developer.mozilla.org/fr/docs/Web/API/Web_components)
 
-La structure étant modulaire, tous les protocoles sont adressables (Bacnet IP, KNX, RS485)
-
 ## [Dromotherm](https://www.dromotherm.com) ![]({{ site.baseurl }}/assets/dromotherm7.svg) | depuis 2018 | chef de projet
 
-Le projet [Dromotherm](https://www.dromotherm.com), financé par le dispositif Pack Ambition Recherche de la région Auvergne-Rhône-Alpes sur la période 2020 – 2025, est une initiative exploratoire visant à transformer la gestion énergétique des zones urbaines.
+Le projet Dromotherm, financé par le dispositif Pack Ambition Recherche de la région Auvergne-Rhône-Alpes sur la période 2020 – 2025, est une initiative exploratoire visant à transformer la gestion énergétique des zones urbaines.
 
 En utilisant la chaleur captée par les chaussées durant l'été, cette technologie permet de chauffer les bâtiments environnants en hiver, offrant une solution pour réduire les émissions de carbone, améliorer l'efficacité énergétique et lutter contre les Îlots de Chaleur Urbains.
 
-Concept et Fonctionnement :
+Concept et fonctionnement :
 - **Récupération de la chaleur solaire** : Les routes absorbent la chaleur solaire en été. Cette chaleur est récupérée grâce à un fluide caloporteur circulant dans un enrobé drainant sous la couche de roulement.
 - **Stockage géothermique** : La chaleur est stockée dans un massif de gravier saturé sous le sol, qui agit comme un réservoir thermique.
 - **Restitution en hiver** : En hiver, la chaleur stockée est extraite pour chauffer les bâtiments grâce à des pompes à chaleur géothermiques.
 
 # Développements PHP
 
-## Emoncms | depuis 2019 | core contributor
+## [Emoncms](https://github.com/emoncms/emoncms) | depuis 2019 | core contributor
 
-[Emoncms](https://github.com/emoncms/emoncms) est un logiciel de monitoring de bâtiment, avec sa propre timesérie embarquée.
+Emoncms est un logiciel de monitoring de bâtiment, avec sa propre timesérie embarquée.
 
 Son principal atout, par rapport à des solutions comme influxdb et grafana, est la légéreté et la rapidité.
 
 #  Développements Python
 
-## IDFHub | depuis décembre 2025 | chef de projet
+## [IDFHub](https://github.com/Open-Building-Management/ladybug_codes) | depuis décembre 2025 | chef de projet
 
-[IDFHub](https://github.com/Open-Building-Management/ladybug_codes) est un générateur de fichiers IDF (Input Data File) pour Energyplus
+IDFHub est un générateur de fichiers IDF (Input Data File) pour Energyplus
 
 [Energyplus](https://energyplus.net/) est un logiciel permettant de simuler le comportement énergétique d'un bâtiment et de ses systèmes HVAC (Heating, Ventilation, and Air Conditioning)
 
@@ -75,15 +70,15 @@ L'API d'energyplus est complexe à appréhender et la bibliothèque IDFHub perme
 
 Un générateur de helpers fournit des classes assistant le développement pour ajouter rapidement les équipements sans se perdre dans la documentation.
 
-## EnergyGym | de juillet 2022 à janvier 2025 | chef de projet
+## [EnergyGym](https://github.com/Open-Building-Management/EnergyGym) | de juillet 2022 à janvier 2025 | chef de projet
 
-Exploratoire, la bibliothèque [EnergyGym](https://github.com/Open-Building-Management/EnergyGym) fournit un environnement pour entrainer par apprentissage renforcé des réseaux neurones, l'objectif étant de prédire l'optimal restart du système énergétique d'un bâtiment quelconque. 
+Exploratoire, la bibliothèque EnergyGym fournit un environnement pour entrainer par apprentissage renforcé des réseaux neurones, l'objectif étant de prédire l'optimal restart du système énergétique d'un bâtiment quelconque. 
 
 Le comportement énergétique du bâtiment est simulé par des modèles électriques RC simples.
 
 Développé en lien avec SIGMA Clermont-Ferrand, EnergyPlus implémente diverses techniques d'apprentissage renforcé : Deep Q-Network ou DQN, double DQN, Dueling DQN, Dueling PER (Prioritized Experience Replay)
 
-## Maintenance d'intégrations home-assistant | depuis mai 2024 | contributeur
+## Maintenance d'intégrations [home-assistant](https://www.home-assistant.io) | depuis mai 2024 | contributeur
 
 L'intégration [emoncms](https://www.home-assistant.io/integrations/emoncms/) permet de synchroniser en toute simplicité des données recueillies par emoncms au sein de home-assistant 
 
@@ -93,9 +88,9 @@ Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com
 
 # Devops
 
-## Emoncms standalone container | depuis septembre 2023 | chef de projet
+## [Emoncms standalone container](https://emoncms-docker.github.io/) | depuis septembre 2023 | chef de projet
 
-Le container docker [standalone emoncms](https://emoncms-docker.github.io/) utilise [s6-overlay](https://github.com/just-containers/s6-overlay/) comme système d'init.
+Le container docker emoncms utilise [s6-overlay](https://github.com/just-containers/s6-overlay/) comme système d'init.
 
 Il embarque le serveur apache/PHP, la timesérie, la base de données clé-valeur redis utilisée comme tampon d'écriture et tous les services au sein d'une seule image, ce qui facilite le déploiement.
 
@@ -108,8 +103,8 @@ Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEM
 
 [Pour en savoir plus](https://github.com/Open-Building-Management/containers/tree/main/emoncms)
 
-## Operating-systems | depuis mai 2025 | chef de projet
+## [operating-systems](https://github.com/Open-Building-Management/operating-systems) | depuis mai 2025 | chef de projet
 
-[operating-systems](https://github.com/Open-Building-Management/operating-systems) est une distribution linux construite à partir du générateur buildroot, pour une utilisation en mode embarqué ou en datacenter sur bare metal.
+Operating-systems est une distribution linux construite à partir du générateur buildroot, pour une utilisation en mode embarqué ou en datacenter sur bare metal.
 
 Elle autorise le déploiement rapide d'applications conteneurisées, notamment netbox, permettant de gérer un parc d'objets connectés.
