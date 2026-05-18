@@ -1,8 +1,9 @@
 ---
-ref: alex
+ref: alexandrecuer
 name: Alexandre CUER
 mel: alexandre.cuer@cerema.fr
 layout: default_no_menu
+title: Alexandre Cuer — CV
 lang: fr
 ---
 

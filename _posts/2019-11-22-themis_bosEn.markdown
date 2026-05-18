@@ -2,7 +2,7 @@
 layout: post
 title:  "The Building Operating System (BOS) Themis"
 date:   2019-11-22
-author: alex
+author: alexandrecuer
 draft: false
 lang: en
 ref: themis bos opensource

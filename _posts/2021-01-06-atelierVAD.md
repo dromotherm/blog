@@ -2,7 +2,7 @@
 layout: post
 title:  "Ateliers VAD Tenerrdis"
 date:   2021-01-06
-author: alex
+author: alexandrecuer
 lang: fr
 ref: tenerrdis_vad
 draft: false

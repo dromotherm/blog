@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Our philosophy"
-author: alex
+author: alexandrecuer
 lang: en
 draft: true
 ref: philosophy

@@ -2,7 +2,7 @@
 layout: post
 title:  "Offres de stage niveau master"
 date:   2020-01-18
-author: alex
+author: alexandrecuer
 lang: fr
 ref: stages
 categories: [project management, dromotherm]

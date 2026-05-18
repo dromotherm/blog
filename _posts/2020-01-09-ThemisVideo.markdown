@@ -2,7 +2,7 @@
 layout: post
 title:  "Le système Themis en vidéo"
 date:   2020-01-09
-author: alex
+author: alexandrecuer
 lang: fr
 ref: themis video promo
 categories: [themis]

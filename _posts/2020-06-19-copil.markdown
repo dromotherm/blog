@@ -2,7 +2,7 @@
 layout: post
 title:  "comité de pilotage"
 date:   2020-06-19
-author: alex
+author: alexandrecuer
 lang: fr
 ref: copil_1
 draft: false

@@ -2,7 +2,7 @@
 layout: post
 title:  "nouveau venu à bord :-)"
 date:   2020-05-27
-author: alex
+author: alexandrecuer
 lang: fr
 ref: first models
 categories: [dromotherm, nrj master]

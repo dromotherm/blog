@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simulation with EnergyPlus"
-author: alex
+author: alexandrecuer
 draft: false
 lang: "fr"
 ref: eplus_sim_01
