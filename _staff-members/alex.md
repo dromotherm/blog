@@ -24,18 +24,6 @@ lang: fr
 
 # Projets
 
-## Dromotherm | depuis 2018 | chef de projet
-
-Le projet Dromotherm, financé par le dispositif Pack Ambition Recherche de la région Auvergne-Rhône-Alpes sur la période 2020 – 2025, est une initiative innovante visant à transformer la gestion énergétique des zones urbaines.
-
-En utilisant la chaleur captée par les chaussées durant l'été, cette technologie permet de chauffer les bâtiments environnants en hiver, offrant une solution durable et efficace pour réduire les émissions de carbone, améliorer l'efficacité énergétique et lutter contre les Îlots de Chaleur Urbains.
-
-Concept et Fonctionnement :
-- **Récupération de la chaleur solaire** : Les routes absorbent la chaleur solaire en été. Cette chaleur est récupérée grâce à un fluide caloporteur circulant dans un enrobé drainant sous la couche de roulement.
-- **Stockage géothermique** : La chaleur est stockée dans un massif de gravier saturé sous le sol, qui agit comme un réservoir thermique.
-- **Restitution en hiver** : En hiver, la chaleur stockée est extraite pour chauffer les bâtiments grâce à des pompes à chaleur géothermiques.
-
-
 ## BIOS | depuis 2021 | chef de projet
 
 [BIOS](https://alexandrecuer.github.io/bios-smart-control-84/download/Bios_Datasheet_FR_2025.pdf) (Building Intelligent Operating System) est une Gestion Technique de Bâtiments (GTB) embarquée sur carte [Jetson NVIDIA](https://www.nvidia.com/fr-fr/autonomous-machines/embedded-systems/)
@@ -55,6 +43,17 @@ Un superviseur permet de gérer les mises à jour depuis l'interface utilsateur.
 L'interface utilisateur est entièrement en [web component](https://developer.mozilla.org/fr/docs/Web/API/Web_components)
 
 La structure étant modulaire, tous les protocoles sont adressables (Bacnet IP, KNX, RS485)
+
+## Dromotherm ![]({{ site.baseurl }}/assets/dromotherm7.svg) | depuis 2018 | chef de projet
+
+Le projet Dromotherm, financé par le dispositif Pack Ambition Recherche de la région Auvergne-Rhône-Alpes sur la période 2020 – 2025, est une initiative exploratoire visant à transformer la gestion énergétique des zones urbaines.
+
+En utilisant la chaleur captée par les chaussées durant l'été, cette technologie permet de chauffer les bâtiments environnants en hiver, offrant une solution pour réduire les émissions de carbone, améliorer l'efficacité énergétique et lutter contre les Îlots de Chaleur Urbains.
+
+Concept et Fonctionnement :
+- **Récupération de la chaleur solaire** : Les routes absorbent la chaleur solaire en été. Cette chaleur est récupérée grâce à un fluide caloporteur circulant dans un enrobé drainant sous la couche de roulement.
+- **Stockage géothermique** : La chaleur est stockée dans un massif de gravier saturé sous le sol, qui agit comme un réservoir thermique.
+- **Restitution en hiver** : En hiver, la chaleur stockée est extraite pour chauffer les bâtiments grâce à des pompes à chaleur géothermiques.
 
 # Développements PHP
 
@@ -99,8 +98,8 @@ Ces intégrations utilisent la library asynchrone [pyemoncms](https://github.com
 Le container docker [standalone emoncms](https://emoncms-docker.github.io/) utilise [s6-overlay](https://github.com/just-containers/s6-overlay/) comme système d'init.
 
 Il embarque le serveur apache/PHP, la timesérie, la base de données clé-valeur redis utilisée comme tampon d'écriture et tous les services au sein d'une seule image, ce qui facilite le déploiement.
-Cette image est conçue pour être embarquée sur des systèmes contraints, en mode edge.
 
+Cette image est conçue pour être embarquée sur des systèmes contraints, en mode edge.
 Elle est utilisable comme un [addon home-assistant](https://developers.home-assistant.io/docs/apps/), grâce à une configuration en mode [ingress](https://github.com/Open-Building-Management/emoncms/discussions/17).
 
 Un pipeline utilisant la virtualisation [QEMU](https://fr.wikipedia.org/wiki/QEMU) produit les images pour 3 architectures (`x86`, `arm64`, `arm/v7`) et les met en ligne sur [docker hub](https://hub.docker.com/r/alexjunk/emoncms)
