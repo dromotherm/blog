@@ -28,13 +28,18 @@ h3 .cv-title {
 }
 
 .cv-title img {
-  height: 1.1em;
+  height: 1.6em;
 
   opacity: 0.85;
   width: auto;
   vertical-align: middle;
 
   filter: grayscale(100%);
+}
+
+.cv-title:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
 }
 
 /* Bloc droite */
