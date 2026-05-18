@@ -44,9 +44,9 @@ L'interface utilisateur est entièrement en [web component](https://developer.mo
 
 La structure étant modulaire, tous les protocoles sont adressables (Bacnet IP, KNX, RS485)
 
-## Dromotherm ![]({{ site.baseurl }}/assets/dromotherm7.svg) | depuis 2018 | chef de projet
+## [Dromotherm](https://www.dromotherm.com) ![]({{ site.baseurl }}/assets/dromotherm7.svg) | depuis 2018 | chef de projet
 
-Le projet Dromotherm, financé par le dispositif Pack Ambition Recherche de la région Auvergne-Rhône-Alpes sur la période 2020 – 2025, est une initiative exploratoire visant à transformer la gestion énergétique des zones urbaines.
+Le projet [Dromotherm](https://www.dromotherm.com), financé par le dispositif Pack Ambition Recherche de la région Auvergne-Rhône-Alpes sur la période 2020 – 2025, est une initiative exploratoire visant à transformer la gestion énergétique des zones urbaines.
 
 En utilisant la chaleur captée par les chaussées durant l'été, cette technologie permet de chauffer les bâtiments environnants en hiver, offrant une solution pour réduire les émissions de carbone, améliorer l'efficacité énergétique et lutter contre les Îlots de Chaleur Urbains.
 
