@@ -1,13 +1,8 @@
 # Dromotherm
 
-site for www.dromotherm.com
+site for www.dromotherm.com or http://dromotherm.github.io/blog
 
-[![Build and deploy Jekyll site to GitHub Pages](https://github.com/dromotherm/blog/actions/workflows/ruby.yml/badge.svg)](https://github.com/dromotherm/blog/actions/workflows/ruby.yml)
-
-The build status must be green in order for the gh-pages branch to be up-to-date. 
-There is a rbuby script generating pages for each thematic categories.
-
-http://dromotherm.github.io/blog
+There is a ruby script generating pages for each thematic categories.
 
 ## Reminder - how to write posts
 
@@ -28,6 +23,7 @@ lang: "en"
 ref: something
 date: AAAA-MM-DD
 categories: [dromotherm, project management, other category]
+image: energy_plus/acf_2.png
 ---
 ```
 The author field is used to make the link with staff-members, as defined in the [_staff-members](/_staff-members) directory. In pratice, the software scans the _staff-members directory to find files whose metadatas header includes a ref field equal to the value that the post writer has given to the author field. 
@@ -50,6 +46,8 @@ It is essential that both files have the same ref in the metadatas section
 + Dans ce cas il faut ajouter une image dans la section de métadonnées:
 + image: master/trophee.jpg
 + ATTENTION, la largeur de l'image doit être le double de sa hauteur
++ Pour bien apparaitre sur la front page, utiliser une image de taille 450 par 220
++ La première phrase du post doit être courte, justement pour tenir sur les 2 premières lignes de la card, en dessous de l'image
 ```
 
 
