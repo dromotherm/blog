@@ -86,6 +86,7 @@ jobs:
           if [ "${{ inputs.use_header_footer }}" = "true" ]; then
 
             wkhtmltopdf \
+              --javascript-delay 1000 \
               -L ${{ inputs.margin_left }} \
               -R ${{ inputs.margin_right }} \
               --margin-top "${{ inputs.margin_top }}mm" \
@@ -99,6 +100,7 @@ jobs:
           else
 
             wkhtmltopdf \
+              --javascript-delay 1000 \
               -L ${{ inputs.margin_left }} \
               -R ${{ inputs.margin_right }} \
               "$URL" \
