@@ -1,0 +1,113 @@
+name: Generate PDF from Jekyll page
+
+on:
+  workflow_dispatch:
+
+    inputs:
+
+      page_relative_path:
+        description: 'Relative page path'
+        required: true
+        type: string
+        default: 'homePrint'
+
+      output_name:
+        description: 'Output PDF filename'
+        required: true
+        type: string
+        default: 'document.pdf'
+
+      margin_left:
+        description: 'Left margin (mm)'
+        required: false
+        type: string
+        default: '15'
+
+      margin_right:
+        description: 'Right margin (mm)'
+        required: false
+        type: string
+        default: '15'
+
+      margin_top:
+        description: 'Top margin (mm)'
+        required: false
+        type: string
+        default: '25'
+
+      margin_bottom:
+        description: 'Bottom margin (mm)'
+        required: false
+        type: string
+        default: '25'
+
+      use_header_footer:
+        description: 'Use header/footer'
+        required: true
+        type: boolean
+        default: false
+
+jobs:
+
+  build-pdf:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Install wkhtmltopdf
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wkhtmltopdf
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Start local web server
+        run: |
+          cd _site
+          python3 -m http.server 8000 &
+          sleep 5
+
+      - name: Generate PDF
+        run: |
+
+          URL="http://localhost:8000/${{ inputs.page_relative_path }}/"
+
+          if [ "${{ inputs.use_header_footer }}" = "true" ]; then
+
+            wkhtmltopdf \
+              -L ${{ inputs.margin_left }} \
+              -R ${{ inputs.margin_right }} \
+              --margin-top "${{ inputs.margin_top }}mm" \
+              --margin-bottom "${{ inputs.margin_bottom }}mm" \
+              --header-html http://localhost:8000/banner/ \
+              --footer-html http://localhost:8000/footer/ \
+              --no-header-line \
+              "$URL" \
+              "${{ inputs.output_name }}"
+
+          else
+
+            wkhtmltopdf \
+              -L ${{ inputs.margin_left }} \
+              -R ${{ inputs.margin_right }} \
+              "$URL" \
+              "${{ inputs.output_name }}"
+
+          fi
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-pdf
+          path: ./*.pdf
