@@ -60,3 +60,12 @@
 .tag:hover::after {
    border-left-color: #ff6600ff; 
 }
+
+@media print {
+
+  a::after {
+    content: none !important;
+    display: none !important;
+  }
+
+}
