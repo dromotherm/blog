@@ -1,0 +1,148 @@
+name: Generate PDF with Chromium
+
+on:
+  workflow_dispatch:
+
+    inputs:
+
+      page_relative_path:
+        description: 'Relative page path'
+        required: true
+        type: string
+        default: 'homePrint'
+
+      output_name:
+        description: 'Output PDF filename'
+        required: true
+        type: string
+        default: 'document.pdf'
+
+      format:
+        description: 'Paper format'
+        required: true
+        type: choice
+        default: 'A4'
+        options:
+          - A4
+          - Letter
+
+      margin_left:
+        description: 'Left margin'
+        required: false
+        type: string
+        default: '15mm'
+
+      margin_right:
+        description: 'Right margin'
+        required: false
+        type: string
+        default: '15mm'
+
+      margin_top:
+        description: 'Top margin'
+        required: false
+        type: string
+        default: '20mm'
+
+      margin_bottom:
+        description: 'Bottom margin'
+        required: false
+        type: string
+        default: '20mm'
+
+jobs:
+
+  build-pdf:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Ruby / Jekyll
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      # Node / Chromium
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install Playwright Chromium
+        run: |
+          npm init -y
+          npm install playwright
+          npx playwright install chromium
+
+      # Local web server
+      - name: Start local web server
+        run: |
+          cd _site
+          python3 -m http.server 8000 &
+          sleep 5
+
+      # Generate Playwright script
+      - name: Create PDF generator script
+        run: |
+
+          cat <<'EOF' > generate_pdf.js
+          const { chromium } = require('playwright');
+
+          (async () => {
+
+            const browser = await chromium.launch({
+              headless: true
+            });
+
+            const page = await browser.newPage();
+
+            const url =
+              'http://localhost:8000/${{ inputs.page_relative_path }}/';
+
+            console.log('Opening:', url);
+
+            await page.goto(url, {
+              waitUntil: 'networkidle'
+            });
+
+            await page.pdf({
+
+              path: '${{ inputs.output_name }}',
+
+              format: '${{ inputs.format }}',
+
+              printBackground: true,
+
+              margin: {
+                top: '${{ inputs.margin_top }}',
+                bottom: '${{ inputs.margin_bottom }}',
+                left: '${{ inputs.margin_left }}',
+                right: '${{ inputs.margin_right }}'
+              }
+
+            });
+
+            await browser.close();
+
+          })();
+          EOF
+
+      # Generate PDF
+      - name: Generate PDF
+        run: node generate_pdf.js
+
+      # Upload PDF
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-pdf
+          path: ./*.pdf
